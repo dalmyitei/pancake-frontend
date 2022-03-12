@@ -53,10 +53,10 @@
     {
       "name": "PancakeSwap Token",
       "symbol": "CAKE",
-      "address": "0x4075Bf6e6759857AcB3aF419997872e3992f6357",
+      "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://pancakeswap.finance/images/tokens/0x4075Bf6e6759857AcB3aF419997872e3992f6357.png"
+      "logoURI": "https://pancakeswap.finance/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
     },
     {
       "name": "Venus",
