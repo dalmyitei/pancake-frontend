@@ -1,5 +1,5 @@
-import { Currency, Token } from '@pancakeswap/sdk'
-import { Button, Text, Modal, useModal, InjectedModalProps, Link } from '@pancakeswap/uikit'
+import { Currency, Token } from '@metaswap/sdk'
+import { Button, Text, Modal, useModal, InjectedModalProps, Link } from '@metaswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import styled from 'styled-components'
 import { AutoRow } from 'components/Layout/Row'

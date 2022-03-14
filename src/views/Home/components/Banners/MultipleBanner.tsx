@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useMatchBreakpoints } from '@metaswap/uikit'
 import { useWeb3React } from '@web3-react/core'
 import styled, { keyframes } from 'styled-components'
 import { Autoplay, EffectFade, Pagination } from 'swiper'

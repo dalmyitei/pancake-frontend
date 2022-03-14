@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Box, Flex, lightColors, Spinner, Text, Timeline } from '@pancakeswap/uikit'
+import { Box, Flex, lightColors, Spinner, Text, Timeline } from '@metaswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { useGetCakeBalance } from 'hooks/useTokenBalance'
 import useTheme from 'hooks/useTheme'
@@ -84,7 +84,7 @@ const PancakeSquadHeader: React.FC<PancakeSquadHeaderType> = ({
         {t('Max per wallet: %maxPerWallet%', { maxPerWallet: DEFAULT_MAX_TICKETS })}
       </Text>
       <Text color={lightColors.invertedContrast} textAlign="center">
-        {t('PancakeSwap’s first official generative NFT collection.')}
+        {t('MetaSwap’s first official generative NFT collection.')}
       </Text>
       <Text color={lightColors.invertedContrast} mb={!displayEventBlock ? '80px' : '32px'} textAlign="center">
         {t('Join the squad.')}

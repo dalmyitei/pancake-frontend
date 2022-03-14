@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react'
-import { CurrencyAmount, Token, Trade } from '@pancakeswap/sdk'
-import { Button, Box, Flex, useModal, useMatchBreakpoints, BottomDrawer, Link } from '@pancakeswap/uikit'
+import { CurrencyAmount, Token, Trade } from '@metaswap/sdk'
+import { Button, Box, Flex, useModal, useMatchBreakpoints, BottomDrawer, Link } from '@metaswap/uikit'
 
 import { useTranslation } from 'contexts/Localization'
 import { AutoColumn } from 'components/Layout/Column'

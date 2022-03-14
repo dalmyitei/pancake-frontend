@@ -1,4 +1,4 @@
-import { FACTORY_ADDRESS } from '@pancakeswap/sdk'
+import { FACTORY_ADDRESS } from '@metaswap/sdk'
 import { getUnixTime, sub } from 'date-fns'
 import { gql } from 'graphql-request'
 import { GetStaticProps } from 'next'
@@ -107,7 +107,7 @@ export const getStaticProps: GetStaticProps = async () => {
   }
 
   try {
-    const response = await fetch('https://openapi.debank.com/v1/protocol?id=bsc_pancakeswap')
+    const response = await fetch('https://openapi.debank.com/v1/protocol?id=bsc_metaswap')
     const responseData: DeBankTvlResponse = await response.json()
     results.tvl = responseData.tvl
   } catch (error) {

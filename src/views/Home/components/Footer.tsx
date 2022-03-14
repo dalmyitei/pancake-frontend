@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Flex, Heading, Text, Link } from '@pancakeswap/uikit'
+import { Flex, Heading, Text, Link } from '@metaswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import Container from 'components/Layout/Container'
@@ -110,7 +110,7 @@ const Footer = () => {
           {t('No registration needed.')}
         </Text>
 
-        <Link external href="https://docs.pancakeswap.finance/">
+        <Link external href="https://docs.ecidade.org.br/">
           {t('Learn how to start')}
         </Link>
         {!account && <ConnectWalletButton mt="24px" />}

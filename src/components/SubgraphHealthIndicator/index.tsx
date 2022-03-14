@@ -2,7 +2,7 @@ import { BSC_BLOCK_TIME } from 'config'
 import { useTranslation } from 'contexts/Localization'
 import { TranslateFunction } from 'contexts/Localization/types'
 import styled from 'styled-components'
-import { Card, Flex, Box, InfoIcon, Text, useTooltip } from '@pancakeswap/uikit'
+import { Card, Flex, Box, InfoIcon, Text, useTooltip } from '@metaswap/uikit'
 import { useSubgraphHealthIndicatorManager } from 'state/user/hooks'
 import useSubgraphHealth, { SubgraphStatus } from 'hooks/useSubgraphHealth'
 import { useRouter } from 'next/router'
@@ -72,7 +72,7 @@ export interface BlockResponse {
 const FixedSubgraphHealthIndicator = () => {
   const { pathname } = useRouter()
   const isOnNftPages = pathname.includes('nfts')
-  return isOnNftPages ? <SubgraphHealthIndicator subgraphName="pancakeswap/nft-market" /> : null
+  return isOnNftPages ? <SubgraphHealthIndicator subgraphName="metaswap/nft-market" /> : null
 }
 
 export const SubgraphHealthIndicator: React.FC<{ subgraphName: string; inline?: boolean }> = ({

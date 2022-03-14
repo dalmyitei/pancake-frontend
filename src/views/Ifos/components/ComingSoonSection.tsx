@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { Card, Text, Button, BunnyPlaceholderIcon, Box } from '@pancakeswap/uikit'
+import { Card, Text, Button, BunnyPlaceholderIcon, Box } from '@metaswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import styled from 'styled-components'
 import ConnectWalletButton from 'components/ConnectWalletButton'
@@ -92,7 +92,7 @@ export default function ComingSoonSection() {
               <Button
                 width="100%"
                 as="a"
-                href="https://medium.com/pancakeswap/initial-farm-offering-ifo-3-1-4b2cb637e8c6"
+                href="https://medium.com/metaswap/initial-farm-offering-ifo-3-1-4b2cb637e8c6"
                 target="_blank"
               >
                 {t('Learn More about IFO 3.1')}

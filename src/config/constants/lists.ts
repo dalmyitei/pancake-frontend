@@ -1,6 +1,6 @@
-const PANCAKE_EXTENDED = 'https://tokens.pancakeswap.finance/pancakeswap-extended.json'
-const PANCAKE_TOP100 = 'https://tokens.pancakeswap.finance/pancakeswap-top-100.json'
-// const COINGECKO = 'https://tokens.pancakeswap.finance/coingecko.json'
+const PANCAKE_EXTENDED = 'https://tokens.ecidade.org.br/metaswap-extended.json'
+const PANCAKE_TOP100 = 'https://tokens.ecidade.org.br/metaswap-top-100.json'
+// const COINGECKO = 'https://tokens.ecidade.org.br/coingecko.json'
 
 export const UNSUPPORTED_LIST_URLS: string[] = []
 

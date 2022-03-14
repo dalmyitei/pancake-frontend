@@ -3024,9 +3024,9 @@
   dependencies:
     "@octokit/openapi-types" "^11.2.0"
 
-"@pancakeswap/sdk@^2.4.4":
+"@metaswap/sdk@^2.4.4":
   version "2.4.4"
-  resolved "https://registry.yarnpkg.com/@pancakeswap/sdk/-/sdk-2.4.4.tgz#2313e1e85bddd5ad88b1b3806027eb1e54c726d5"
+  resolved "https://registry.yarnpkg.com/@metaswap/sdk/-/sdk-2.4.4.tgz#2313e1e85bddd5ad88b1b3806027eb1e54c726d5"
   integrity sha512-AjbkAPkHG/Lw5W4TLLnd9Z3jvnSNFBZZFLwGzKd1zB5rF8Vg4LxwB6QT6QKGtNwGkL2CqNo8tPtMCl7YlYiYwQ==
   dependencies:
     big.js "^5.2.2"

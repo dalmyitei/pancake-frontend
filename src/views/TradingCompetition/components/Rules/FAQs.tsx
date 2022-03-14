@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Card, CardBody, CardHeader, Heading, Text, Flex } from '@pancakeswap/uikit'
+import { Card, CardBody, CardHeader, Heading, Text, Flex } from '@metaswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import FoldableText from 'components/FoldableSection/FoldableText'
 
@@ -74,13 +74,13 @@ const FAQ = () => {
             <Text fontSize="14px" color="textSubtle">
               -{' '}
               {t(
-                'In the event of a disagreement concerning the final winning team or rank, PancakeSwap will have the final say.',
+                'In the event of a disagreement concerning the final winning team or rank, MetaSwap will have the final say.',
               )}
             </Text>
             <Text fontSize="14px" color="textSubtle">
               -{' '}
               {t(
-                'PancakeSwap can and will disqualify any team or specific members that are proven to have taken malicious action or attempt to “cheat” in any way.',
+                'MetaSwap can and will disqualify any team or specific members that are proven to have taken malicious action or attempt to “cheat” in any way.',
               )}
             </Text>
           </FoldableText>

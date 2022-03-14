@@ -17,7 +17,7 @@ import {
   Link,
   Message,
   MessageText,
-} from '@pancakeswap/uikit'
+} from '@metaswap/uikit'
 import { PoolIds, Ifo } from 'config/constants/types'
 import { WalletIfoData, PublicIfoData } from 'views/Ifos/types'
 import { useTranslation } from 'contexts/Localization'
@@ -237,7 +237,7 @@ const ContributeModal: React.FC<Props> = ({
             <Link
               fontSize="12px"
               display="inline"
-              href="https://docs.pancakeswap.finance/products/ifo-initial-farm-offering"
+              href="https://docs.ecidade.org.br/products/ifo-initial-farm-offering"
               external
             >
               {t('Read more')}

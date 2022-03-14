@@ -1,4 +1,4 @@
-import { Svg, SvgProps } from '@pancakeswap/uikit'
+import { Svg, SvgProps } from '@metaswap/uikit'
 import { useTheme } from 'styled-components'
 
 const BunnyKnownPlaceholder: React.FC<SvgProps> = (props) => {

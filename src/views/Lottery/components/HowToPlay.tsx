@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Box, Flex, Text, Heading, useMatchBreakpoints, Link, Image } from '@pancakeswap/uikit'
+import { Box, Flex, Text, Heading, useMatchBreakpoints, Link, Image } from '@metaswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import useTheme from 'hooks/useTheme'
 import { BallWithNumber, MatchExampleA, MatchExampleB, PoolAllocationChart } from '../svgs'
@@ -332,7 +332,7 @@ const HowToPlay: React.FC = () => {
                 {t(
                   'An average total of 35,000 CAKE from the treasury is added to lottery rounds over the course of a week. This CAKE is of course also included in rollovers! Read more in our guide to ',
                 )}
-                <InlineLink href="https://docs.pancakeswap.finance/tokenomics/cake/cake-tokenomics">
+                <InlineLink href="https://docs.ecidade.org.br/tokenomics/cake/cake-tokenomics">
                   {t('CAKE Tokenomics')}
                 </InlineLink>
               </Text>
@@ -352,8 +352,8 @@ const HowToPlay: React.FC = () => {
           </Heading>
           <Text>
             {t('Check our in-depth guide on')}{' '}
-            <InlineLink href="https://docs.pancakeswap.finance/products/lottery/lottery-guide">
-              {t('how to play the PancakeSwap lottery!')}
+            <InlineLink href="https://docs.ecidade.org.br/products/lottery/lottery-guide">
+              {t('how to play the MetaSwap lottery!')}
             </InlineLink>
           </Text>
         </Flex>

@@ -1,5 +1,5 @@
 import BigNumber from 'bignumber.js'
-import { Text } from '@pancakeswap/uikit'
+import { Text } from '@metaswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { vaultPoolConfig } from 'config/constants/pools'
 import { getBalanceNumber } from 'utils/formatBalance'

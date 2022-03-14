@@ -1,4 +1,4 @@
-import { ChainId, Token } from '@pancakeswap/sdk'
+import { ChainId, Token } from '@metaswap/sdk'
 import { serializeToken } from 'state/user/hooks/helpers'
 import { CHAIN_ID } from './networks'
 import { SerializedToken } from './types'
@@ -27,8 +27,8 @@ export const mainnetTokens = defineTokens({
     '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
     18,
     'CAKE',
-    'PancakeSwap Token',
-    'https://pancakeswap.finance/',
+    'MetaSwap Token',
+    'https://ecidade.org.br/',
   ),
   tlos: new Token(MAINNET, '0xb6C53431608E626AC81a9776ac3e999c5556717c', 18, 'TLOS', 'Telos', 'https://www.telos.net/'),
   beta: new Token(
@@ -216,7 +216,7 @@ export const mainnetTokens = defineTokens({
     18,
     'SYRUP',
     'SyrupBar Token',
-    'https://pancakeswap.finance/',
+    'https://ecidade.org.br/',
   ),
   pha: new Token(
     MAINNET,
@@ -2049,8 +2049,8 @@ export const testnetTokens = defineTokens({
     '0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe',
     18,
     'CAKE',
-    'PancakeSwap Token',
-    'https://pancakeswap.finance/',
+    'MetaSwap Token',
+    'https://ecidade.org.br/',
   ),
   busd: new Token(
     TESTNET,
@@ -2066,7 +2066,7 @@ export const testnetTokens = defineTokens({
     18,
     'SYRUP',
     'SyrupBar Token',
-    'https://pancakeswap.finance/',
+    'https://ecidade.org.br/',
   ),
   bake: new Token(
     TESTNET,

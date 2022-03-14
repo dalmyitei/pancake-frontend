@@ -1,4 +1,4 @@
-import { ArrowForwardIcon, Button, Heading, Skeleton, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { ArrowForwardIcon, Button, Heading, Skeleton, Text, useMatchBreakpoints } from '@metaswap/uikit'
 import { NextLinkFromReactRouter } from 'components/NextLink'
 import { LotteryStatus } from 'config/constants/types'
 import { useTranslation } from 'contexts/Localization'

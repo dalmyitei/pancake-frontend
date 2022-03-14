@@ -12,7 +12,7 @@ import {
   ModalCloseButton,
   Button,
   AutoRenewIcon,
-} from '@pancakeswap/uikit'
+} from '@metaswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { getAllV1History } from './helpers'
 
@@ -75,7 +75,7 @@ const CollectRoundWinningsModal: React.FC<InjectedModalProps> = ({ onDismiss }) 
 
     anchor.href = URL.createObjectURL(blob)
     anchor.target = '_blank'
-    anchor.download = 'pancakeswap-prediction-v1-history.csv'
+    anchor.download = 'metaswap-prediction-v1-history.csv'
 
     document.body.appendChild(anchor)
     anchor.click()

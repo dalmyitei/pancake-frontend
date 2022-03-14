@@ -1,4 +1,4 @@
-import { Svg, SvgProps } from '@pancakeswap/uikit'
+import { Svg, SvgProps } from '@metaswap/uikit'
 
 const BarChartLoaderSVG: React.FC<SvgProps> = (props) => {
   return (

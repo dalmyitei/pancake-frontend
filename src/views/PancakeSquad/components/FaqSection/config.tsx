@@ -1,4 +1,4 @@
-import { Text } from '@pancakeswap/uikit'
+import { Text } from '@metaswap/uikit'
 import { ContextApi } from 'contexts/Localization/types'
 
 type FAQsType = {

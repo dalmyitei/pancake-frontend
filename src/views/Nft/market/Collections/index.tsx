@@ -13,7 +13,7 @@ import {
   Table,
   Th,
   Card,
-} from '@pancakeswap/uikit'
+} from '@metaswap/uikit'
 import useSWRImmutable from 'swr/immutable'
 import { getLeastMostPriceInCollection } from 'state/nftMarket/helpers'
 import { NextLinkFromReactRouter } from 'components/NextLink'

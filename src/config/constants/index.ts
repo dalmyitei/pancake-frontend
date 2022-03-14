@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Percent, Token } from '@pancakeswap/sdk'
+import { ChainId, JSBI, Percent, Token } from '@metaswap/sdk'
 import { BigNumber } from '@ethersproject/bignumber'
 import { mainnetTokens, testnetTokens } from './tokens'
 
@@ -111,8 +111,8 @@ export const SLOW_INTERVAL = 60000
 // Gelato uses this address to define a native currency in all chains
 export const GELATO_NATIVE = '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee'
 // Handler string is passed to Gelato to use PCS router
-export const GELATO_HANDLER = 'pancakeswap'
+export const GELATO_HANDLER = 'metaswap'
 export const GENERIC_GAS_LIMIT_ORDER_EXECUTION = BigNumber.from(500000)
 
-export const EXCHANGE_DOCS_URLS = 'https://docs.pancakeswap.finance/products/pancakeswap-exchange'
-export const LIMIT_ORDERS_DOCS_URL = 'https://docs.pancakeswap.finance/products/pancakeswap-exchange/limit-orders'
+export const EXCHANGE_DOCS_URLS = 'https://docs.ecidade.org.br/products/metaswap-exchange'
+export const LIMIT_ORDERS_DOCS_URL = 'https://docs.ecidade.org.br/products/metaswap-exchange/limit-orders'

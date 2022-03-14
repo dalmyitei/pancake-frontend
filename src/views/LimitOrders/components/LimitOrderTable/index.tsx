@@ -1,5 +1,5 @@
 import { useState, useCallback, memo } from 'react'
-import { Flex, Card } from '@pancakeswap/uikit'
+import { Flex, Card } from '@metaswap/uikit'
 import useGelatoLimitOrdersHistory from '../../hooks/useGelatoLitmitOrdersHistory'
 
 import OrderTab from './OrderTab'

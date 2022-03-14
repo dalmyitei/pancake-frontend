@@ -1814,7 +1814,7 @@ exports[`renders correctly 1`] = `
           >
             <a
               class="c27"
-              href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+              href="https://ecidade.org.br/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
               target="_blank"
             >
               <svg
@@ -2169,7 +2169,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c60 c61"
                     color="#F4EEFF"
-                    href="https://docs.pancakeswap.finance/contact-us"
+                    href="https://docs.ecidade.org.br/contact-us"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2182,7 +2182,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c60 c61"
                     color="#F4EEFF"
-                    href="https://pancakeswap.medium.com/"
+                    href="https://metaswap.medium.com/"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2195,7 +2195,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c60 c61"
                     color="#F4EEFF"
-                    href="https://docs.pancakeswap.finance/contact-us/telegram"
+                    href="https://docs.ecidade.org.br/contact-us/telegram"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2208,7 +2208,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c60 c61"
                     color="#F4EEFF"
-                    href="https://docs.pancakeswap.finance/tokenomics/cake"
+                    href="https://docs.ecidade.org.br/tokenomics/cake"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2230,7 +2230,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c63 c61"
                     color="#FFB237"
-                    href="https://pancakeswap.creator-spring.com/"
+                    href="https://metaswap.creator-spring.com/"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2252,7 +2252,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c60 c61"
                     color="#F4EEFF"
-                    href="Support https://docs.pancakeswap.finance/contact-us/customer-support"
+                    href="Support https://docs.ecidade.org.br/contact-us/customer-support"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2265,7 +2265,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c60 c61"
                     color="#F4EEFF"
-                    href="https://docs.pancakeswap.finance/help/troubleshooting"
+                    href="https://docs.ecidade.org.br/help/troubleshooting"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2278,7 +2278,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c60 c61"
                     color="#F4EEFF"
-                    href="https://docs.pancakeswap.finance/get-started"
+                    href="https://docs.ecidade.org.br/get-started"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2300,7 +2300,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c60 c61"
                     color="#F4EEFF"
-                    href="https://github.com/pancakeswap"
+                    href="https://github.com/metaswap"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2313,7 +2313,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c60 c61"
                     color="#F4EEFF"
-                    href="https://docs.pancakeswap.finance"
+                    href="https://docs.ecidade.org.br"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2326,7 +2326,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c60 c61"
                     color="#F4EEFF"
-                    href="https://app.gitbook.com/@pancakeswap-1/s/pancakeswap/code/bug-bounty"
+                    href="https://app.gitbook.com/@metaswap-1/s/metaswap/code/bug-bounty"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2339,7 +2339,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c60 c61"
                     color="#F4EEFF"
-                    href="https://docs.pancakeswap.finance/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited"
+                    href="https://docs.ecidade.org.br/help/faq#is-metaswap-safe-has-metaswap-been-audited"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2352,7 +2352,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c60 c61"
                     color="#F4EEFF"
-                    href="https://docs.pancakeswap.finance/hiring/become-a-chef"
+                    href="https://docs.ecidade.org.br/hiring/become-a-chef"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2405,7 +2405,7 @@ exports[`renders correctly 1`] = `
                 aria-label="Twitter"
                 class="c68 c61"
                 color="primary"
-                href="https://twitter.com/pancakeswap"
+                href="https://twitter.com/metaswap"
                 rel="noreferrer noopener"
                 target="_blank"
               >
@@ -2444,7 +2444,7 @@ exports[`renders correctly 1`] = `
                     aria-label="English"
                     class="c29 c61"
                     color="textSubtle"
-                    href="https://t.me/pancakeswap"
+                    href="https://t.me/metaswap"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2454,7 +2454,7 @@ exports[`renders correctly 1`] = `
                     aria-label="Bahasa Indonesia"
                     class="c29 c61"
                     color="textSubtle"
-                    href="https://t.me/PancakeSwapIndonesia"
+                    href="https://t.me/MetaSwapIndonesia"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2464,7 +2464,7 @@ exports[`renders correctly 1`] = `
                     aria-label="中文"
                     class="c29 c61"
                     color="textSubtle"
-                    href="https://t.me/PancakeSwap_CN"
+                    href="https://t.me/MetaSwap_CN"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2474,7 +2474,7 @@ exports[`renders correctly 1`] = `
                     aria-label="Tiếng Việt"
                     class="c29 c61"
                     color="textSubtle"
-                    href="https://t.me/PancakeSwapVN"
+                    href="https://t.me/MetaSwapVN"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2484,7 +2484,7 @@ exports[`renders correctly 1`] = `
                     aria-label="Italiano"
                     class="c29 c61"
                     color="textSubtle"
-                    href="https://t.me/pancakeswap_ita"
+                    href="https://t.me/metaswap_ita"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2494,7 +2494,7 @@ exports[`renders correctly 1`] = `
                     aria-label="русский"
                     class="c29 c61"
                     color="textSubtle"
-                    href="https://t.me/pancakeswap_ru"
+                    href="https://t.me/metaswap_ru"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2504,7 +2504,7 @@ exports[`renders correctly 1`] = `
                     aria-label="Türkiye"
                     class="c29 c61"
                     color="textSubtle"
-                    href="https://t.me/pancakeswapturkiye"
+                    href="https://t.me/metaswapturkiye"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2514,7 +2514,7 @@ exports[`renders correctly 1`] = `
                     aria-label="Português"
                     class="c29 c61"
                     color="textSubtle"
-                    href="https://t.me/PancakeSwapPortuguese"
+                    href="https://t.me/MetaSwapPortuguese"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2524,7 +2524,7 @@ exports[`renders correctly 1`] = `
                     aria-label="Español"
                     class="c29 c61"
                     color="textSubtle"
-                    href="https://t.me/PancakeswapEs"
+                    href="https://t.me/MetaswapEs"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2534,7 +2534,7 @@ exports[`renders correctly 1`] = `
                     aria-label="日本語"
                     class="c29 c61"
                     color="textSubtle"
-                    href="https://t.me/pancakeswapjp"
+                    href="https://t.me/metaswapjp"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2544,7 +2544,7 @@ exports[`renders correctly 1`] = `
                     aria-label="Français"
                     class="c29 c61"
                     color="textSubtle"
-                    href="https://t.me/pancakeswapfr"
+                    href="https://t.me/metaswapfr"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2554,7 +2554,7 @@ exports[`renders correctly 1`] = `
                     aria-label="Datch"
                     class="c29 c61"
                     color="textSubtle"
-                    href="https://t.me/PancakeSwap_DE"
+                    href="https://t.me/MetaSwap_DE"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2564,7 +2564,7 @@ exports[`renders correctly 1`] = `
                     aria-label="Filipino"
                     class="c29 c61"
                     color="textSubtle"
-                    href="https://t.me/Pancakeswap_Ph"
+                    href="https://t.me/Metaswap_Ph"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2574,7 +2574,7 @@ exports[`renders correctly 1`] = `
                     aria-label="ქართული ენა"
                     class="c29 c61"
                     color="textSubtle"
-                    href="https://t.me/PancakeSwapGeorgia"
+                    href="https://t.me/MetaSwapGeorgia"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2584,7 +2584,7 @@ exports[`renders correctly 1`] = `
                     aria-label="Announcements"
                     class="c29 c61"
                     color="textSubtle"
-                    href="https://t.me/PancakeSwapAnn"
+                    href="https://t.me/MetaSwapAnn"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2596,7 +2596,7 @@ exports[`renders correctly 1`] = `
                 aria-label="Reddit"
                 class="c68 c61"
                 color="primary"
-                href="https://reddit.com/r/pancakeswap"
+                href="https://reddit.com/r/metaswap"
                 rel="noreferrer noopener"
                 target="_blank"
               >
@@ -2623,7 +2623,7 @@ exports[`renders correctly 1`] = `
                 aria-label="Instagram"
                 class="c68 c61"
                 color="primary"
-                href="https://instagram.com/pancakeswap_official"
+                href="https://instagram.com/metaswap_official"
                 rel="noreferrer noopener"
                 target="_blank"
               >
@@ -2647,7 +2647,7 @@ exports[`renders correctly 1`] = `
                 aria-label="Github"
                 class="c68 c61"
                 color="primary"
-                href="https://github.com/pancakeswap/"
+                href="https://github.com/metaswap/"
                 rel="noreferrer noopener"
                 target="_blank"
               >
@@ -2670,7 +2670,7 @@ exports[`renders correctly 1`] = `
                 aria-label="Discord"
                 class="c72 c61"
                 color="primary"
-                href="https://discord.gg/pancakeswap"
+                href="https://discord.gg/metaswap"
                 rel="noreferrer noopener"
                 target="_blank"
               >
@@ -2989,7 +2989,7 @@ exports[`renders correctly 1`] = `
                 >
                   <a
                     class="c27"
-                    href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+                    href="https://ecidade.org.br/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
                     target="_blank"
                   >
                     <svg
@@ -3052,7 +3052,7 @@ exports[`renders correctly 1`] = `
                 </div>
                 <a
                   class="c92"
-                  href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+                  href="https://ecidade.org.br/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
                   scale="sm"
                   target="_blank"
                 >

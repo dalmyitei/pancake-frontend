@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { Text, Flex, AccountIcon, TeamBattleIcon, Box, useTooltip, LinkExternal } from '@pancakeswap/uikit'
+import { Text, Flex, AccountIcon, TeamBattleIcon, Box, useTooltip, LinkExternal } from '@metaswap/uikit'
 import { useWeb3React } from '@web3-react/core'
 import { useTranslation } from 'contexts/Localization'
 
@@ -22,7 +22,7 @@ const NotOkNFT = ({ admissionProfile }) => {
         <>
           <LinkExternal
             style={{ display: 'inline' }}
-            href={`https://pancakeswap.finance/nfts/collections/${admissionProfile}`}
+            href={`https://ecidade.org.br/nfts/collections/${admissionProfile}`}
           >
             {t('Pancake Squad NFT')}
           </LinkExternal>
@@ -50,7 +50,7 @@ const NotOkProfilePoints = ({ pointThreshold }) => {
           <br />
           <LinkExternal
             style={{ display: 'inline' }}
-            href={`https://pancakeswap.finance/nfts/profile/${account}/achievements/`}
+            href={`https://ecidade.org.br/nfts/profile/${account}/achievements/`}
           >
             {t('Pancake Profile')}
           </LinkExternal>

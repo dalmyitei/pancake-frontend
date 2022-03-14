@@ -1,5 +1,5 @@
-import { ChainId, Currency, currencyEquals, ETHER, Token } from '@pancakeswap/sdk'
-import { Text } from '@pancakeswap/uikit'
+import { ChainId, Currency, currencyEquals, ETHER, Token } from '@metaswap/sdk'
+import { Text } from '@metaswap/uikit'
 import styled from 'styled-components'
 import { useTranslation } from 'contexts/Localization'
 

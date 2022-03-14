@@ -1,4 +1,4 @@
-import { ButtonMenu, ButtonMenuItem } from '@pancakeswap/uikit'
+import { ButtonMenu, ButtonMenuItem } from '@metaswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 
 const HistoryTabMenu = ({ setActiveIndex, activeIndex }) => {

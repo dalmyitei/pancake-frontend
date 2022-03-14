@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-import { Flex, Grid, Box, Text, Button, BinanceIcon, ErrorIcon, useTooltip, Skeleton } from '@pancakeswap/uikit'
+import { Flex, Grid, Box, Text, Button, BinanceIcon, ErrorIcon, useTooltip, Skeleton } from '@metaswap/uikit'
 import { multiplyPriceByAmount } from 'utils/prices'
 import { useBNBBusdPrice } from 'hooks/useBUSDPrice'
 import { useTranslation } from 'contexts/Localization'
@@ -162,7 +162,7 @@ const SetPriceStage: React.FC<SetPriceStageProps> = ({
             {t('The NFT will be removed from your wallet and put on sale at this price.')}
           </Text>
           <Text small color="textSubtle">
-            {t('Sales are in WBNB. You can swap WBNB to BNB 1:1 for free with PancakeSwap.')}
+            {t('Sales are in WBNB. You can swap WBNB to BNB 1:1 for free with MetaSwap.')}
           </Text>
         </Box>
       </Grid>

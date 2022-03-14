@@ -10,7 +10,7 @@ import {
   NftIcon,
   NftFillIcon,
   MoreIcon,
-} from '@pancakeswap/uikit'
+} from '@metaswap/uikit'
 import { ContextApi } from 'contexts/Localization/types'
 import { nftsBaseUrl } from 'views/Nft/market/constants'
 
@@ -124,12 +124,12 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
       },
       {
         label: t('Blog'),
-        href: 'https://medium.com/pancakeswap',
+        href: 'https://medium.com/metaswap',
         type: DropdownMenuItemType.EXTERNAL_LINK,
       },
       {
         label: t('Docs'),
-        href: 'https://docs.pancakeswap.finance',
+        href: 'https://docs.ecidade.org.br',
         type: DropdownMenuItemType.EXTERNAL_LINK,
       },
     ],

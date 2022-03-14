@@ -18,7 +18,7 @@ import {
   Skeleton,
   useModal,
   Link,
-} from '@pancakeswap/uikit'
+} from '@metaswap/uikit'
 import { NextLinkFromReactRouter as RouterLink } from 'components/NextLink'
 import { useWeb3React } from '@web3-react/core'
 
@@ -85,7 +85,7 @@ const Step1 = ({ hasProfile }: { hasProfile: boolean }) => {
       </span>{' '}
       <InlineLink
         external
-        href="https://medium.com/pancakeswap/initial-farm-offering-ifo-3-0-ifo-staking-pool-622d8bd356f1"
+        href="https://medium.com/metaswap/initial-farm-offering-ifo-3-0-ifo-staking-pool-622d8bd356f1"
       >
         {t('Please refer to our blog post for more details.')}
       </InlineLink>
@@ -231,7 +231,7 @@ const IfoSteps: React.FC<TypeProps> = ({ isCommitted, hasClaimed, isLive, ifoCur
               {t('Activate your Profile')}
             </Heading>
             <Text color="textSubtle" small mb="16px">
-              {t('You’ll need an active PancakeSwap Profile to take part in an IFO!')}
+              {t('You’ll need an active MetaSwap Profile to take part in an IFO!')}
             </Text>
             {renderAccountStatus()}
           </CardBody>
