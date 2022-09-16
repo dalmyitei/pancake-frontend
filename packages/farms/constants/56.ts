@@ -18,7 +18,7 @@ const farms: SerializedFarmConfig[] = [
     pid: 2,
     v1pid: 251,
     lpSymbol: 'MED-BNB LP',
-    lpAddress: MED_BNB_LP_MAINNET,
+    lpAddress: CAKE_BNB_LP_MAINNET,
     token: bscTokens.cake,
     quoteToken: bscTokens.wbnb,
   },
