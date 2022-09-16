@@ -1,6 +1,6 @@
 import { SerializedFarmConfig } from '@pancakeswap/farms'
 import { bscTokens } from '@pancakeswap/tokens'
-import { MED_BNB_LP_MAINNET } from './common'
+import { CAKE_BNB_LP_MAINNET } from './common'
 
 const farms: SerializedFarmConfig[] = [
   /**
