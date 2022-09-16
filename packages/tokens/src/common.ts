@@ -4,7 +4,7 @@ export const CAKE_MAINNET = new Token(
   ChainId.BSC,
   '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
   18,
-  'CAKE',
+  'MED',
   'PancakeSwap Token',
   'https://pancakeswap.finance/',
 )
@@ -13,7 +13,7 @@ export const CAKE_TESTNET = new Token(
   ChainId.BSC_TESTNET,
   '0x37b8Db888fF902a6c5BAcf4362e7b83188Df6934',
   18,
-  'CAKE',
+  'MED',
   'PancakeSwap Token',
   'https://pancakeswap.finance/',
 )

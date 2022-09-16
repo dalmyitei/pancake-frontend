@@ -151,7 +151,7 @@
   },
   {
     "inputs": [],
-    "name": "CAKE",
+    "name": "MED",
     "outputs": [{ "internalType": "address", "name": "", "type": "address" }],
     "stateMutability": "view",
     "type": "function"
