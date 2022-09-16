@@ -13,9 +13,14 @@ import {
   LinkExternal,
   Text,
   useModal,
+<<<<<<< HEAD
   useToast,
 } from '@pancakeswap/uikit'
 import { useWeb3React, useSignMessage } from '@pancakeswap/wagmi'
+=======
+} from '@metaswap/uikit'
+import { useWeb3React } from '@web3-react/core'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import times from 'lodash/times'
 import isEmpty from 'lodash/isEmpty'
 import { useInitialBlock } from 'state/block/hooks'

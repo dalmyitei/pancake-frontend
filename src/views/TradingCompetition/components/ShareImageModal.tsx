@@ -1,6 +1,10 @@
 import { useRef, useState, useEffect } from 'react'
+<<<<<<< HEAD
 import { Modal, Flex, Button, Text, Skeleton, Box } from '@pancakeswap/uikit'
 import { StaticImageData } from 'next/dist/client/image'
+=======
+import { Modal, Flex, Button, Text, Skeleton, Box } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import styled from 'styled-components'
 import { useTranslation } from '@pancakeswap/localization'
 import MedalGold from '../pngs/medals/medal-gold.png'

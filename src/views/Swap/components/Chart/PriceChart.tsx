@@ -7,9 +7,15 @@ import {
   SyncAltIcon,
   Text,
   // TradingViewIcon,
+<<<<<<< HEAD
   // LineGraphIcon,
   // useMatchBreakpoints,
 } from '@pancakeswap/uikit'
+=======
+  LineGraphIcon,
+  useMatchBreakpoints,
+} from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { CurrencyLogo, DoubleCurrencyLogo } from 'components/Logo'
 // import { TradingViewLabel } from 'components/TradingView'
 // import { useTranslation } from '@pancakeswap/localization'

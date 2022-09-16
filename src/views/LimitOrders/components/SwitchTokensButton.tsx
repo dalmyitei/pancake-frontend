@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import React, { useCallback } from 'react'
 import { ArrowDownIcon, IconButton, ArrowUpDownIcon } from '@pancakeswap/uikit'
+=======
+import React from 'react'
+import { ArrowDownIcon, IconButton, ArrowUpDownIcon } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import styled from 'styled-components'
 import { AutoColumn } from 'components/Layout/Column'
 import { AutoRow } from 'components/Layout/Row'

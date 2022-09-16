@@ -12,9 +12,15 @@ import {
   Message,
   MessageText,
   ErrorIcon,
+<<<<<<< HEAD
 } from '@pancakeswap/uikit'
 import { useWeb3React } from '@pancakeswap/wagmi'
 import { Token } from '@pancakeswap/sdk'
+=======
+} from '@metaswap/uikit'
+import { useWeb3React } from '@web3-react/core'
+import { Token } from '@metaswap/sdk'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { Ifo, PoolIds } from 'config/constants/types'
 import { bscTokens } from '@pancakeswap/tokens'
 import { cakeBnbLpToken } from 'config/constants/ifo'
@@ -158,8 +164,8 @@ const IfoCardTokens: React.FC<React.PropsWithChildren<IfoCardTokensProps>> = ({
           <Box>
             <MessageText display="inline">
               {publicIfoData.status === 'finished'
-                ? t('Activate PancakeSwap Profile to take part in next IFO‘s!')
-                : t('You need an active PancakeSwap Profile to take part in an IFO!')}
+                ? t('Activate MetaSwap Profile to take part in next IFO‘s!')
+                : t('You need an active MetaSwap Profile to take part in an IFO!')}
             </MessageText>{' '}
             <MessageTextLink href="/ifo#ifo-how-to" color="#D67E0A" display="inline">
               {t('How does it work?')} »

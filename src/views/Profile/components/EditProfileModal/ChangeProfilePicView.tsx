@@ -1,6 +1,21 @@
+<<<<<<< HEAD:src/views/Profile/components/EditProfileModal/ChangeProfilePicView.tsx
 import { useTranslation } from '@pancakeswap/localization'
 import { Box, Button, InjectedModalProps, Skeleton, Text, useToast } from '@pancakeswap/uikit'
 import { useWeb3React } from '@pancakeswap/wagmi'
+=======
+import { useState, useMemo } from 'react'
+import { Button, Box, InjectedModalProps, Text, Skeleton } from '@metaswap/uikit'
+import { useWeb3React } from '@web3-react/core'
+import { useProfile } from 'state/profile/hooks'
+import { useTranslation } from 'contexts/Localization'
+import useToast from 'hooks/useToast'
+import useApproveConfirmTransaction from 'hooks/useApproveConfirmTransaction'
+import { getErc721Contract } from 'utils/contractHelpers'
+import { useProfileContract } from 'hooks/useContract'
+import { useCallWithGasPrice } from 'hooks/useCallWithGasPrice'
+import { getPancakeProfileAddress } from 'utils/addressHelpers'
+import { ToastDescriptionWithTx } from 'components/Toast'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973:src/views/Nft/market/Profile/components/EditProfileModal/ChangeProfilePicView.tsx
 import ApproveConfirmButtons from 'components/ApproveConfirmButtons'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import useApproveConfirmTransaction from 'hooks/useApproveConfirmTransaction'

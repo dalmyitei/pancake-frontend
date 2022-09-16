@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { Box, Button, Flex, Text } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Box, Button, Flex, Text } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { LandingBodyWrapper, StyledWaveContainer } from 'views/PancakeSquad/styles'
 import { useTheme } from 'styled-components'
 import artistConfigBuilder from './config'

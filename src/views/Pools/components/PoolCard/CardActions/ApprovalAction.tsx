@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { Button, AutoRenewIcon, Skeleton } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Button, AutoRenewIcon, Skeleton } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { useERC20 } from 'hooks/useContract'
 import { DeserializedPool } from 'state/types'
 import { useApprovePool } from '../../../hooks/useApprove'

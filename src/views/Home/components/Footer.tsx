@@ -1,6 +1,11 @@
 import styled from 'styled-components'
+<<<<<<< HEAD
 import { Flex, Heading, Text, Link, useMatchBreakpoints } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Flex, Heading, Text, Link } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import Container from 'components/Layout/Container'
 import { useWeb3React } from '@pancakeswap/wagmi'
@@ -113,7 +118,7 @@ const Footer = () => {
           {t('No registration needed.')}
         </Text>
 
-        <Link external href="https://docs.pancakeswap.finance/">
+        <Link external href="https://docs.ecidade.org.br/">
           {t('Learn how to start')}
         </Link>
         {!account && <ConnectWalletButton mt="24px" />}

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { HistoryIcon, useModal, IconButton } from '@pancakeswap/uikit'
+=======
+import { HistoryIcon, Button, useModal } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import TransactionsModal from './TransactionsModal'
 
 const Transactions = () => {

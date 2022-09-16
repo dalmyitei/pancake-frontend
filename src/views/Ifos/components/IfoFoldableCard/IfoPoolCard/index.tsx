@@ -1,8 +1,14 @@
 import { useMemo } from 'react'
 import styled from 'styled-components'
+<<<<<<< HEAD
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { useTranslation, ContextApi } from '@pancakeswap/localization'
 import { Box, Card, CardBody, CardHeader, Flex, HelpIcon, Text, useTooltip } from '@pancakeswap/uikit'
+=======
+import { useTranslation } from 'contexts/Localization'
+import { ContextApi } from 'contexts/Localization/types'
+import { Box, Card, CardBody, CardHeader, Flex, HelpIcon, Text, useTooltip } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { Ifo, PoolIds } from 'config/constants/types'
 import { useProfile } from 'state/profile/hooks'
 import useCriterias from 'views/Ifos/hooks/v3/useCriterias'

@@ -1,9 +1,13 @@
 import styled from 'styled-components'
+<<<<<<< HEAD
 import { Card, CardBody, Heading, ArrowBackIcon, IconButton } from '@pancakeswap/uikit'
 import { useRouter } from 'next/router'
 import { useTranslation } from '@pancakeswap/localization'
 import { PredictionSupportedSymbol } from 'state/types'
 import { useConfig } from 'views/Predictions/context/ConfigProvider'
+=======
+import { Card, CardBody, Heading } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 interface NotificationProps {
   title: string

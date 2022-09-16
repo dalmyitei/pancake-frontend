@@ -1,5 +1,16 @@
+<<<<<<< HEAD
 import { useTranslation } from '@pancakeswap/localization'
 import { AddIcon, Button, Flex, IconButton, MinusIcon, useModal, useToast } from '@pancakeswap/uikit'
+=======
+import { useCallback } from 'react'
+import { useWeb3React } from '@web3-react/core'
+import styled from 'styled-components'
+import BigNumber from 'bignumber.js'
+import { Button, Flex, Heading, IconButton, AddIcon, MinusIcon, useModal } from '@metaswap/uikit'
+import useToast from 'hooks/useToast'
+import useCatchTxError from 'hooks/useCatchTxError'
+import Balance from 'components/Balance'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { ToastDescriptionWithTx } from 'components/Toast'
 import useCatchTxError from 'hooks/useCatchTxError'
 import { useCallback, useContext } from 'react'

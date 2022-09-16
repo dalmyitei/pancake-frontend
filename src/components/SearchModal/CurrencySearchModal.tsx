@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { useCallback, useState, useRef, useEffect } from 'react'
 import { Currency, Token } from '@pancakeswap/sdk'
+=======
+import { useCallback, useState } from 'react'
+import { Currency, Token } from '@metaswap/sdk'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import {
   ModalContainer,
   ModalHeader,
@@ -10,9 +15,13 @@ import {
   InjectedModalProps,
   Heading,
   Button,
+<<<<<<< HEAD
   useMatchBreakpoints,
   MODAL_SWIPE_TO_CLOSE_VELOCITY,
 } from '@pancakeswap/uikit'
+=======
+} from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import styled from 'styled-components'
 import { usePreviousValue } from '@pancakeswap/hooks'
 import { TokenList } from '@uniswap/token-lists'

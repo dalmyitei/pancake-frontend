@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { ChainId, Currency } from '@pancakeswap/sdk'
 import { BinanceIcon } from '@pancakeswap/uikit'
+=======
+import { Currency, ETHER, Token } from '@metaswap/sdk'
+import { BinanceIcon } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { useMemo } from 'react'
 import { WrappedTokenInfo } from '@pancakeswap/tokens'
 import styled from 'styled-components'

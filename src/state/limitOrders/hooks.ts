@@ -1,7 +1,11 @@
 import JSBI from 'jsbi'
 import { useDispatch, useSelector } from 'react-redux'
 import { ParsedUrlQuery } from 'querystring'
+<<<<<<< HEAD
 import { Currency, CurrencyAmount, Trade, Token, Price, Native, TradeType } from '@pancakeswap/sdk'
+=======
+import { Currency, CurrencyAmount, TokenAmount, Trade, Token, Price, ETHER } from '@metaswap/sdk'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { useState, useEffect, useCallback, useMemo } from 'react'
 import { DEFAULT_INPUT_CURRENCY, DEFAULT_OUTPUT_CURRENCY, BIG_INT_TEN } from 'config/constants/exchange'
 import { useRouter } from 'next/router'

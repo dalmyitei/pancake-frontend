@@ -12,8 +12,13 @@ import {
   Heading,
   Skeleton,
   Box,
+<<<<<<< HEAD
 } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+} from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { LotteryStatus } from 'config/constants/types'
 import { useGetUserLotteriesGraphData, useLottery } from 'state/lottery/hooks'
 import { fetchLottery } from 'state/lottery/helpers'

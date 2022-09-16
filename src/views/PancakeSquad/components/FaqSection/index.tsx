@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { Text, Heading, Card, CardHeader, CardBody } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Text, Heading, Card, CardHeader, CardBody } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { LandingBodyWrapper } from 'views/PancakeSquad/styles'
 import FoldableText from 'components/FoldableSection/FoldableText'
 import configBuilder from './config'

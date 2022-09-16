@@ -12,6 +12,7 @@ import {
   ModalHeader,
   ModalTitle,
   Skeleton,
+<<<<<<< HEAD
   Text,
   TrophyGoldIcon,
   useToast,
@@ -24,6 +25,18 @@ import { useTranslation } from '@pancakeswap/localization'
 import { useWeb3React } from '@pancakeswap/wagmi'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import useBUSDPrice from 'hooks/useBUSDPrice'
+=======
+} from '@metaswap/uikit'
+import { useWeb3React } from '@web3-react/core'
+import { useAppDispatch } from 'state'
+import { REWARD_RATE } from 'state/predictions/config'
+import { fetchNodeHistory, markAsCollected } from 'state/predictions'
+import { Bet } from 'state/types'
+import { useTranslation } from 'contexts/Localization'
+import { useBNBBusdPrice } from 'hooks/useBUSDPrice'
+import useToast from 'hooks/useToast'
+import { usePredictionsContract } from 'hooks/useContract'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { useCallWithGasPrice } from 'hooks/useCallWithGasPrice'
 import useCatchTxError from 'hooks/useCatchTxError'
 import { usePredictionsContract } from 'hooks/useContract'

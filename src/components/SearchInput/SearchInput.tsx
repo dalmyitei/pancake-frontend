@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { useState, useMemo, useEffect } from 'react'
 import { Input } from '@pancakeswap/uikit'
+=======
+import { useState, useMemo } from 'react'
+import { Input } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import styled from 'styled-components'
 import debounce from 'lodash/debounce'
 import { useTranslation } from '@pancakeswap/localization'

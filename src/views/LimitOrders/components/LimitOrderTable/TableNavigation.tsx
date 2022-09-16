@@ -1,5 +1,5 @@
 import { useState, useMemo, useCallback, ReactElement, memo, useEffect } from 'react'
-import { Text, Flex, Box, Grid, ArrowBackIcon, ArrowForwardIcon } from '@pancakeswap/uikit'
+import { Text, Flex, Box, Grid, ArrowBackIcon, ArrowForwardIcon } from '@metaswap/uikit'
 import styled from 'styled-components'
 import { useTranslation } from '@pancakeswap/localization'
 import SubgraphHealthIndicator from 'components/SubgraphHealthIndicator'

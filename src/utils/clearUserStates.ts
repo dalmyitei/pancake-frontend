@@ -1,10 +1,16 @@
 import { configureScope } from '@sentry/nextjs'
 import { Dispatch } from '@reduxjs/toolkit'
 import { resetUserState } from 'state/global/actions'
+<<<<<<< HEAD
 import { PREDICTION_TOOLTIP_DISMISS_KEY } from 'config/constants'
 import { connectorLocalStorageKey } from '@pancakeswap/uikit'
 import { LS_ORDERS } from './localStorageOrders'
 import getLocalStorageItemKeys from './getLocalStorageItemKeys'
+=======
+import { clearAllTransactions } from 'state/transactions/actions'
+import { connectorLocalStorageKey } from '@metaswap/uikit'
+import { connectorsByName } from './web3React'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 export const clearUserStates = (
   dispatch: Dispatch<any>,

@@ -1,4 +1,4 @@
-import { ArrowBackIcon, Box, Button, Flex, Heading } from '@pancakeswap/uikit'
+import { ArrowBackIcon, Box, Button, Flex, Heading } from '@metaswap/uikit'
 import { PageMeta } from 'components/Layout/Page'
 import { getAllVotes, getProposal } from 'state/voting/helpers'
 import { useWeb3React } from '@pancakeswap/wagmi'

@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { Tag, Text, TagVariant } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Tag, Text, TagVariant } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import React from 'react'
 import { FormattedOrderData } from 'views/LimitOrders/hooks/useFormattedOrderData'
 

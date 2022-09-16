@@ -11,11 +11,24 @@ import {
   Input,
   ArrowUpIcon,
   ArrowDownIcon,
+<<<<<<< HEAD
 } from '@pancakeswap/uikit'
 import { Collection, MarketEvent } from 'state/nftMarket/types'
 import { useGetCollections } from 'state/nftMarket/hooks'
 import { useNftStorage } from 'state/nftMarket/storage'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+} from '@metaswap/uikit'
+import { useAppDispatch } from 'state'
+import { Collection } from 'state/nftMarket/types'
+import { useGetCollections, useGetNftActivityFilters } from 'state/nftMarket/hooks'
+import {
+  addActivityCollectionFilters,
+  removeActivityCollectionFilters,
+  removeAllActivityCollectionFilters,
+} from 'state/nftMarket/reducer'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { CloseButton, FilterButton, ListOrderState, SearchWrapper, TriggerButton } from '../ListFilter/styles'
 import { CollectionItemRow } from './styles'
 

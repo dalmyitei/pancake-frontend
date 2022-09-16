@@ -1,6 +1,11 @@
 import { useEffect, useState } from 'react'
+<<<<<<< HEAD
 import { Flex, Spinner, Text } from '@pancakeswap/uikit'
 import { useWeb3React } from '@pancakeswap/wagmi'
+=======
+import { Flex, Spinner, Text } from '@metaswap/uikit'
+import { useWeb3React } from '@web3-react/core'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import styled from 'styled-components'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { useTranslation } from '@pancakeswap/localization'

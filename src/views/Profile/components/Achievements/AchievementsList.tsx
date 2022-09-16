@@ -1,6 +1,11 @@
 import styled from 'styled-components'
+<<<<<<< HEAD:src/views/Profile/components/Achievements/AchievementsList.tsx
 import { Flex, Heading, Skeleton, useMatchBreakpoints } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Flex, Heading, Skeleton, useMatchBreakpoints } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973:src/views/Nft/market/Profile/components/Achievements/AchievementsList.tsx
 import { Achievement } from 'state/types'
 import AchievementCard from './AchievementCard'
 

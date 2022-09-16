@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 import { AutoRenewIcon, Button, Flex, Heading, Modal, Text, useToast } from '@pancakeswap/uikit'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import styled from 'styled-components'
+import { Modal, Button, Flex, AutoRenewIcon, Heading, Text } from '@metaswap/uikit'
+import Image from 'next/image'
+import { useTranslation } from 'contexts/Localization'
+import { useTradingCompetitionContractV2 } from 'hooks/useContract'
+import useToast from 'hooks/useToast'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { useCallWithGasPrice } from 'hooks/useCallWithGasPrice'
 import useCatchTxError from 'hooks/useCatchTxError'
 import { useTradingCompetitionContractMoD } from 'hooks/useContract'

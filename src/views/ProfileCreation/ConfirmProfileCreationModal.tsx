@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { Modal, Flex, Text, useToast } from '@pancakeswap/uikit'
+=======
+import { Modal, Flex, Text } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { BigNumber } from '@ethersproject/bignumber'
 import { formatUnits } from '@ethersproject/units'
 import { useTranslation } from '@pancakeswap/localization'

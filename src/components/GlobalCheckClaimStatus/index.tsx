@@ -1,5 +1,16 @@
+<<<<<<< HEAD
 import { useWeb3React } from '@pancakeswap/wagmi'
 import { useEffect, useRef } from 'react'
+=======
+import { useEffect, useRef, useState } from 'react'
+import { useRouter } from 'next/router'
+import { useModal } from '@metaswap/uikit'
+import { useWeb3React } from '@web3-react/core'
+import dynamic from 'next/dynamic'
+import { getAnniversaryAchievementContract } from 'utils/contractHelpers'
+
+const AnniversaryAchievementModal = dynamic(() => import('./AnniversaryAchievementModal'), { ssr: false })
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 interface GlobalCheckClaimStatusProps {
   excludeLocations: string[]

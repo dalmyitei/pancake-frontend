@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { Text, Flex, Skeleton, Heading, Box, useMatchBreakpoints } from '@pancakeswap/uikit'
 import { useWeb3React } from '@pancakeswap/wagmi'
+=======
+import { Text, Flex, TooltipText, useTooltip, Skeleton, Heading } from '@metaswap/uikit'
+import { useWeb3React } from '@web3-react/core'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { getCakeVaultEarnings } from 'views/Pools/helpers'
 import { useTranslation } from '@pancakeswap/localization'
 import { BalanceWithLoading } from 'components/Balance'

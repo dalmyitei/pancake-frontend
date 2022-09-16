@@ -1,7 +1,13 @@
 import styled from 'styled-components'
+<<<<<<< HEAD
 import { useWeb3React } from '@pancakeswap/wagmi'
 import { Box, Flex, Heading, Text, Button, Link, OpenNewIcon } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { useWeb3React } from '@web3-react/core'
+import { Box, Flex, Heading, Text, Button, Link, OpenNewIcon } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { getRoundResult, Result } from 'state/predictions/helpers'
 import { REWARD_RATE } from 'state/predictions/config'
 import { getBlockExploreLink } from 'utils'

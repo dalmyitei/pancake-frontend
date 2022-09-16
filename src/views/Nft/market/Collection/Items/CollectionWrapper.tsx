@@ -1,5 +1,5 @@
 import { createPortal } from 'react-dom'
-import { Box } from '@pancakeswap/uikit'
+import { Box } from '@metaswap/uikit'
 import { Collection } from 'state/nftMarket/types'
 import Container from 'components/Layout/Container'
 import ScrollToTopButton from 'components/ScrollToTopButton/ScrollToTopButtonV2'

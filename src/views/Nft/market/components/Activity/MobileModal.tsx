@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { InjectedModalProps, Modal, Flex, Text, Button, BinanceIcon, Box } from '@pancakeswap/uikit'
 import { Price, Currency } from '@pancakeswap/sdk'
+=======
+import { InjectedModalProps, Modal, Flex, Text, Button, Link, BinanceIcon, Box } from '@metaswap/uikit'
+import { Price } from '@metaswap/sdk'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import useTheme from 'hooks/useTheme'
 import { Activity, NftToken } from 'state/nftMarket/types'
 import { LightGreyCard } from 'components/Card'

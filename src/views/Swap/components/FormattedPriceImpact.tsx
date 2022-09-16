@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 import { Percent } from '@pancakeswap/sdk'
 import { warningSeverity } from 'utils/exchange'
 import { ONE_BIPS } from 'config/constants/exchange'
+=======
+import { Percent } from '@metaswap/sdk'
+import { warningSeverity } from 'utils/prices'
+import { ONE_BIPS } from '../../../config/constants'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { ErrorText } from './styleds'
 
 /**

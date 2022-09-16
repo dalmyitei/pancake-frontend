@@ -1,8 +1,14 @@
 import { useState, useEffect } from 'react'
 import { formatUnits } from '@ethersproject/units'
+<<<<<<< HEAD
 import { Card, CardBody, Heading, Text, useToast } from '@pancakeswap/uikit'
 import { useWeb3React } from '@pancakeswap/wagmi'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Card, CardBody, Heading, Text } from '@metaswap/uikit'
+import { useWeb3React } from '@web3-react/core'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import useApproveConfirmTransaction from 'hooks/useApproveConfirmTransaction'
 import { useCake, useBunnyFactory } from 'hooks/useContract'
 import { useGetCakeBalance } from 'hooks/useTokenBalance'

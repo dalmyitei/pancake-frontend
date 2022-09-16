@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { Heading, Button, Text } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Heading, Button, Text } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { CompetitionProps } from 'views/TradingCompetition/types'
 import { useWeb3React } from '@pancakeswap/wagmi'
 import { useRouter } from 'next/router'

@@ -1,5 +1,9 @@
 import { parseUnits } from '@ethersproject/units'
+<<<<<<< HEAD:packages/utils/tryParseAmount.ts
 import { Currency, CurrencyAmount, JSBI } from '@pancakeswap/sdk'
+=======
+import { Currency, CurrencyAmount, JSBI, Token, TokenAmount } from '@metaswap/sdk'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973:src/utils/tryParseAmount.ts
 
 // try to parse a user entered amount for a given token
 function tryParseAmount<T extends Currency>(value?: string, currency?: T): CurrencyAmount<T> | undefined {

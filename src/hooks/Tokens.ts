@@ -1,4 +1,10 @@
 /* eslint-disable no-param-reassign */
+<<<<<<< HEAD
+=======
+import { parseBytes32String } from '@ethersproject/strings'
+import { Currency, ETHER, Token, currencyEquals } from '@metaswap/sdk'
+import { useMemo } from 'react'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { arrayify } from '@ethersproject/bytes'
 import { parseBytes32String } from '@ethersproject/strings'
 import { Currency, Token } from '@pancakeswap/sdk'

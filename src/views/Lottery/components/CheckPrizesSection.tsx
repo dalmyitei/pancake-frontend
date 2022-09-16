@@ -1,7 +1,12 @@
 import { useEffect, useState } from 'react'
 import styled from 'styled-components'
+<<<<<<< HEAD
 import { Button, Heading, Flex, useModal, AutoRenewIcon } from '@pancakeswap/uikit'
 import { useWeb3React } from '@pancakeswap/wagmi'
+=======
+import { Button, Heading, Flex, useModal, AutoRenewIcon } from '@metaswap/uikit'
+import { useWeb3React } from '@web3-react/core'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { FetchStatus, LotteryStatus } from 'config/constants/types'
 import { useTranslation } from '@pancakeswap/localization'
 import { useGetUserLotteriesGraphData, useLottery } from 'state/lottery/hooks'

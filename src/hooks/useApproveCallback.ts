@@ -1,10 +1,15 @@
 import { MaxUint256 } from '@ethersproject/constants'
 import { TransactionResponse } from '@ethersproject/providers'
+<<<<<<< HEAD
 import { useTranslation } from '@pancakeswap/localization'
 import { Currency, CurrencyAmount, Trade, TradeType } from '@pancakeswap/sdk'
 import { useToast } from '@pancakeswap/uikit'
 import { useWeb3React } from '@pancakeswap/wagmi'
 import { ROUTER_ADDRESS } from 'config/constants/exchange'
+=======
+import { Trade, TokenAmount, CurrencyAmount, ETHER } from '@metaswap/sdk'
+import { CHAIN_ID } from 'config/constants/networks'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { useCallback, useMemo } from 'react'
 import { logError } from 'utils/sentry'
 import { Field } from '../state/swap/actions'

@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { FooterLinkType } from '@pancakeswap/uikit'
 import { ContextApi } from '@pancakeswap/localization'
+=======
+import { FooterLinkType } from '@metaswap/uikit'
+import { ContextApi } from 'contexts/Localization/types'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
   {
@@ -7,31 +12,45 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t('Contact'),
+<<<<<<< HEAD
         href: 'https://docs.pancakeswap.finance/contact-us',
         isHighlighted: true,
+=======
+        href: 'https://docs.ecidade.org.br/contact-us',
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
       },
       {
         label: t('Brand'),
-        href: 'https://docs.pancakeswap.finance/brand',
+        href: 'https://docs.ecidade.org.br/brand',
       },
       {
         label: t('Blog'),
-        href: 'https://medium.com/pancakeswap',
+        href: 'https://medium.com/metaswap',
       },
       {
         label: t('Community'),
-        href: 'https://docs.pancakeswap.finance/contact-us/telegram',
+        href: 'https://docs.ecidade.org.br/contact-us/telegram',
       },
       {
+<<<<<<< HEAD
         label: t('Litepaper'),
         href: 'https://v2litepaper.pancakeswap.finance/',
+=======
+        label: t('CAKE token'),
+        href: 'https://docs.ecidade.org.br/tokenomics/cake',
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
       },
       {
         label: '—',
       },
       {
         label: t('Online Store'),
+<<<<<<< HEAD
         href: 'https://pancakeswap.creator-spring.com/',
+=======
+        href: 'https://metaswap.creator-spring.com/',
+        isHighlighted: true,
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
       },
     ],
   },
@@ -40,15 +59,15 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t('Customer Support'),
-        href: 'https://docs.pancakeswap.finance/contact-us/customer-support',
+        href: 'https://docs.ecidade.org.br/contact-us/customer-support',
       },
       {
         label: t('Troubleshooting'),
-        href: 'https://docs.pancakeswap.finance/help/troubleshooting',
+        href: 'https://docs.ecidade.org.br/help/troubleshooting',
       },
       {
         label: t('Guides'),
-        href: 'https://docs.pancakeswap.finance/get-started',
+        href: 'https://docs.ecidade.org.br/get-started',
       },
     ],
   },
@@ -57,23 +76,23 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/pancakeswap',
+        href: 'https://github.com/metaswap',
       },
       {
         label: t('Documentation'),
-        href: 'https://docs.pancakeswap.finance',
+        href: 'https://docs.ecidade.org.br',
       },
       {
         label: t('Bug Bounty'),
-        href: 'https://docs.pancakeswap.finance/code/bug-bounty',
+        href: 'https://docs.ecidade.org.br/code/bug-bounty',
       },
       {
         label: t('Audits'),
-        href: 'https://docs.pancakeswap.finance/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited',
+        href: 'https://docs.ecidade.org.br/help/faq#is-metaswap-safe-has-metaswap-been-audited',
       },
       {
         label: t('Careers'),
-        href: 'https://docs.pancakeswap.finance/hiring/become-a-chef',
+        href: 'https://docs.ecidade.org.br/hiring/become-a-chef',
       },
     ],
   },

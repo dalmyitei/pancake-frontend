@@ -9,6 +9,7 @@ import {
   HelpIcon,
   Modal,
   Skeleton,
+<<<<<<< HEAD
   Text,
   Ticket,
   useToast,
@@ -17,6 +18,27 @@ import {
 import { useWeb3React } from '@pancakeswap/wagmi'
 import BigNumber from 'bignumber.js'
 import ApproveConfirmButtons, { ButtonArrangement } from 'components/ApproveConfirmButtons'
+=======
+  Button,
+  ArrowForwardIcon,
+} from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+import { useWeb3React } from '@web3-react/core'
+import tokens from 'config/constants/tokens'
+import { getFullDisplayBalance } from 'utils/formatBalance'
+import { BIG_ZERO } from 'utils/bigNumber'
+import { useAppDispatch } from 'state'
+import { usePriceCakeBusd } from 'state/farms/hooks'
+import { useLottery } from 'state/lottery/hooks'
+import { fetchUserTicketsAndLotteries } from 'state/lottery'
+import useTheme from 'hooks/useTheme'
+import useTokenBalance from 'hooks/useTokenBalance'
+import { FetchStatus } from 'config/constants/types'
+import useApproveConfirmTransaction from 'hooks/useApproveConfirmTransaction'
+import { useCake, useLotteryV2Contract } from 'hooks/useContract'
+import { useCallWithGasPrice } from 'hooks/useCallWithGasPrice'
+import useToast from 'hooks/useToast'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import { FetchStatus } from 'config/constants/types'

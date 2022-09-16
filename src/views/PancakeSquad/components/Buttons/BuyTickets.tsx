@@ -1,4 +1,11 @@
 /* eslint-disable react-hooks/exhaustive-deps */
+<<<<<<< HEAD
+=======
+import { useContext, useEffect, useState } from 'react'
+import { Button, useModal } from '@metaswap/uikit'
+import { ContextApi } from 'contexts/Localization/types'
+import { ToastDescriptionWithTx } from 'components/Toast'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { BigNumber } from '@ethersproject/bignumber'
 import { MaxUint256 } from '@ethersproject/constants'
 import { ContextApi } from '@pancakeswap/localization'

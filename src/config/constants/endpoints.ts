@@ -13,11 +13,17 @@ export const GRAPH_API_POTTERY = 'https://api.thegraph.com/subgraphs/name/pancak
 /**
  * V1 will be deprecated but is still used to claim old rounds
  */
-export const GRAPH_API_PREDICTION_V1 = 'https://api.thegraph.com/subgraphs/name/pancakeswap/prediction'
+export const GRAPH_API_PREDICTION_V1 = 'https://api.thegraph.com/subgraphs/name/metaswap/prediction'
 
+<<<<<<< HEAD
 export const INFO_CLIENT = 'https://bsc.streamingfast.io/subgraphs/name/pancakeswap/exchange-v2'
 export const BLOCKS_CLIENT = 'https://api.thegraph.com/subgraphs/name/pancakeswap/blocks'
 export const GRAPH_API_NFTMARKET = 'https://api.thegraph.com/subgraphs/name/pancakeswap/nft-market'
+=======
+export const INFO_CLIENT = 'https://bsc.streamingfast.io/subgraphs/name/metaswap/exchange-v2'
+export const BLOCKS_CLIENT = 'https://api.thegraph.com/subgraphs/name/metaswap/blocks'
+export const GRAPH_API_NFTMARKET = process.env.NEXT_PUBLIC_GRAPH_API_NFT_MARKET
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 export const GRAPH_HEALTH = 'https://api.thegraph.com/index-node/graphql'
 
 export const TC_MOBOX_SUBGRAPH = 'https://api.thegraph.com/subgraphs/name/pancakeswap/trading-competition-v3'

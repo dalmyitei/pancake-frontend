@@ -1,6 +1,11 @@
 import { useMemo } from 'react'
+<<<<<<< HEAD
 import { Trade, TradeType, CurrencyAmount, Currency } from '@pancakeswap/sdk'
 import { Button, Text, ErrorIcon, ArrowDownIcon } from '@pancakeswap/uikit'
+=======
+import { Trade, TradeType } from '@metaswap/sdk'
+import { Button, Text, ErrorIcon, ArrowDownIcon } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { Field } from 'state/swap/actions'
 import { useTranslation } from '@pancakeswap/localization'
 import { computeTradePriceBreakdown, warningSeverity } from 'utils/exchange'

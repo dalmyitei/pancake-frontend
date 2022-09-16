@@ -1,4 +1,9 @@
+<<<<<<< HEAD:packages/localization/src/types.ts
 import { Language } from '@pancakeswap/uikit'
+=======
+import { ReactText } from 'react'
+import { Language } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973:src/contexts/Localization/types.ts
 
 import translations from './config/translations.json'
 

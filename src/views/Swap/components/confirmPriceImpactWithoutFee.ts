@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 import { Percent } from '@pancakeswap/sdk'
 import { ContextApi } from '@pancakeswap/localization'
 import { ALLOWED_PRICE_IMPACT_HIGH, PRICE_IMPACT_WITHOUT_FEE_CONFIRM_MIN } from 'config/constants/exchange'
+=======
+import { Percent } from '@metaswap/sdk'
+import { ContextApi } from 'contexts/Localization/types'
+import { ALLOWED_PRICE_IMPACT_HIGH, PRICE_IMPACT_WITHOUT_FEE_CONFIRM_MIN } from '../../../config/constants'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 /**
  * Given the price impact, get user confirmation.

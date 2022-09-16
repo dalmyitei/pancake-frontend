@@ -1,8 +1,14 @@
 import { useMemo, useState } from 'react'
 import styled from 'styled-components'
+<<<<<<< HEAD
 import { Trade, TradeType, CurrencyAmount, Currency } from '@pancakeswap/sdk'
 import { Button, Text, AutoRenewIcon } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Trade, TradeType } from '@metaswap/sdk'
+import { Button, Text, AutoRenewIcon } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { Field } from 'state/swap/actions'
 import { computeTradePriceBreakdown, formatExecutionPrice, warningSeverity } from 'utils/exchange'
 import { AutoColumn } from 'components/Layout/Column'

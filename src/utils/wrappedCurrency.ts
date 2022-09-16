@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { ChainId, Currency, CurrencyAmount, Native, Token, WNATIVE } from '@pancakeswap/sdk'
+=======
+import { ChainId, Currency, CurrencyAmount, ETHER, Token, TokenAmount, WETH } from '@metaswap/sdk'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 export function wrappedCurrency(currency: Currency | undefined, chainId: ChainId | undefined): Token | undefined {
   return chainId && currency?.isNative ? WNATIVE[chainId] : currency?.isToken ? currency : undefined

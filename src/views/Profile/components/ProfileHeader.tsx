@@ -1,7 +1,13 @@
 import { NextLinkFromReactRouter as ReactRouterLink } from 'components/NextLink'
+<<<<<<< HEAD:src/views/Profile/components/ProfileHeader.tsx
 import { BscScanIcon, Flex, IconButton, Link, Button, useModal } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
 import { getBlockExploreLink } from 'utils'
+=======
+import { BscScanIcon, Flex, IconButton, Link, Button, useModal } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+import { getBscScanLink } from 'utils'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973:src/views/Nft/market/Profile/components/ProfileHeader.tsx
 import { formatNumber } from 'utils/formatBalance'
 import truncateHash from '@pancakeswap/utils/truncateHash'
 import { Achievement, Profile } from 'state/types'

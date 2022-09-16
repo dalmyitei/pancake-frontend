@@ -1,6 +1,11 @@
 import styled from 'styled-components'
+<<<<<<< HEAD
 import { Tag, Flex, Heading, Box, Skeleton } from '@pancakeswap/uikit'
 import { Token } from '@pancakeswap/sdk'
+=======
+import { Tag, Flex, Heading, Skeleton } from '@metaswap/uikit'
+import { Token } from '@metaswap/sdk'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { FarmAuctionTag, CoreTag } from 'components/Tags'
 import { TokenPairImage } from 'components/TokenImage'
 import BoostedTag from '../YieldBooster/components/BoostedTag'

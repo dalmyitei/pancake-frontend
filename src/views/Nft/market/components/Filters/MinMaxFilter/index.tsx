@@ -1,6 +1,11 @@
 import { useEffect, useState } from 'react'
+<<<<<<< HEAD
 import { Box, BoxProps, Button, Grid, InlineMenu, TextField } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Box, BoxProps, Button, Grid, InlineMenu, TextField } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import FilterFooter from '../FilterFooter'
 
 interface MinMaxFilterProps extends BoxProps {

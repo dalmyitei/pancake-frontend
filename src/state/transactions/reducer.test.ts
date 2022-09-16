@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/sdk'
+import { ChainId } from '@metaswap/sdk'
 import { createStore, Store } from 'redux'
 import {
   addTransaction,

@@ -1,7 +1,13 @@
 import { useState } from 'react'
+<<<<<<< HEAD:src/views/Profile/components/EditProfileModal/PauseProfileView.tsx
 import { AutoRenewIcon, Button, Checkbox, Flex, InjectedModalProps, Text, useToast } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
 import useGetProfileCosts from 'views/Profile/hooks/useGetProfileCosts'
+=======
+import { AutoRenewIcon, Button, Checkbox, Flex, InjectedModalProps, Text } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+import useGetProfileCosts from 'views/Nft/market/Profile/hooks/useGetProfileCosts'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973:src/views/Nft/market/Profile/components/EditProfileModal/PauseProfileView.tsx
 import { useProfile } from 'state/profile/hooks'
 import { formatBigNumber } from 'utils/formatBalance'
 import { useProfileContract } from 'hooks/useContract'

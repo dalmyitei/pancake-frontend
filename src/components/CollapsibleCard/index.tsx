@@ -8,7 +8,7 @@ import {
   IconButton,
   ChevronUpIcon,
   ChevronDownIcon,
-} from '@pancakeswap/uikit'
+} from '@metaswap/uikit'
 
 interface CollapsibleCardProps extends CardProps {
   initialOpenState?: boolean

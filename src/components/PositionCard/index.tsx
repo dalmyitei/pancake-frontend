@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { useState, useMemo, useContext } from 'react'
 import { Currency, CurrencyAmount, JSBI, Pair, Percent } from '@pancakeswap/sdk'
+=======
+import { useState } from 'react'
+import { JSBI, Pair, Percent } from '@metaswap/sdk'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import {
   Button,
   Text,
@@ -10,9 +15,13 @@ import {
   Flex,
   CardProps,
   AddIcon,
+<<<<<<< HEAD
   TooltipText,
   useTooltip,
 } from '@pancakeswap/uikit'
+=======
+} from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import styled from 'styled-components'
 import { NextLinkFromReactRouter } from 'components/NextLink'
 import { useTranslation } from '@pancakeswap/localization'

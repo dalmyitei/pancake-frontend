@@ -4,8 +4,13 @@ import styled from 'styled-components'
 import { BigNumber as EthersBigNumber } from '@ethersproject/bignumber'
 import { formatUnits } from '@ethersproject/units'
 import BigNumber from 'bignumber.js'
+<<<<<<< HEAD
 import { useWeb3React } from '@pancakeswap/wagmi'
 import { Heading, Flex, Image, Text, Link } from '@pancakeswap/uikit'
+=======
+import { useWeb3React } from '@web3-react/core'
+import { Heading, Flex, Image, Text } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import orderBy from 'lodash/orderBy'
 import partition from 'lodash/partition'
 import { useTranslation } from '@pancakeswap/localization'

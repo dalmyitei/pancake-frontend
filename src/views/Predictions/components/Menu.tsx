@@ -1,8 +1,12 @@
 import styled from 'styled-components'
 import Link from 'next/link'
+<<<<<<< HEAD
 import { Flex, HelpIcon, Button, PrizeIcon } from '@pancakeswap/uikit'
 import { useGetPredictionsStatus } from 'state/predictions/hooks'
 import { PredictionStatus } from 'state/types'
+=======
+import { Flex, HelpIcon, Button, PrizeIcon } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import FlexRow from './FlexRow'
 import { PricePairLabel, TimerLabel } from './Label'
 import PrevNextNav from './PrevNextNav'
@@ -66,6 +70,7 @@ const Menu = () => {
       <SetCol>
         <PricePairLabel />
       </SetCol>
+<<<<<<< HEAD
       {status === PredictionStatus.LIVE && (
         <>
           <FlexRow justifyContent="center">
@@ -102,6 +107,40 @@ const Menu = () => {
           </SetCol>
         </>
       )}
+=======
+      <FlexRow justifyContent="center">
+        <PrevNextNav />
+      </FlexRow>
+      <SetCol>
+        <Flex alignItems="center" justifyContent="flex-end">
+          <TimerLabelWrapper>
+            <TimerLabel interval="5" unit="m" />
+          </TimerLabelWrapper>
+          <HelpButtonWrapper>
+            <Button
+              variant="subtle"
+              as="a"
+              href="https://docs.ecidade.org.br/products/prediction"
+              target="_blank"
+              rel="noreferrer noopener"
+              width="48px"
+            >
+              <HelpIcon width="24px" color="white" />
+            </Button>
+          </HelpButtonWrapper>
+          <LeaderboardButtonWrapper>
+            <Link href="/prediction/leaderboard" passHref>
+              <Button as="a" variant="subtle" width="48px">
+                <PrizeIcon color="white" />
+              </Button>
+            </Link>
+          </LeaderboardButtonWrapper>
+          <ButtonWrapper style={{ order: 4 }}>
+            <HistoryButton />
+          </ButtonWrapper>
+        </Flex>
+      </SetCol>
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
     </FlexRow>
   )
 }

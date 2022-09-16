@@ -55,7 +55,7 @@
   "Collect Winnings": "Collect Winnings",
   "Buy Tickets": "Buy Tickets",
   "Harvest": "Harvest",
-  "PancakeSwap": "PancakeSwap",
+  "MetaSwap": "MetaSwap",
   "For Sale": "For Sale",
   "MED to burn:": "MED to burn:",
   "Unstake": "Unstake",
@@ -217,7 +217,7 @@
   "Max. token entry": "Max. token entry",
   "Max. MED entry": "Max. MED entry",
   "Activate your Profile": "Activate your Profile",
-  "You’ll need an active PancakeSwap Profile to take part in an IFO!": "You’ll need an active PancakeSwap Profile to take part in an IFO!",
+  "You’ll need an active MetaSwap Profile to take part in an IFO!": "You’ll need an active MetaSwap Profile to take part in an IFO!",
   "Profile Active!": "Profile Active!",
   "Commit MED": "Commit MED",
   "Please note that MED in the fixed-term staking positions will remain locked and can not be used for committing to IFO sales. You will need a separate amount of MED in your wallet balance to commit to the IFO sales.": "Please note that MED in the fixed-term staking positions will remain locked and can not be used for committing to IFO sales. You will need a separate amount of MED in your wallet balance to commit to the IFO sales.",
@@ -275,7 +275,7 @@
   "Funds to raise:": "Funds to raise:",
   "Price per %symbol%:": "Price per %symbol%:",
   "Price per %symbol% with fee:": "Price per %symbol% with fee:",
-  "You need an active PancakeSwap Profile to take part in an IFO!": "You need an active PancakeSwap Profile to take part in an IFO!",
+  "You need an active MetaSwap Profile to take part in an IFO!": "You need an active MetaSwap Profile to take part in an IFO!",
   "Achievement": "Achievement",
   "Which sale should I commit to? Can I do both?": "Which sale should I commit to? Can I do both?",
   "How much is the participation fee?": "How much is the participation fee?",
@@ -431,8 +431,8 @@
   "Prize distribution": "Prize distribution",
   "Every participant will win at least one prize at the end of the competition.": "Every participant will win at least one prize at the end of the competition.",
   "Fine print": "Fine print",
-  "In the event of a disagreement concerning the final winning team or rank, PancakeSwap will have the final say.": "In the event of a disagreement concerning the final winning team or rank, PancakeSwap will have the final say.",
-  "PancakeSwap can and will disqualify any team or specific members that are proven to have taken malicious action or attempt to “cheat” in any way.": "PancakeSwap can and will disqualify any team or specific members that are proven to have taken malicious action or attempt to “cheat” in any way.",
+  "In the event of a disagreement concerning the final winning team or rank, MetaSwap will have the final say.": "In the event of a disagreement concerning the final winning team or rank, MetaSwap will have the final say.",
+  "MetaSwap can and will disqualify any team or specific members that are proven to have taken malicious action or attempt to “cheat” in any way.": "MetaSwap can and will disqualify any team or specific members that are proven to have taken malicious action or attempt to “cheat” in any way.",
   "Can I join the battle after it starts?": "Can I join the battle after it starts?",
   "Sorry, no. You need to register during the registration period, before the start of the event.": "Sorry, no. You need to register during the registration period, before the start of the event.",
   "How do I know if I successfully registered?": "How do I know if I successfully registered?",
@@ -511,7 +511,7 @@
   "Contact": "Contact",
   "The higher your team’s rank, the better your prizes!": "The higher your team’s rank, the better your prizes!",
   "Get Ready": "Get Ready",
-  "Activate PancakeSwap Profile to take part in next IFO‘s!": "Activate PancakeSwap Profile to take part in next IFO‘s!",
+  "Activate MetaSwap Profile to take part in next IFO‘s!": "Activate MetaSwap Profile to take part in next IFO‘s!",
   "Trading Battle": "Trading Battle",
   "Prediction": "Prediction",
   "Initial Farm Offering": "Initial Farm Offering",
@@ -542,7 +542,7 @@
   "Creator": "Creator",
   "Proposals": "Proposals",
   "Make a Proposal": "Make a Proposal",
-  "Have your say in the future of the PancakeSwap Ecosystem": "Have your say in the future of the PancakeSwap Ecosystem",
+  "Have your say in the future of the MetaSwap Ecosystem": "Have your say in the future of the MetaSwap Ecosystem",
   "Got a suggestion?": "Got a suggestion?",
   "Community proposals are a great way to see how the community feels about your ideas.": "Community proposals are a great way to see how the community feels about your ideas.",
   "They won't necessarily be implemented if the community votes successful, but suggestions with a lot of community support may be made into Core proposals.": "They won't necessarily be implemented if the community votes successful, but suggestions with a lot of community support may be made into Core proposals.",
@@ -619,7 +619,7 @@
   "Your Tickets": "Your Tickets",
   "in prizes!": "in prizes!",
   "Tickets on sale soon": "Tickets on sale soon",
-  "The PancakeSwap Lottery": "The PancakeSwap Lottery",
+  "The MetaSwap Lottery": "The MetaSwap Lottery",
   "All History": "All History",
   "Winning Number": "Winning Number",
   "Prize pot": "Prize pot",
@@ -693,7 +693,7 @@
   "Burn Pool": "Burn Pool",
   "Still got questions?": "Still got questions?",
   "Check our in-depth guide on": "Check our in-depth guide on",
-  "how to play the PancakeSwap lottery!": "how to play the PancakeSwap lottery!",
+  "how to play the MetaSwap lottery!": "how to play the MetaSwap lottery!",
   "Prize brackets don’t ‘stack’: if you match the first 3 digits in order, you’ll only win prizes from the ‘Match 3’ bracket, and not from ‘Match 1’ and ‘Match 2’.": "Prize brackets don’t ‘stack’: if you match the first 3 digits in order, you’ll only win prizes from the ‘Match 3’ bracket, and not from ‘Match 1’ and ‘Match 2’.",
   "Tickets": "Tickets",
   "Edit numbers": "Edit numbers",
@@ -712,11 +712,16 @@
   "To be announced": "To be announced",
   "How does it work?": "How does it work?",
   "Step 1: Submit application": "Step 1: Submit application",
-  "Projects can submit an application to sponsor a yield farm and/or pool on PancakeSwap via the ": "Projects can submit an application to sponsor a yield farm and/or pool on PancakeSwap via the ",
+  "Projects can submit an application to sponsor a yield farm and/or pool on MetaSwap via the ": "Projects can submit an application to sponsor a yield farm and/or pool on MetaSwap via the ",
   "Application Form": "Application Form",
   "Step 2: Await whitelisting": "Step 2: Await whitelisting",
+<<<<<<< HEAD:packages/localization/src/config/translations.json
   "The PancakeSwap team will try to respond within a week.": "The PancakeSwap team will try to respond within a week.",
   "Community Farm qualifiers will be asked to provide the address of the wallet which you’ll use for bidding MED in the auction.": "Community Farm qualifiers will be asked to provide the address of the wallet which you’ll use for bidding MED in the auction.",
+=======
+  "The MetaSwap team will try to respond within a week.": "The MetaSwap team will try to respond within a week.",
+  "Community Farm qualifiers will be asked to provide the address of the wallet which you’ll use for bidding CAKE in the auction.": "Community Farm qualifiers will be asked to provide the address of the wallet which you’ll use for bidding CAKE in the auction.",
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973:src/config/localization/translations.json
   "Core Farm/Pool qualifiers will receive further directions separately.": "Core Farm/Pool qualifiers will receive further directions separately.",
   "Step 3: During the auction": "Step 3: During the auction",
   "During the auction period, if you connect your project’s whitelisted wallet to the Auction page, you’ll see a “Place Bid” button during when the auction is live.": "During the auction period, if you connect your project’s whitelisted wallet to the Auction page, you’ll see a “Place Bid” button during when the auction is live.",
@@ -727,7 +732,11 @@
   "So long as you are whitelisted, you’ll be able to participate in each new auction.": "So long as you are whitelisted, you’ll be able to participate in each new auction.",
   "If two or more projects bid the exact same MED amount and are contending for a spot in the winning bidders, their bids may be invalidated.": "If two or more projects bid the exact same MED amount and are contending for a spot in the winning bidders, their bids may be invalidated.",
   "Community Farm Auction": "Community Farm Auction",
+<<<<<<< HEAD:packages/localization/src/config/translations.json
   "Each week, qualifying projects can bid MED for the right to host a 7-day Farm on PancakeSwap.": "Each week, qualifying projects can bid MED for the right to host a 7-day Farm on PancakeSwap.",
+=======
+  "Each week, qualifying projects can bid CAKE for the right to host a 7-day Farm on MetaSwap.": "Each week, qualifying projects can bid CAKE for the right to host a 7-day Farm on MetaSwap.",
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973:src/config/localization/translations.json
   "Apply for a Farm/Pool": "Apply for a Farm/Pool",
   "Community Auctions": "Community Auctions",
   "FAQs": "FAQs",
@@ -861,13 +870,18 @@
   "MED token": "MED token",
   "BTC token": "BTC token",
   "Earn passive income with crypto.": "Earn passive income with crypto.",
-  "PancakeSwap makes it easy to make your crypto work for you.": "PancakeSwap makes it easy to make your crypto work for you.",
+  "MetaSwap makes it easy to make your crypto work for you.": "MetaSwap makes it easy to make your crypto work for you.",
   "Explore": "Explore",
   "Pie chart": "Pie chart",
   "Stocks chart": "Stocks chart",
   "Folder with cake token": "Folder with cake token",
+<<<<<<< HEAD:packages/localization/src/config/translations.json
   "MED makes our world go round.": "MED makes our world go round.",
   "MED token is at the heart of the PancakeSwap ecosystem. Buy it, win it, farm it, spend it, stake it... heck, you can even vote with it!": "MED token is at the heart of the PancakeSwap ecosystem. Buy it, win it, farm it, spend it, stake it... heck, you can even vote with it!",
+=======
+  "CAKE makes our world go round.": "CAKE makes our world go round.",
+  "CAKE token is at the heart of the MetaSwap ecosystem. Buy it, win it, farm it, spend it, stake it... heck, you can even vote with it!": "CAKE token is at the heart of the MetaSwap ecosystem. Buy it, win it, farm it, spend it, stake it... heck, you can even vote with it!",
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973:src/config/localization/translations.json
   "Small 3d pancake": "Small 3d pancake",
   "%cakePrizeInUsd% in MED prizes this round": "%cakePrizeInUsd% in MED prizes this round",
   "Buy tickets with MED, win MED if your numbers match": "Buy tickets with MED, win MED if your numbers match",
@@ -875,7 +889,7 @@
   "Predict the price trend of BNB or MED to win": "Predict the price trend of BNB or MED to win",
   "And those users are now entrusting the platform with over $%tvl% in funds.": "And those users are now entrusting the platform with over $%tvl% in funds.",
   "Trusted with billions.": "Trusted with billions.",
-  "PancakeSwap has the most users of any decentralized platform, ever.": "PancakeSwap has the most users of any decentralized platform, ever.",
+  "MetaSwap has the most users of any decentralized platform, ever.": "MetaSwap has the most users of any decentralized platform, ever.",
   "Will you join them?": "Will you join them?",
   "$%tvl% staked": "$%tvl% staked",
   "The moon is made of pancakes.": "The moon is made of pancakes.",
@@ -908,7 +922,7 @@
   "%trades% trades": "%trades% trades",
   "Provably fair, on-chain games.": "Provably fair, on-chain games.",
   "made in the last 30 days": "made in the last 30 days",
-  "Win big with PancakeSwap.": "Win big with PancakeSwap.",
+  "Win big with MetaSwap.": "Win big with MetaSwap.",
   "Copied": "Copied",
   "Make a Profile": "Make a Profile",
   "Your Address": "Your Address",
@@ -1038,7 +1052,7 @@
   "The Locked Price & Closed Price are exactly the same (within 8 decimals), so neither side wins. All funds entered into UP and DOWN positions will go to the weekly MED burn.": "The Locked Price & Closed Price are exactly the same (within 8 decimals), so neither side wins. All funds entered into UP and DOWN positions will go to the weekly MED burn.",
   "To Burn": "To Burn",
   "Account": "Account",
-  "PancakeSwap Info & Analytics": "PancakeSwap Info & Analytics",
+  "MetaSwap Info & Analytics": "MetaSwap Info & Analytics",
   "Top Tokens": "Top Tokens",
   "Top Pools": "Top Pools",
   "Your Watchlist": "Your Watchlist",
@@ -1118,6 +1132,10 @@
   "Dark mode": "Dark mode",
   "V1 (old)": "V1 (old)",
   "Transaction receipt": "Transaction receipt",
+<<<<<<< HEAD:packages/localization/src/config/translations.json
+=======
+  "You won points for joining MetaSwap during the first year of our journey!": "You won points for joining MetaSwap during the first year of our journey!",
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973:src/config/localization/translations.json
   "NFT Collected": "NFT Collected",
   "User profile picture": "User profile picture",
   "User team banner": "User team banner",
@@ -1158,7 +1176,7 @@
   "For sale": "For sale",
   "View Item": "View Item",
   "The NFT will be removed from your wallet and put on sale at this price.": "The NFT will be removed from your wallet and put on sale at this price.",
-  "Sales are in WBNB. You can swap WBNB to BNB 1:1 for free with PancakeSwap.": "Sales are in WBNB. You can swap WBNB to BNB 1:1 for free with PancakeSwap.",
+  "Sales are in WBNB. You can swap WBNB to BNB 1:1 for free with MetaSwap.": "Sales are in WBNB. You can swap WBNB to BNB 1:1 for free with MetaSwap.",
   "Enable Listing": "Enable Listing",
   "Please enable your NFT to be sent to the market": "Please enable your NFT to be sent to the market",
   "Contract approved - you can now put your NFT for sale!": "Contract approved - you can now put your NFT for sale!",
@@ -1250,7 +1268,7 @@
   "Minting...": "Minting...",
   "Not eligible": "Not eligible",
   "Out of the 10,000 total NFTs in the squad,": "Out of the 10,000 total NFTs in the squad,",
-  "You’ll need an active PancakeSwap Profile to buy Minting Tickets and mint a Pancake Squad NFT!": "You’ll need an active PancakeSwap Profile to buy Minting Tickets and mint a Pancake Squad NFT!",
+  "You’ll need an active MetaSwap Profile to buy Minting Tickets and mint a Pancake Squad NFT!": "You’ll need an active MetaSwap Profile to buy Minting Tickets and mint a Pancake Squad NFT!",
   "The minting period is now over: all 10,000 bunnies have now been minted.": "The minting period is now over: all 10,000 bunnies have now been minted.",
   "All 10,000 Pancake Squad NFTs have now been minted!": "All 10,000 Pancake Squad NFTs have now been minted!",
   "Mint Cost: %minCost% MED each": "Mint Cost: %minCost% MED each",
@@ -1265,8 +1283,13 @@
   "Your MED Balance": "Your MED Balance",
   "Public Sale: Any wallet with an active Pancake Profile can purchase up to 10 Squad Tickets, while stocks last.": "Public Sale: Any wallet with an active Pancake Profile can purchase up to 10 Squad Tickets, while stocks last.",
   "Enabling...": "Enabling...",
+<<<<<<< HEAD:packages/localization/src/config/translations.json
   "Each NFT costs MED to mint. Remember you also need BNB to cover transaction fees too!": "Each NFT costs MED to mint. Remember you also need BNB to cover transaction fees too!",
   "PancakeSwap’s first official generative NFT collection.": "PancakeSwap’s first official generative NFT collection.",
+=======
+  "Each NFT costs CAKE to mint. Remember you also need BNB to cover transaction fees too!": "Each NFT costs CAKE to mint. Remember you also need BNB to cover transaction fees too!",
+  "MetaSwap’s first official generative NFT collection.": "MetaSwap’s first official generative NFT collection.",
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973:src/config/localization/translations.json
   "Your remaining limit": "Your remaining limit",
   "During this phase, any wallet holding a Squad Ticket can redeem their ticket to mint a Pancake Squad NFT.": "During this phase, any wallet holding a Squad Ticket can redeem their ticket to mint a Pancake Squad NFT.",
   "120 are reserved by the team for community giveaways, etc;": "120 are reserved by the team for community giveaways, etc;",
@@ -1350,21 +1373,33 @@
   "Newest Arrivals": "Newest Arrivals",
   "I sold an NFT, where’s my BNB?": "I sold an NFT, where’s my BNB?",
   "Trades are settled in WBNB, which is a wrapped version of BNB used on BNB Smart Chain. That means that when you sell an item, WBNB is sent to your wallet instead of BNB.": "Trades are settled in WBNB, which is a wrapped version of BNB used on BNB Smart Chain. That means that when you sell an item, WBNB is sent to your wallet instead of BNB.",
+<<<<<<< HEAD:packages/localization/src/config/translations.json
   "You can instantly swap your WBNB for BNB with no trading fees on PancakeSwap.": "You can instantly swap your WBNB for BNB with no trading fees on PancakeSwap.",
+=======
+  "You can instantly swap your WBNB for BNB with no trading fees on MetaSwap.": "You can instantly swap your WBNB for BNB with no trading fees on MetaSwap.",
+  "When can I trade other NFT Collections?": "When can I trade other NFT Collections?",
+  "Soon! The current NFT Market is a basic version (phase 1), with early access to trading MetaSwap NFTs only.": "Soon! The current NFT Market is a basic version (phase 1), with early access to trading MetaSwap NFTs only.",
+  "Other collections will be coming soon. We’ll make an announcement soon about the launch of the V2 Market.": "Other collections will be coming soon. We’ll make an announcement soon about the launch of the V2 Market.",
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973:src/config/localization/translations.json
   "How can I list my NFT collection on the Market?": "How can I list my NFT collection on the Market?",
   "In Phase 2 of the NFT Marketplace, collections must be whitelisted before they may be listed.": "In Phase 2 of the NFT Marketplace, collections must be whitelisted before they may be listed.",
   "We are now accepting applications from NFT collection owners seeking to list their collections.": "We are now accepting applications from NFT collection owners seeking to list their collections.",
   "Please apply here": "Please apply here",
   "What are the fees?": "What are the fees?",
+<<<<<<< HEAD:packages/localization/src/config/translations.json
   "100% of all platform fees taken by PancakeSwap from sales are used to buy back and BURN MED tokens in our weekly MED burns.": "100% of all platform fees taken by PancakeSwap from sales are used to buy back and BURN MED tokens in our weekly MED burns.",
   "Platform fees: 2% is subtracted from NFT sales on the market. Subject to change.Collection fees: Additional fees may be taken by collection creators, once those collections are live. These will not contribute to the MED burns.": "Platform fees: 2% is subtracted from NFT sales on the market. Subject to change.Collection fees: Additional fees may be taken by collection creators, once those collections are live. These will not contribute to the MED burns.",
+=======
+  "100% of all platform fees taken by MetaSwap from sales are used to buy back and BURN CAKE tokens in our weekly CAKE burns.": "100% of all platform fees taken by MetaSwap from sales are used to buy back and BURN CAKE tokens in our weekly CAKE burns.",
+  "Platform fees: 2% is subtracted from NFT sales on the market. Subject to change.Collection fees: Additional fees may be taken by collection creators, once those collections are live. These will not contribute to the CAKE burns.": "Platform fees: 2% is subtracted from NFT sales on the market. Subject to change.Collection fees: Additional fees may be taken by collection creators, once those collections are live. These will not contribute to the CAKE burns.",
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973:src/config/localization/translations.json
   "The smart contract address will be released soon before the sale starts.": "The smart contract address will be released soon before the sale starts.",
   "Supply Count": "Supply Count",
   "Brand": "Brand",
   "Success": "Success",
   "Go to IFO": "Go to IFO",
   "Phishing warning: ": "Phishing warning: ",
-  "please make sure you're visiting https://pancakeswap.finance - check the URL carefully.": "please make sure you're visiting https://pancakeswap.finance - check the URL carefully.",
+  "please make sure you're visiting https://ecidade.org.br - check the URL carefully.": "please make sure you're visiting https://ecidade.org.br - check the URL carefully.",
   "No bids yet": "No bids yet",
   "Please specify Round": "Please specify Round",
   "1W": "1W",
@@ -1480,10 +1515,15 @@
   "Eligible NFT avatar found!": "Eligible NFT avatar found!",
   "The maximum amount of MED you can commit to the Public Sale equals the number of your iMED. Lock more MED for longer durations to increase the maximum MED you can commit to the sale.": "The maximum amount of MED you can commit to the Public Sale equals the number of your iMED. Lock more MED for longer durations to increase the maximum MED you can commit to the sale.",
   "What’s the difference between a Public Sale and Private Sale?": "What’s the difference between a Public Sale and Private Sale?",
+<<<<<<< HEAD:packages/localization/src/config/translations.json
   "In the current IFO format. There is a brand new Private Sale. To participate, participants will have to meet certain requirements presented on the IFO card. Each eligible participant will be able to commit any amount of MED up to the maximum commit limit, which is published along with the IFO voting proposal. The Private Sale has no participation fee.": "In the current IFO format. There is a brand new Private Sale. To participate, participants will have to meet certain requirements presented on the IFO card. Each eligible participant will be able to commit any amount of MED up to the maximum commit limit, which is published along with the IFO voting proposal. The Private Sale has no participation fee.",
+=======
+  "In the new IFO 3.1 format. There is a brand new Private Sale. To participate, participants will have to meet certain requirements presented on the IFO card. Each eligible participant will be able to commit any amount of CAKE up to the maximum commit limit, which is published along with the IFO voting proposal. The Private Sale has no participation fee.": "In the new IFO 3.1 format. There is a brand new Private Sale. To participate, participants will have to meet certain requirements presented on the IFO card. Each eligible participant will be able to commit any amount of CAKE up to the maximum commit limit, which is published along with the IFO voting proposal. The Private Sale has no participation fee.",
+  "In the Public Sale, everyone with an active MetaSwap profile can commit. However the maximum amount of CAKE user can commit, is equal to the average CAKE balance in the IFO CAKE pool prior to the IFO. And there’s a fee for participation: see below.": "In the Public Sale, everyone with an active MetaSwap profile can commit. However the maximum amount of CAKE user can commit, is equal to the average CAKE balance in the IFO CAKE pool prior to the IFO. And there’s a fee for participation: see below.",
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973:src/config/localization/translations.json
   "You can choose one or both at the same time!": "You can choose one or both at the same time!",
   "We recommend you to check if you are eligible to participate in the Private Sale first. In the Public Sale, if the amount you commit is too small, you may not receive a meaningful amount of IFO tokens.": "We recommend you to check if you are eligible to participate in the Private Sale first. In the Public Sale, if the amount you commit is too small, you may not receive a meaningful amount of IFO tokens.",
-  "Just remember you need an active PancakeSwap Profile in order to participate.": "Just remember you need an active PancakeSwap Profile in order to participate.",
+  "Just remember you need an active MetaSwap Profile in order to participate.": "Just remember you need an active MetaSwap Profile in order to participate.",
   "There’s only a participation fee for the Public Sale: there’s no fee for the Private Sale.": "There’s only a participation fee for the Public Sale: there’s no fee for the Private Sale.",
   "How to Take Part in the Public Sale": "How to Take Part in the Public Sale",
   "Private Sale": "Private Sale",
@@ -1566,6 +1606,7 @@
   "Limit": "Limit",
   "at market price": "at market price",
   "Error occurred, please try again later": "Error occurred, please try again later",
+<<<<<<< HEAD:packages/localization/src/config/translations.json
   "Hold some MED in your wallet or on PancakeSwap at the snapshot block to get voting power for future proposals.": "Hold some MED in your wallet or on PancakeSwap at the snapshot block to get voting power for future proposals.",
   "Preparing": "Preparing",
   "Perpetual": "Perpetual",
@@ -1947,4 +1988,7 @@
   "Transaction failed with error: %reason%": "Transaction failed with error: %reason%",
   "Transaction failed. For detailed error message:": "Transaction failed. For detailed error message:",
   "Failed to claim": "Failed to claim"
+=======
+  "Hold some CAKE in your wallet or on MetaSwap at the snapshot block to get voting power for future proposals.": "Hold some CAKE in your wallet or on MetaSwap at the snapshot block to get voting power for future proposals."
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973:src/config/localization/translations.json
 }

@@ -1,6 +1,21 @@
+<<<<<<< HEAD
 import { useTranslation } from '@pancakeswap/localization'
 import { AutoRenewIcon, Button, Flex, PresentWonIcon, Text, useToast } from '@pancakeswap/uikit'
 import { useWeb3React } from '@pancakeswap/wagmi'
+=======
+import { useState } from 'react'
+import { useWeb3React } from '@web3-react/core'
+import { Flex, Button, Text, AutoRenewIcon, PresentWonIcon } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+import { LotteryTicket, LotteryTicketClaimData } from 'config/constants/types'
+import { getBalanceAmount } from 'utils/formatBalance'
+import { callWithEstimateGas } from 'utils/calls'
+import { usePriceCakeBusd } from 'state/farms/hooks'
+import { useLottery } from 'state/lottery/hooks'
+import { fetchUserLotteries } from 'state/lottery'
+import { useGasPrice } from 'state/user/hooks'
+import { useAppDispatch } from 'state'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import Balance from 'components/Balance'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import { LotteryTicket, LotteryTicketClaimData } from 'config/constants/types'

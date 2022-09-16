@@ -1,6 +1,11 @@
 import { NextLinkFromReactRouter } from 'components/NextLink'
+<<<<<<< HEAD
 import { Box, Button, Flex, Text } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Box, Button, Flex, Text } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import ColoredWordHeading from 'views/Home/components/ColoredWordHeading'
 import { LandingBodyWrapper } from 'views/PancakeSquad/styles'
 import { SlideSvgDark, SlideSvgLight } from 'views/Home/components/SlideSvg'

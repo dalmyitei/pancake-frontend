@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 import { Modal, ModalBody, Text, Image, Button, Link, OpenNewIcon } from '@pancakeswap/uikit'
 import { Token } from '@pancakeswap/sdk'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Modal, ModalBody, Text, Image, Button, Link, OpenNewIcon } from '@metaswap/uikit'
+import { Token } from '@metaswap/sdk'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 interface Props {
   currency: Token

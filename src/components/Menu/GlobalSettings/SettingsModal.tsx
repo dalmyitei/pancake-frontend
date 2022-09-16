@@ -1,6 +1,10 @@
 import { useState, useCallback } from 'react'
 import styled from 'styled-components'
+<<<<<<< HEAD
 import { Text, PancakeToggle, Toggle, Flex, Modal, InjectedModalProps, ThemeSwitcher, Box } from '@pancakeswap/uikit'
+=======
+import { Text, PancakeToggle, Toggle, Flex, Modal, InjectedModalProps, ThemeSwitcher } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import {
   useAudioModeManager,
   useExpertModeManager,

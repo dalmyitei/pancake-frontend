@@ -10,10 +10,16 @@ import {
   ModalContainer,
   ModalHeader as UIKitModalHeader,
   ModalTitle,
+<<<<<<< HEAD
 } from '@pancakeswap/uikit'
 import { useWeb3React } from '@pancakeswap/wagmi'
 import { useState } from 'react'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+} from '@metaswap/uikit'
+import { parseUnits } from '@ethersproject/units'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import styled from 'styled-components'
 import { useBalance } from 'wagmi'
 import WalletInfo from './WalletInfo'

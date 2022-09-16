@@ -1,10 +1,18 @@
 import { useCallback } from 'react'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
+<<<<<<< HEAD
 import { Modal, ModalBody, Text, Button, Flex, InjectedModalProps } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
 import isEmpty from 'lodash/isEmpty'
 import groupBy from 'lodash/groupBy'
 import { useAllSortedRecentTransactions } from 'state/transactions/hooks'
+=======
+import { useDispatch } from 'react-redux'
+import { Modal, ModalBody, Text, Button, Flex, InjectedModalProps } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+import orderBy from 'lodash/orderBy'
+import { isTransactionRecent, useAllTransactions } from 'state/transactions/hooks'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { TransactionDetails } from 'state/transactions/reducer'
 import { useAppDispatch } from 'state'
 import { clearAllTransactions } from 'state/transactions/actions'

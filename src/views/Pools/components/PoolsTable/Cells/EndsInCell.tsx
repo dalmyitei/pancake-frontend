@@ -1,6 +1,11 @@
 import styled from 'styled-components'
+<<<<<<< HEAD
 import { Flex, Link, Skeleton, Text, TimerIcon } from '@pancakeswap/uikit'
 import { getBlockExploreLink } from 'utils'
+=======
+import { Flex, Link, Skeleton, Text, TimerIcon } from '@metaswap/uikit'
+import { getBscScanLink } from 'utils'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { DeserializedPool } from 'state/types'
 import { useCurrentBlock } from 'state/block/hooks'
 import Balance from 'components/Balance'

@@ -1,12 +1,17 @@
 {
-  "name": "@pancakeswap/uikit",
+  "name": "@metaswap/uikit",
   "version": "0.63.1",
   "description": "Set of UI components for pancake projects",
   "main": "src/index.ts",
   "sideEffects": [
     "*.css.ts"
   ],
+<<<<<<< HEAD
   "repository": "https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit",
+=======
+  "sideEffects": false,
+  "repository": "https://github.com/metaswap/pancake-toolkit/tree/master/packages/pancake-uikit",
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
   "license": "MIT",
   "scripts": {
     "start": "yarn storybook",

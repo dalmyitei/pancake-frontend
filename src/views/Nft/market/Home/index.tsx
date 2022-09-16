@@ -1,6 +1,11 @@
 import styled from 'styled-components'
+<<<<<<< HEAD
 import { Box, Button, Flex, Heading, LinkExternal } from '@pancakeswap/uikit'
 import { useWeb3React } from '@pancakeswap/wagmi'
+=======
+import { Box, Button, Flex, Heading, LinkExternal } from '@metaswap/uikit'
+import { useWeb3React } from '@web3-react/core'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { NextLinkFromReactRouter } from 'components/NextLink'
 import { useTranslation } from '@pancakeswap/localization'
 import PageHeader from 'components/PageHeader'
@@ -117,8 +122,13 @@ const Home = () => {
       )}
       <Gradient p="64px 0">
         <SectionsWithFoldableText header={t('FAQs')} config={config(t)} m="auto" />
+<<<<<<< HEAD
         <LinkExternal href="https://docs.pancakeswap.finance/contact-us/nft-market-applications" mx="auto" mt="16px">
           {t('Apply to NFT Marketplace!')}
+=======
+        <LinkExternal href="https://docs.ecidade.org.br/contact-us/nft-market-applications" mx="auto" mt="16px">
+          {t('Apply to NFT Market!')}
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
         </LinkExternal>
       </Gradient>
     </>

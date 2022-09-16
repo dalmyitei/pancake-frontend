@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 import { Currency, CurrencyAmount, JSBI, Pair, Percent, Token } from '@pancakeswap/sdk'
 import { useCallback, useMemo } from 'react'
 import { useSelector } from 'react-redux'
+=======
+import { Currency, CurrencyAmount, JSBI, Pair, Percent, TokenAmount } from '@metaswap/sdk'
+import { useCallback } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { wrappedCurrency } from 'utils/wrappedCurrency'
 import { usePair } from 'hooks/usePairs'

@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 import { useWeb3React } from '@pancakeswap/wagmi'
 import { Flex, Text, Heading } from '@pancakeswap/uikit'
+=======
+import { Flex, Text, Heading } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import styled from 'styled-components'
 import { useTranslation } from '@pancakeswap/localization'
 import Link from 'next/link'

@@ -1,5 +1,11 @@
+<<<<<<< HEAD:src/views/Profile/components/EditProfileModal/index.tsx
 import { InjectedModalProps, Modal } from '@pancakeswap/uikit'
 import { useTranslation, ContextApi } from '@pancakeswap/localization'
+=======
+import { InjectedModalProps, Modal } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+import { ContextApi } from 'contexts/Localization/types'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973:src/views/Nft/market/Profile/components/EditProfileModal/index.tsx
 import useEditProfile, { Views } from './reducer'
 import StartView from './StartView'
 import PauseProfileView from './PauseProfileView'

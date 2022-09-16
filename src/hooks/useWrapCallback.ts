@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { Currency, WNATIVE } from '@pancakeswap/sdk'
+=======
+import { Currency, currencyEquals, ETHER, WETH } from '@metaswap/sdk'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { useMemo } from 'react'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { useTranslation } from '@pancakeswap/localization'

@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { useModal, useMatchBreakpoints } from '@pancakeswap/uikit'
 import { useWeb3React } from '@pancakeswap/wagmi'
+=======
+import { useMatchBreakpoints, useModal } from '@metaswap/uikit'
+import { useWeb3React } from '@web3-react/core'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { PageMeta } from 'components/Layout/Page'
 import { useEffect, useRef } from 'react'
 import { useInitialBlock } from 'state/block/hooks'

@@ -1,5 +1,12 @@
+<<<<<<< HEAD:packages/tokens/src/56.ts
 import { ChainId, Token, WBNB } from '@pancakeswap/sdk'
 import { BUSD_BSC, CAKE_MAINNET, USDT_BSC } from './common'
+=======
+import { ChainId, Token } from '@metaswap/sdk'
+import { serializeToken } from 'state/user/hooks/helpers'
+import { CHAIN_ID } from './networks'
+import { SerializedToken } from './types'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973:src/config/constants/tokens.ts
 
 export const bscTokens = {
   wbnb: WBNB[ChainId.BSC],
@@ -18,9 +25,15 @@ export const bscTokens = {
     ChainId.BSC,
     '0xb6C53431608E626AC81a9776ac3e999c5556717c',
     18,
+<<<<<<< HEAD:packages/tokens/src/56.ts
     'TLOS',
     'Telos',
     'https://www.telos.net/',
+=======
+    'CAKE',
+    'MetaSwap Token',
+    'https://ecidade.org.br/',
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973:src/config/constants/tokens.ts
   ),
   beta: new Token(
     ChainId.BSC,
@@ -207,7 +220,7 @@ export const bscTokens = {
     18,
     'SYRUP',
     'SyrupBar Token',
-    'https://pancakeswap.finance/',
+    'https://ecidade.org.br/',
   ),
   pha: new Token(
     ChainId.BSC,
@@ -2113,9 +2126,15 @@ export const bscTokens = {
     ChainId.BSC,
     '0x6a0b66710567b6beb81A71F7e9466450a91a384b',
     18,
+<<<<<<< HEAD:packages/tokens/src/56.ts
     'PEX',
     'PearDAO',
     'https://peardao.io/',
+=======
+    'CAKE',
+    'MetaSwap Token',
+    'https://ecidade.org.br/',
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973:src/config/constants/tokens.ts
   ),
   yel: new Token(ChainId.BSC, '0xD3b71117E6C1558c1553305b44988cd944e97300', 18, 'YEL', 'YEL', 'https://yel.finance/'),
   tinc: new Token(
@@ -2130,9 +2149,15 @@ export const bscTokens = {
     ChainId.BSC,
     '0xF5d8A096CcCb31b9D7bcE5afE812BE23e3D4690d',
     18,
+<<<<<<< HEAD:packages/tokens/src/56.ts
     'Happy',
     'HappyFans',
     'https://happyfans.club/',
+=======
+    'SYRUP',
+    'SyrupBar Token',
+    'https://ecidade.org.br/',
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973:src/config/constants/tokens.ts
   ),
   wzrd: new Token(
     ChainId.BSC,

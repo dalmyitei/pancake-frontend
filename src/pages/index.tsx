@@ -1,4 +1,4 @@
-import { FACTORY_ADDRESS } from '@pancakeswap/sdk'
+import { FACTORY_ADDRESS } from '@metaswap/sdk'
 import { getUnixTime, sub } from 'date-fns'
 import { gql } from 'graphql-request'
 import { GetStaticProps } from 'next'
@@ -110,6 +110,7 @@ export const getStaticProps: GetStaticProps = async () => {
   }
 
   try {
+<<<<<<< HEAD
     const result = await infoServerClient.request(gql`
       query tvl {
         pancakeFactories(first: 1) {
@@ -125,6 +126,11 @@ export const getStaticProps: GetStaticProps = async () => {
     const cakeContract = getCakeContract()
     const totalCakeInVault = await cakeContract.balanceOf(cakeVaultV2)
     results.tvl = parseFloat(formatEther(totalCakeInVault)) * result.token.derivedUSD + parseFloat(totalLiquidityUSD)
+=======
+    const response = await fetch('https://openapi.debank.com/v1/protocol?id=bsc_metaswap')
+    const responseData: DeBankTvlResponse = await response.json()
+    results.tvl = responseData.tvl
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
   } catch (error) {
     if (process.env.NODE_ENV === 'production') {
       console.error('Error when fetching tvl stats', error)

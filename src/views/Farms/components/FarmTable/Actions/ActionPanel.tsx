@@ -1,7 +1,13 @@
 import styled, { keyframes, css } from 'styled-components'
+<<<<<<< HEAD
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { useTranslation } from '@pancakeswap/localization'
 import { LinkExternal, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+=======
+import { useTranslation } from 'contexts/Localization'
+import { LinkExternal, Text } from '@metaswap/uikit'
+import { FarmWithStakedValue } from 'views/Farms/components/FarmCard/FarmCard'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import getLiquidityUrlPathParts from 'utils/getLiquidityUrlPathParts'
 import { getBlockExploreLink } from 'utils'
 import { useContext } from 'react'

@@ -1,6 +1,11 @@
 import styled from 'styled-components'
+<<<<<<< HEAD
 import { Modal, Button, NoProfileAvatarIcon, Flex } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Modal, Button, NoProfileAvatarIcon, Flex } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import ProfileAvatarWithTeam from 'components/ProfileAvatarWithTeam'
 import { CompetitionProps } from '../../types'
 import MakeProfile from './MakeProfile'

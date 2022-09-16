@@ -9,8 +9,13 @@ import {
   Text,
   ButtonMenu,
   ButtonMenuItem,
+<<<<<<< HEAD
 } from '@pancakeswap/uikit'
 import useLocalDispatch from 'contexts/LocalRedux/useLocalDispatch'
+=======
+} from '@metaswap/uikit'
+import { useAppDispatch } from 'state'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { HistoryFilter } from 'state/types'
 import { setHistoryFilter, setHistoryPaneState } from 'state/predictions'
 import { useGetHistoryFilter, useGetIsFetchingHistory } from 'state/predictions/hooks'

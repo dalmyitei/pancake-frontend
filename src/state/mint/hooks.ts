@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { BigNumber } from '@ethersproject/bignumber'
 import { formatUnits } from '@ethersproject/units'
 import { useTranslation } from '@pancakeswap/localization'
@@ -15,6 +16,11 @@ import {
 import { BIG_INT_ZERO } from 'config/constants/exchange'
 import { FetchStatus } from 'config/constants/types'
 import { useTradeExactIn } from 'hooks/Trades'
+=======
+import { Currency, CurrencyAmount, ETHER, JSBI, Pair, Percent, Price, TokenAmount } from '@metaswap/sdk'
+import { useCallback, useMemo } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { useZapContract } from 'hooks/useContract'
 import useNativeCurrency from 'hooks/useNativeCurrency'

@@ -2,7 +2,11 @@ import { useContext } from 'react'
 
 import styled from 'styled-components'
 import BigNumber from 'bignumber.js'
+<<<<<<< HEAD
 import { Flex, IconButton, useModal, CalculateIcon, TooltipText, useTooltip, Text } from '@pancakeswap/uikit'
+=======
+import { Flex, IconButton, useModal, CalculateIcon } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import RoiCalculatorModal from 'components/RoiCalculatorModal'
 import { useTranslation } from '@pancakeswap/localization'
 import { useFarmUser, useLpTokenPrice } from 'state/farms/hooks'

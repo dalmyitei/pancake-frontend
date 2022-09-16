@@ -1,7 +1,12 @@
 import { useMemo } from 'react'
 import styled from 'styled-components'
+<<<<<<< HEAD
 import { Text, Flex, Box, CloseIcon, IconButton, useMatchBreakpoints } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Text, Flex, Box, CloseIcon, IconButton, useMatchBreakpoints } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { usePhishingBannerManager } from 'state/user/hooks'
 
 const Container = styled(Flex)`
@@ -44,10 +49,15 @@ const PhishingWarningBanner: React.FC<React.PropsWithChildren> = () => {
   const { t } = useTranslation()
   const [, hideBanner] = usePhishingBannerManager()
   const { isMobile, isMd } = useMatchBreakpoints()
+<<<<<<< HEAD
   const warningTextAsParts = useMemo(() => {
     const warningText = t("please make sure you're visiting https://pancakeswap.finance - check the URL carefully.")
     return warningText.split(/(https:\/\/pancakeswap.finance)/g)
   }, [t])
+=======
+  const warningText = t("please make sure you're visiting https://ecidade.org.br - check the URL carefully.")
+  const warningTextAsParts = warningText.split(/(https:\/\/ecidade.org.br)/g)
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
   const warningTextComponent = (
     <>
       <Text as="span" color="warning" small bold textTransform="uppercase">
@@ -59,8 +69,8 @@ const PhishingWarningBanner: React.FC<React.PropsWithChildren> = () => {
           key={i}
           small
           as="span"
-          bold={text === 'https://pancakeswap.finance'}
-          color={text === 'https://pancakeswap.finance' ? '#FFFFFF' : '#BDC2C4'}
+          bold={text === 'https://ecidade.org.br'}
+          color={text === 'https://ecidade.org.br' ? '#FFFFFF' : '#BDC2C4'}
         >
           {text}
         </Text>

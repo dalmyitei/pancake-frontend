@@ -1,5 +1,9 @@
 import { Contract } from '@ethersproject/contracts'
+<<<<<<< HEAD
 import { JSBI, Percent, Router, SwapParameters, Trade, TradeType, Currency } from '@pancakeswap/sdk'
+=======
+import { JSBI, Percent, Router, SwapParameters, Trade, TradeType } from '@metaswap/sdk'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { useMemo } from 'react'
 import { BIPS_BASE } from 'config/constants/exchange'

@@ -3,7 +3,12 @@ import styled from 'styled-components'
 import SwiperCore, { Keyboard, Mousewheel, FreeMode } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css/bundle'
+<<<<<<< HEAD
 import { useGetSortedRoundsCurrentEpoch } from 'state/predictions/hooks'
+=======
+import { Box } from '@metaswap/uikit'
+import { useGetCurrentEpoch, useGetSortedRounds } from 'state/predictions/hooks'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import delay from 'lodash/delay'
 import RoundCard from './components/RoundCard'
 import useSwiper from './hooks/useSwiper'

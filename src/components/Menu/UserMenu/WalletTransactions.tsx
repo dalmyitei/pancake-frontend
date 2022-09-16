@@ -1,8 +1,17 @@
+<<<<<<< HEAD
 import styled from 'styled-components'
 import { Box, Button, Flex, Text } from '@pancakeswap/uikit'
 import { useAppDispatch } from 'state'
 import { useAllSortedRecentTransactions } from 'state/transactions/hooks'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { useDispatch } from 'react-redux'
+import { Box, Button, Flex, Text } from '@metaswap/uikit'
+import { AppDispatch } from 'state'
+import { isTransactionRecent, useAllTransactions } from 'state/transactions/hooks'
+import { useTranslation } from 'contexts/Localization'
+import useActiveWeb3React from 'hooks/useActiveWeb3React'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { clearAllTransactions } from 'state/transactions/actions'
 import isEmpty from 'lodash/isEmpty'
 import TransactionRow from './TransactionRow'

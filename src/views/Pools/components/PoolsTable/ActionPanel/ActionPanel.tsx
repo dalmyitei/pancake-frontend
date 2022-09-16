@@ -1,7 +1,27 @@
 import styled, { keyframes, css } from 'styled-components'
+<<<<<<< HEAD
 import { Box, Flex, HelpIcon, Text, useTooltip, useMatchBreakpoints } from '@pancakeswap/uikit'
 import { useVaultPoolByKey } from 'state/pools/hooks'
 import { getVaultPosition, VaultPosition } from 'utils/cakePool'
+=======
+import {
+  Box,
+  Button,
+  Flex,
+  HelpIcon,
+  Link,
+  LinkExternal,
+  MetamaskIcon,
+  Skeleton,
+  Text,
+  TimerIcon,
+  useTooltip,
+} from '@metaswap/uikit'
+import { BASE_BSC_SCAN_URL } from 'config'
+import { getBscScanLink } from 'utils'
+import { useCurrentBlock } from 'state/block/hooks'
+import { useVaultPoolByKey, useVaultPools } from 'state/pools/hooks'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import BigNumber from 'bignumber.js'
 import { DeserializedPool, VaultKey, DeserializedLockedCakeVault, DeserializedLockedVaultUser } from 'state/types'
 import { useTranslation } from '@pancakeswap/localization'

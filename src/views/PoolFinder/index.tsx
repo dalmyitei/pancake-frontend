@@ -1,7 +1,15 @@
+<<<<<<< HEAD
 import { Currency, JSBI } from '@pancakeswap/sdk'
 import { AddIcon, Button, ChevronDownIcon, Text, useModal } from '@pancakeswap/uikit'
 import { useWeb3React } from '@pancakeswap/wagmi'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { useCallback, useEffect, useState } from 'react'
+import { Currency, ETHER, JSBI, TokenAmount } from '@metaswap/sdk'
+import { Button, ChevronDownIcon, Text, AddIcon, useModal } from '@metaswap/uikit'
+import styled from 'styled-components'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { NextLinkFromReactRouter } from 'components/NextLink'
 import { BIG_INT_ZERO } from 'config/constants/exchange'
 import useNativeCurrency from 'hooks/useNativeCurrency'

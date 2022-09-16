@@ -1,4 +1,4 @@
-import { Flex, Button, Text } from '@pancakeswap/uikit'
+import { Flex, Button, Text } from '@metaswap/uikit'
 import QuestionHelper from 'components/QuestionHelper'
 import { useTranslation } from '@pancakeswap/localization'
 import { useGasPriceManager } from 'state/user/hooks'

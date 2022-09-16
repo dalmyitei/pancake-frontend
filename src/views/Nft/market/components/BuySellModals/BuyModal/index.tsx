@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+import { useEffect, useState } from 'react'
+import { InjectedModalProps } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { MaxUint256, Zero } from '@ethersproject/constants'
 import { formatEther, parseUnits } from '@ethersproject/units'
 import { TranslateFunction, useTranslation } from '@pancakeswap/localization'

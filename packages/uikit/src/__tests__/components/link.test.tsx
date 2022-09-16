@@ -3,7 +3,11 @@ import { renderWithProvider } from "../../testHelpers";
 import { Link, LinkExternal } from "../../components/Link";
 
 it("renders link correctly", () => {
+<<<<<<< HEAD
   const { asFragment } = renderWithProvider(<Link href="https://pancakeswap.finance">Link</Link>);
+=======
+  const { asFragment } = renderWithTheme(<Link href="https://ecidade.org.br">Link</Link>);
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
       .c0 {
@@ -35,8 +39,12 @@ it("renders link correctly", () => {
     <a
         class="c0 c1"
         color="primary"
+<<<<<<< HEAD
         font-size="16px"
         href="https://pancakeswap.finance"
+=======
+        href="https://ecidade.org.br"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
       >
         Link
       </a>
@@ -45,7 +53,11 @@ it("renders link correctly", () => {
 });
 
 it("renders link external link correctly", () => {
+<<<<<<< HEAD
   const { asFragment } = renderWithProvider(<LinkExternal href="https://pancakeswap.finance">Link</LinkExternal>);
+=======
+  const { asFragment } = renderWithTheme(<LinkExternal href="https://ecidade.org.br">Link</LinkExternal>);
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
       .c2 {
@@ -95,8 +107,12 @@ it("renders link external link correctly", () => {
     <a
         class="c0 c1"
         color="primary"
+<<<<<<< HEAD
         font-size="16px"
         href="https://pancakeswap.finance"
+=======
+        href="https://ecidade.org.br"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
         rel="noreferrer noopener"
         target="_blank"
       >

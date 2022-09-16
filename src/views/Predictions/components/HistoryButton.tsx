@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 import { useWeb3React } from '@pancakeswap/wagmi'
 import { AutoRenewIcon, HistoryIcon, IconButton } from '@pancakeswap/uikit'
 import useLocalDispatch from 'contexts/LocalRedux/useLocalDispatch'
+=======
+import { useWeb3React } from '@web3-react/core'
+import { AutoRenewIcon, HistoryIcon, IconButton } from '@metaswap/uikit'
+import { useAppDispatch } from 'state'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { setHistoryPaneState } from 'state/predictions'
 import { useGetIsFetchingHistory } from 'state/predictions/hooks'
 

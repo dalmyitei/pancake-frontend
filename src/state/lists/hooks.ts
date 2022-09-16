@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { ChainId } from '@pancakeswap/sdk'
 import { EMPTY_LIST, TagInfo, TokenAddressMap, WrappedTokenInfo } from '@pancakeswap/tokens'
 import { TokenList } from '@uniswap/token-lists'
@@ -7,6 +8,10 @@ import fromPairs from 'lodash/fromPairs'
 import groupBy from 'lodash/groupBy'
 import { ListsState } from '@pancakeswap/token-lists'
 import uniqBy from 'lodash/uniqBy'
+=======
+import { ChainId, Token } from '@metaswap/sdk'
+import { Tags, TokenInfo, TokenList } from '@uniswap/token-lists'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { useMemo } from 'react'
 import { UNSUPPORTED_LIST_URLS, WARNING_LIST_URLS } from '../../config/constants/lists'
 import DEFAULT_TOKEN_LIST from '../../config/constants/tokenLists/pancake-default.tokenlist.json'

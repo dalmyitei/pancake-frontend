@@ -1,6 +1,11 @@
 import { CSSProperties, MutableRefObject, useCallback, useMemo } from 'react'
+<<<<<<< HEAD
 import { Currency, CurrencyAmount, Token } from '@pancakeswap/sdk'
 import { Text } from '@pancakeswap/uikit'
+=======
+import { Currency, CurrencyAmount, currencyEquals, ETHER, Token } from '@metaswap/sdk'
+import { Text } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import styled from 'styled-components'
 import { FixedSizeList } from 'react-window'
 import { wrappedCurrency } from 'utils/wrappedCurrency'

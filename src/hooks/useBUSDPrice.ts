@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 import { ChainId, Currency, CurrencyAmount, JSBI, Pair, Price, Token, WNATIVE, WBNB } from '@pancakeswap/sdk'
 import { FAST_INTERVAL } from 'config/constants'
 import { BUSD, CAKE, USDC } from '@pancakeswap/tokens'
+=======
+import { ChainId, Currency, currencyEquals, JSBI, Price } from '@metaswap/sdk'
+import tokens, { mainnetTokens } from 'config/constants/tokens'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { useMemo } from 'react'
 import useSWR from 'swr'

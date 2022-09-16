@@ -1,8 +1,14 @@
+<<<<<<< HEAD
 import { useCallback, useEffect, useState, useMemo } from 'react'
 import { useRouter } from 'next/router'
 import { CurrencyAmount, Token, Trade, TradeType, Currency } from '@pancakeswap/sdk'
 import replaceBrowserHistory from '@pancakeswap/utils/replaceBrowserHistory'
 import { Button, Box, Flex, useModal, BottomDrawer, Link, useMatchBreakpoints } from '@pancakeswap/uikit'
+=======
+import { useCallback, useEffect, useState } from 'react'
+import { CurrencyAmount, Token, Trade } from '@metaswap/sdk'
+import { Button, Box, Flex, useModal, useMatchBreakpoints, BottomDrawer, Link } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 import { useTranslation } from '@pancakeswap/localization'
 import { AutoColumn } from 'components/Layout/Column'

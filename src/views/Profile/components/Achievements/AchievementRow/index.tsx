@@ -1,6 +1,15 @@
+<<<<<<< HEAD:src/views/Profile/components/Achievements/AchievementRow/index.tsx
 import { useTranslation } from '@pancakeswap/localization'
 import { AutoRenewIcon, Button, Flex, useToast } from '@pancakeswap/uikit'
 import { ToastDescriptionWithTx } from 'components/Toast'
+=======
+import styled from 'styled-components'
+import { AutoRenewIcon, Button, Flex } from '@metaswap/uikit'
+import { Achievement } from 'state/types'
+import useToast from 'hooks/useToast'
+import { useTranslation } from 'contexts/Localization'
+import { usePointCenterIfoContract } from 'hooks/useContract'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973:src/views/Nft/market/Profile/components/Achievements/AchievementRow/index.tsx
 import { useCallWithGasPrice } from 'hooks/useCallWithGasPrice'
 import useCatchTxError from 'hooks/useCatchTxError'
 import { usePointCenterIfoContract } from 'hooks/useContract'

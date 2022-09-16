@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 import { useEffect, useState } from 'react'
 import { Card, CardBody, Flex, PlayCircleOutlineIcon, Text, useTooltip } from '@pancakeswap/uikit'
 import { getNow } from 'utils/getNow'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Card, CardBody, Flex, PlayCircleOutlineIcon, Text, useTooltip } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { NodeRound, NodeLedger, BetPosition } from 'state/types'
 import { useGetBufferSeconds } from 'state/predictions/hooks'
 import { getHasRoundFailed } from 'state/predictions/helpers'

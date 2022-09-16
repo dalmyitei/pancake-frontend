@@ -1,8 +1,13 @@
 import map from 'lodash/map'
 import omitBy from 'lodash/omitBy'
 import erc20ABI from 'config/abi/erc20.json'
+<<<<<<< HEAD
 import { bscTokens } from '@pancakeswap/tokens'
 import { Token } from '@pancakeswap/sdk'
+=======
+import tokens from 'config/constants/tokens'
+import { Token } from '@metaswap/sdk'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import multicall from 'utils/multicall'
 
 // remove BNB because it's not a Bep20 token

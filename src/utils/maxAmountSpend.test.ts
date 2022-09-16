@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { CurrencyAmount, JSBI, Native } from '@pancakeswap/sdk'
+=======
+import { CurrencyAmount, JSBI } from '@metaswap/sdk'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { maxAmountSpend } from './maxAmountSpend'
 
 describe('maxAmountSpend', () => {

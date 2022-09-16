@@ -10,8 +10,13 @@ import {
   NftIcon,
   NftFillIcon,
   MoreIcon,
+<<<<<<< HEAD
 } from '@pancakeswap/uikit'
 import { ContextApi } from '@pancakeswap/localization'
+=======
+} from '@metaswap/uikit'
+import { ContextApi } from 'contexts/Localization/types'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { nftsBaseUrl } from 'views/Nft/market/constants'
 import { perpLangMap } from 'utils/getPerpetualLanguageCode'
 import { perpTheme } from 'utils/getPerpetualTheme'
@@ -192,6 +197,40 @@ const config: (t: ContextApi['t'], isDark: boolean, languageCode?: string, chain
           },
         ].map((item) => addMenuItemSupported(item, chainId)),
       },
+<<<<<<< HEAD
     ].map((item) => addMenuItemSupported(item, chainId))
+=======
+      {
+        label: t('IFO'),
+        href: '/ifo',
+      },
+      {
+        label: t('Voting'),
+        href: '/voting',
+      },
+      {
+        type: DropdownMenuItemType.DIVIDER,
+      },
+      {
+        label: t('Leaderboard'),
+        href: '/teams',
+      },
+      {
+        type: DropdownMenuItemType.DIVIDER,
+      },
+      {
+        label: t('Blog'),
+        href: 'https://medium.com/metaswap',
+        type: DropdownMenuItemType.EXTERNAL_LINK,
+      },
+      {
+        label: t('Docs'),
+        href: 'https://docs.ecidade.org.br',
+        type: DropdownMenuItemType.EXTERNAL_LINK,
+      },
+    ],
+  },
+]
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 export default config

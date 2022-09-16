@@ -1,7 +1,13 @@
 import React, { useCallback } from 'react'
+<<<<<<< HEAD
 import { Currency, CurrencyAmount, Pair, Percent, Token } from '@pancakeswap/sdk'
 import { AddIcon, Button, InjectedModalProps, Text } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Currency, CurrencyAmount, Pair, Percent, Token, TokenAmount } from '@metaswap/sdk'
+import { AddIcon, Button, InjectedModalProps, Text } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import TransactionConfirmationModal, {
   ConfirmationModalContent,
   TransactionErrorContent,

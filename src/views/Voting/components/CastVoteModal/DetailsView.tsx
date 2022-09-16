@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 import { useMemo } from 'react'
 import BigNumber from 'bignumber.js'
 import { Flex, LinkExternal, Text, Box, HelpIcon, useTooltip, RocketIcon, Link } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Flex, LinkExternal, Text } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import styled from 'styled-components'
 import { getBlockExploreLink } from 'utils'
 import { formatNumber } from 'utils/formatBalance'

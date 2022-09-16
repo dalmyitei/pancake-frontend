@@ -1,6 +1,11 @@
 import { useState } from 'react'
+<<<<<<< HEAD
 import { CopyIcon, SvgProps } from '@pancakeswap/uikit'
 import { copyText } from '@pancakeswap/utils/copyText'
+=======
+import { CopyIcon, SvgProps } from '@metaswap/uikit'
+import { copyText } from 'utils/copyText'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import styled from 'styled-components'
 
 const Tooltip = styled.div<{

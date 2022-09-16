@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 import { ButtonMenu, ButtonMenuItem } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
 import useLocalDispatch from 'contexts/LocalRedux/useLocalDispatch'
+=======
+import { ButtonMenu, ButtonMenuItem } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+import { useAppDispatch } from 'state'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { setLeaderboardFilter } from 'state/predictions'
 import { useGetLeaderboardFilters } from 'state/predictions/hooks'
 

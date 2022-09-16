@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 import { memo } from 'react'
 import { useMatchBreakpoints } from '@pancakeswap/uikit'
 import { usePool, useDeserializedPoolByVaultKey } from 'state/pools/hooks'
 import { VaultKey } from 'state/types'
 
+=======
+import { useState } from 'react'
+import styled from 'styled-components'
+import { useMatchBreakpoints } from '@metaswap/uikit'
+import { DeserializedPool, VaultKey } from 'state/types'
+import useDelayedUnmount from 'hooks/useDelayedUnmount'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import NameCell from './Cells/NameCell'
 import EarningsCell from './Cells/EarningsCell'
 import AprCell from './Cells/AprCell'

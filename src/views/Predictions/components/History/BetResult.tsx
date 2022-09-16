@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 import { useMemo } from 'react'
 import { useWeb3React } from '@pancakeswap/wagmi'
 import { Box, Flex, Heading, Text, PrizeIcon, BlockIcon, LinkExternal, useTooltip, InfoIcon } from '@pancakeswap/uikit'
+=======
+import { useWeb3React } from '@web3-react/core'
+import { Box, Flex, Heading, Text, PrizeIcon, BlockIcon, LinkExternal, useTooltip, InfoIcon } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import styled from 'styled-components'
 import useLocalDispatch from 'contexts/LocalRedux/useLocalDispatch'
 import { useTranslation } from '@pancakeswap/localization'

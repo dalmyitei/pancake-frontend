@@ -1,10 +1,15 @@
 import { useMemo } from 'react'
 import { BigNumber } from '@ethersproject/bignumber'
+<<<<<<< HEAD
 import { CheckmarkCircleIcon, CheckmarkCircleFillIcon, Tag, useTooltip } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
 import { ethersToBigNumber } from 'utils/bigNumber'
 import { REWARD_RATE } from 'state/predictions/config'
 import { useConfig } from 'views/Predictions/context/ConfigProvider'
+=======
+import { CheckmarkCircleIcon, CheckmarkCircleFillIcon, Tag, useTooltip } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { formatBnbv2 } from '../../helpers'
 
 interface EnteredTagProps {

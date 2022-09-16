@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 import { Flex, TooltipText, useTooltip } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import styled from 'styled-components'
+import { Flex, TooltipText, IconButton, useModal, CalculateIcon, Skeleton, useTooltip } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+import Balance from 'components/Balance'
+import RoiCalculatorModal from 'components/RoiCalculatorModal'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { DeserializedPool } from 'state/types'
 import BigNumber from 'bignumber.js'
 import Apr from 'views/Pools/components/Apr'

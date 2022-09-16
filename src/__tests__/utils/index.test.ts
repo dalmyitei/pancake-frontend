@@ -1,8 +1,13 @@
 import { BigNumber } from '@ethersproject/bignumber'
 import { AddressZero } from '@ethersproject/constants'
+<<<<<<< HEAD
 import { Token, ChainId, Percent, JSBI, CurrencyAmount } from '@pancakeswap/sdk'
 import { getBlockExploreLink, isAddress, calculateGasMargin } from 'utils'
 import { calculateSlippageAmount, basisPointsToPercent } from 'utils/exchange'
+=======
+import { TokenAmount, Token, ChainId, Percent, JSBI } from '@metaswap/sdk'
+import { getBscScanLink, calculateSlippageAmount, isAddress, calculateGasMargin, basisPointsToPercent } from 'utils'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 describe('utils', () => {
   describe('#getBscScanLink', () => {

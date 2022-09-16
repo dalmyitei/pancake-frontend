@@ -1,7 +1,12 @@
 import { useEffect, useState } from 'react'
 import styled from 'styled-components'
+<<<<<<< HEAD:src/views/Profile/components/EditProfileModal/StartView.tsx
 import { useWeb3React } from '@pancakeswap/wagmi'
 import { Button, Flex, Text, InjectedModalProps } from '@pancakeswap/uikit'
+=======
+import { useWeb3React } from '@web3-react/core'
+import { Button, Flex, Text, InjectedModalProps } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973:src/views/Nft/market/Profile/components/EditProfileModal/StartView.tsx
 import { formatBigNumber } from 'utils/formatBalance'
 import { getPancakeProfileAddress } from 'utils/addressHelpers'
 import { useCake } from 'hooks/useContract'

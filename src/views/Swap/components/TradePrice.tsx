@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { Price, Currency } from '@pancakeswap/sdk'
 import { Text, AutoRenewIcon } from '@pancakeswap/uikit'
+=======
+import { Price } from '@metaswap/sdk'
+import { Text, AutoRenewIcon } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { StyledBalanceMaxMini } from './styleds'
 
 interface TradePriceProps {

@@ -1,6 +1,10 @@
 import { useMemo } from 'react'
+<<<<<<< HEAD
 import { TokenInfo } from '@uniswap/token-lists'
 import { Token } from '@pancakeswap/sdk'
+=======
+import { Token } from '@metaswap/sdk'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { isAddress } from '../../utils'
 
 export function filterTokens(tokens: Token[], search: string): Token[] {

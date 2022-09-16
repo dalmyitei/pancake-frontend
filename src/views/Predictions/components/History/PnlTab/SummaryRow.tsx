@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { Price, Currency } from '@pancakeswap/sdk'
 import { Flex, Text } from '@pancakeswap/uikit'
+=======
+import { Price } from '@metaswap/sdk'
+import { Flex, Text } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { multiplyPriceByAmount } from 'utils/prices'
 import { useTranslation } from '@pancakeswap/localization'
 import { useConfig } from 'views/Predictions/context/ConfigProvider'

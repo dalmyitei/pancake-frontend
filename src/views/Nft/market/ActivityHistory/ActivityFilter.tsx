@@ -1,6 +1,15 @@
 import styled from 'styled-components'
+<<<<<<< HEAD
 import { Box, Button, Flex, IconButton, CloseIcon } from '@pancakeswap/uikit'
 import { ContextApi, useTranslation } from '@pancakeswap/localization'
+=======
+import { Box, Button, Flex, IconButton, CloseIcon } from '@metaswap/uikit'
+import { useAppDispatch } from 'state'
+import { addActivityTypeFilters, removeActivityTypeFilters } from 'state/nftMarket/reducer'
+import { useGetNftActivityFilters } from 'state/nftMarket/hooks'
+import { ContextApi } from 'contexts/Localization/types'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { MarketEvent } from '../../../../state/nftMarket/types'
 import { useNftStorage } from '../../../../state/nftMarket/storage'
 

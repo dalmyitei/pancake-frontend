@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Box, CoinSwitcher, Flex, PocketWatchIcon, Text, CloseIcon } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
 import { useRouter } from 'next/router'
@@ -7,6 +8,16 @@ import { useGetCurrentRoundCloseTimestamp } from 'state/predictions/hooks'
 import { PredictionSupportedSymbol } from 'state/types'
 import styled, { keyframes } from 'styled-components'
 import { useConfig } from '../context/ConfigProvider'
+=======
+import { useEffect, useRef } from 'react'
+import { useCountUp } from 'react-countup'
+import styled from 'styled-components'
+import { BnbUsdtPairTokenIcon, Box, Flex, PocketWatchIcon, Text } from '@metaswap/uikit'
+import { ROUND_BUFFER } from 'state/predictions/config'
+import { formatBigNumberToFixed } from 'utils/formatBalance'
+import { useGetCurrentRoundLockTimestamp } from 'state/predictions/hooks'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { formatRoundTime } from '../helpers'
 import useCountdown from '../hooks/useCountdown'
 import LabelPrice from './LabelPrice'

@@ -1,6 +1,11 @@
 import styled from 'styled-components'
+<<<<<<< HEAD
 import { Skeleton, Text, useTooltip, HelpIcon, Flex, Box, useMatchBreakpoints } from '@pancakeswap/uikit'
 import { DeserializedPool, VaultKey, DeserializedPoolLockedVault } from 'state/types'
+=======
+import { Skeleton, Text, useTooltip, HelpIcon, Flex, Box, useMatchBreakpoints } from '@metaswap/uikit'
+import { DeserializedPool } from 'state/types'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import Balance from 'components/Balance'
 import { useVaultPoolByKey } from 'state/pools/hooks'
 import { useTranslation } from '@pancakeswap/localization'

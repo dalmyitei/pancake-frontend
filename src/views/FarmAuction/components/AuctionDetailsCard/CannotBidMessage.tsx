@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { Text, Flex, HelpIcon, useTooltip } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Text, Flex, HelpIcon, useTooltip } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 const CannotBidMessage: React.FC<React.PropsWithChildren> = () => {
   const { t } = useTranslation()

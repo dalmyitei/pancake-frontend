@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 import { Currency, Percent, Price } from '@pancakeswap/sdk'
 import { Text } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
 import { ONE_BIPS } from 'config/constants/exchange'
+=======
+import { Currency, Percent, Price } from '@metaswap/sdk'
+import { Text } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { AutoColumn } from '../../components/Layout/Column'
 import { AutoRow } from '../../components/Layout/Row'
 import { Field } from '../../state/mint/actions'

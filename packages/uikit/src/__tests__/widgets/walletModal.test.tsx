@@ -346,8 +346,13 @@ it("renders ConnectModal correctly", () => {
               Haven’t got a crypto wallet yet?
             </p>
             <a
+<<<<<<< HEAD
               class="c16"
               href="https://docs.pancakeswap.finance/get-started/connection-guide"
+=======
+              class="c22"
+              href="https://docs.ecidade.org.br/get-started/connection-guide"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
               rel="noreferrer noopener"
               scale="md"
               target="_blank"

@@ -2,9 +2,15 @@ import { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import BigNumber from 'bignumber.js'
 import { MaxUint256 } from '@ethersproject/constants'
+<<<<<<< HEAD
 import { Modal, Text, Flex, BalanceInput, Box, Button, LogoRoundIcon, useToast } from '@pancakeswap/uikit'
 import { useWeb3React } from '@pancakeswap/wagmi'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Modal, Text, Flex, BalanceInput, Box, Button, LogoRoundIcon } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+import { useWeb3React } from '@web3-react/core'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { formatNumber, getBalanceAmount, getBalanceNumber } from 'utils/formatBalance'
 import useTheme from 'hooks/useTheme'
 import useTokenBalance from 'hooks/useTokenBalance'

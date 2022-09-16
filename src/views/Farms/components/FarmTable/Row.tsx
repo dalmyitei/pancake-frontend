@@ -1,7 +1,13 @@
 import { useEffect, useState, createElement, useRef } from 'react'
 import styled from 'styled-components'
+<<<<<<< HEAD
 import { Box, Flex, useMatchBreakpoints, Skeleton } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { FarmWithStakedValue } from 'views/Farms/components/FarmCard/FarmCard'
+import { useMatchBreakpoints } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import useDelayedUnmount from 'hooks/useDelayedUnmount'
 import { useFarmUser } from 'state/farms/hooks'
 

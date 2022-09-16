@@ -10,11 +10,19 @@ import {
   Link,
   Modal,
   Skeleton,
+<<<<<<< HEAD
   Slider,
   Text,
   useToast,
 } from '@pancakeswap/uikit'
 import { useWeb3React } from '@pancakeswap/wagmi'
+=======
+} from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+import useTheme from 'hooks/useTheme'
+import useToast from 'hooks/useToast'
+import useCatchTxError from 'hooks/useCatchTxError'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import BigNumber from 'bignumber.js'
 import RoiCalculatorModal from 'components/RoiCalculatorModal'
 import { ToastDescriptionWithTx } from 'components/Toast'

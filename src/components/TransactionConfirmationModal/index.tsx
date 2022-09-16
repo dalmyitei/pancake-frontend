@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { ReactElement, useCallback } from 'react'
 import { ChainId, Currency, Token } from '@pancakeswap/sdk'
+=======
+import { useCallback } from 'react'
+import { ChainId, Currency, Token } from '@metaswap/sdk'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import styled from 'styled-components'
 import {
   Button,
@@ -12,9 +17,15 @@ import {
   Spinner,
   Modal,
   InjectedModalProps,
+<<<<<<< HEAD
   ModalProps,
 } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+} from '@metaswap/uikit'
+import { registerToken } from 'utils/wallet'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { wrappedCurrency } from 'utils/wrappedCurrency'
 import { WrappedTokenInfo } from '@pancakeswap/tokens'

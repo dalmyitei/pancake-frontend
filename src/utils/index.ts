@@ -1,6 +1,7 @@
 import type { Signer } from '@ethersproject/abstract-signer'
 import { getAddress } from '@ethersproject/address'
 import { BigNumber } from '@ethersproject/bignumber'
+<<<<<<< HEAD
 import { AddressZero } from '@ethersproject/constants'
 import { Contract } from '@ethersproject/contracts'
 import type { Provider } from '@ethersproject/providers'
@@ -9,6 +10,16 @@ import { bsc } from '@pancakeswap/wagmi/chains'
 import memoize from 'lodash/memoize'
 import { TokenAddressMap } from '@pancakeswap/tokens'
 import { chains } from './wagmi'
+=======
+import IPancakeRouter02ABI from 'config/abi/IPancakeRouter02.json'
+import { IPancakeRouter02 } from 'config/abi/types/IPancakeRouter02'
+import { CHAIN_ID } from 'config/constants/networks'
+import { JSBI, Percent, Token, CurrencyAmount, Currency, ETHER } from '@metaswap/sdk'
+import { ROUTER_ADDRESS } from '../config/constants'
+import { BASE_BSC_SCAN_URLS } from '../config'
+import { TokenAddressMap } from '../state/lists/hooks'
+import { simpleRpcProvider } from './providers'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 // returns the checksummed address if the address is valid, otherwise returns false
 export const isAddress = memoize((value: any): string | false => {

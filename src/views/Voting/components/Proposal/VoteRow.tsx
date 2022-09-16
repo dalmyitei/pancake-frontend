@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 import { Flex, LinkExternal, Text, Tag, CheckmarkCircleIcon } from '@pancakeswap/uikit'
 import truncateHash from '@pancakeswap/utils/truncateHash'
 import { getBlockExploreLink } from 'utils'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Flex, LinkExternal, Text, Tag, CheckmarkCircleIcon } from '@metaswap/uikit'
+import truncateHash from 'utils/truncateHash'
+import { getBscScanLink } from 'utils'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { Vote } from 'state/types'
 import { IPFS_GATEWAY } from '../../config'
 import TextEllipsis from '../TextEllipsis'

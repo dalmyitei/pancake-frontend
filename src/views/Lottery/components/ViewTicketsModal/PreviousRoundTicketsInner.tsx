@@ -11,7 +11,7 @@ import {
   InfoIcon,
   useTooltip,
   useModal,
-} from '@pancakeswap/uikit'
+} from '@metaswap/uikit'
 import styled from 'styled-components'
 import { useWeb3React } from '@pancakeswap/wagmi'
 import { LotteryTicket, LotteryTicketClaimData } from 'config/constants/types'

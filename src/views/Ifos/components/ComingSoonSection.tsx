@@ -1,6 +1,11 @@
 import { useMemo } from 'react'
+<<<<<<< HEAD
 import { Card, Text, BunnyPlaceholderIcon, Box } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Card, Text, Button, BunnyPlaceholderIcon, Box } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import styled from 'styled-components'
 import { PoolIds } from 'config/constants/types'
 
@@ -81,7 +86,20 @@ export default function ComingSoonSection() {
                 </Text>
               </>
             }
+<<<<<<< HEAD
             action={null}
+=======
+            action={
+              <Button
+                width="100%"
+                as="a"
+                href="https://medium.com/metaswap/initial-farm-offering-ifo-3-1-4b2cb637e8c6"
+                target="_blank"
+              >
+                {t('Learn More about IFO 3.1')}
+              </Button>
+            }
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
           />
         </CardsWrapper>
       </StyledCardBody>

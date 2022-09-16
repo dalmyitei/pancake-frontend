@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { EventStatus } from '@pancakeswap/uikit'
 import { ContextApi } from '@pancakeswap/localization'
+=======
+import { EventStatus } from '@metaswap/uikit'
+import { ContextApi } from 'contexts/Localization/types'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import formatTimePeriod from 'utils/formatTimePeriod'
 import getTimePeriods from 'utils/getTimePeriods'
 import { SaleStatusEnum, UserStatusEnum } from './types'

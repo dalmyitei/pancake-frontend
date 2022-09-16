@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 import { TransactionResponse } from '@ethersproject/providers'
 import { useTranslation } from '@pancakeswap/localization'
 import { Button, Heading, Skeleton, Text, TooltipText, useToast, useTooltip } from '@pancakeswap/uikit'
+=======
+import { Button, Heading, Skeleton, Text } from '@metaswap/uikit'
+import { useWeb3React } from '@web3-react/core'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import BigNumber from 'bignumber.js'
 import Balance from 'components/Balance'
 import { ToastDescriptionWithTx } from 'components/Toast'

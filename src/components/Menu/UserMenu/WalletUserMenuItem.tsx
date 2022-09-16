@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 import { Flex, UserMenuItem, WarningIcon } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
 import { useGetBnbBalance } from 'hooks/useTokenBalance'
 import { FetchStatus } from 'config/constants/types'
 import { LOW_BNB_BALANCE } from './WalletModal'
+=======
+import { Flex, UserMenuItem, WarningIcon } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 interface WalletUserMenuItemProps {
   isWrongNetwork: boolean

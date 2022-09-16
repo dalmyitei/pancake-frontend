@@ -1,6 +1,11 @@
 import styled from 'styled-components'
+<<<<<<< HEAD
 import { Text, Heading, Card, CardHeader, CardBody, Flex, Link, Box } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Text, Heading, Card, CardHeader, CardBody, Flex, Link, Box } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import FoldableText from 'components/FoldableSection/FoldableText'
 import { FORM_ADDRESS } from '../helpers'
 
@@ -48,7 +53,7 @@ const FAQs = () => {
             <FoldableText title={t('Step 1: Submit application')} mt="24px">
               <Box display="inline">
                 <Text display="inline" color="textSubtle">
-                  {t('Projects can submit an application to sponsor a yield farm and/or pool on PancakeSwap via the ')}
+                  {t('Projects can submit an application to sponsor a yield farm and/or pool on MetaSwap via the ')}
                 </Text>
                 <InlineLink href={FORM_ADDRESS} external>
                   {t('Application Form')}
@@ -58,7 +63,7 @@ const FAQs = () => {
             <FoldableText title={t('Step 2: Await whitelisting')} mt="24px">
               <Box color="textSubtle">
                 <Text color="textSubtle" mb="4px">
-                  {t('The PancakeSwap team will try to respond within a week.')}
+                  {t('The MetaSwap team will try to respond within a week.')}
                 </Text>
                 <List>
                   <FaqLi>

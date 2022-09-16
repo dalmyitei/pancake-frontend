@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { Trade, Route, Token, ChainId, Pair, JSBI, TradeType, CurrencyAmount } from '@pancakeswap/sdk'
 import { BETTER_TRADE_LESS_HOPS_THRESHOLD } from 'config/constants/exchange'
+=======
+import { Trade, Route, Token, ChainId, Pair, TokenAmount, JSBI, TradeType } from '@metaswap/sdk'
+import { BETTER_TRADE_LESS_HOPS_THRESHOLD } from 'config/constants'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { isTradeBetter } from './trades'
 
 describe('isTradeBetter', () => {

@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { Text } from '@pancakeswap/uikit'
 import { ContextApi } from '@pancakeswap/localization'
+=======
+import { Text } from '@metaswap/uikit'
+import { ContextApi } from 'contexts/Localization/types'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import Link from 'next/link'
 
 type EventDescriptionType = {
@@ -35,7 +40,7 @@ const eventDescriptionConfigBuilder = ({ t }: EventDescriptionType) => ({
     },
   ],
   primaryButton: {
-    to: 'https://docs.pancakeswap.finance/',
+    to: 'https://docs.ecidade.org.br/',
     text: t('View Documentation'),
     external: true,
     isDisplayed: false,

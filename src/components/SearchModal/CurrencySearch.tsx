@@ -2,7 +2,16 @@
 import { Currency, Token } from '@pancakeswap/sdk'
 import { Box, Input, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
 import { KeyboardEvent, RefObject, useCallback, useMemo, useRef, useState, useEffect } from 'react'
+<<<<<<< HEAD
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Currency, ETHER, Token } from '@metaswap/sdk'
+import { Text, Input, Box } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+import { FixedSizeList } from 'react-window'
+import { useAudioModeManager } from 'state/user/hooks'
+import useDebounce from 'hooks/useDebounce'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import useDebounce from 'hooks/useDebounce'
 import useNativeCurrency from 'hooks/useNativeCurrency'

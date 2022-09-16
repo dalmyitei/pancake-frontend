@@ -1,7 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import NextLink from 'next/link'
+<<<<<<< HEAD
 import { Box, Breadcrumbs, Text, Link } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Box, Breadcrumbs, Text, Link } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 const Crumbs = () => {
   const { t } = useTranslation()

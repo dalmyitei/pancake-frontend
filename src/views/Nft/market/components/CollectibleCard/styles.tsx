@@ -11,9 +11,15 @@ import {
   Text,
   WalletFilledIcon,
   Skeleton,
+<<<<<<< HEAD
 } from '@pancakeswap/uikit'
 import { Currency, Price } from '@pancakeswap/sdk'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+} from '@metaswap/uikit'
+import { Price } from '@metaswap/sdk'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { multiplyPriceByAmount } from 'utils/prices'
 import styled from 'styled-components'
 

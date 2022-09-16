@@ -10,8 +10,13 @@ import {
   UserMenuDivider,
   UserMenuItem,
   UserMenuVariant,
+<<<<<<< HEAD
 } from '@pancakeswap/uikit'
 import ConnectWalletButton from 'components/ConnectWalletButton'
+=======
+  Box,
+} from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import Trans from 'components/Trans'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import useAuth from 'hooks/useAuth'

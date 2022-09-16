@@ -1,6 +1,7 @@
 import BigNumber from 'bignumber.js'
 import { useCallback, useMemo, useState } from 'react'
 import styled from 'styled-components'
+<<<<<<< HEAD
 import {
   Flex,
   Text,
@@ -15,6 +16,9 @@ import {
   MessageText,
   ErrorIcon,
 } from '@pancakeswap/uikit'
+=======
+import { Flex, Text, Button, Modal, LinkExternal, CalculateIcon, IconButton, Skeleton } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { ModalActions, ModalInput } from 'components/Modal'
 import RoiCalculatorModal from 'components/RoiCalculatorModal'
 import { useTranslation } from '@pancakeswap/localization'

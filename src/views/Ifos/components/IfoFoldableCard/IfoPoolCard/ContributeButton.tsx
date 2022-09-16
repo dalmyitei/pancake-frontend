@@ -1,6 +1,16 @@
 import { useTranslation } from '@pancakeswap/localization'
 import { Button, useModal, useToast } from '@pancakeswap/uikit'
 import BigNumber from 'bignumber.js'
+<<<<<<< HEAD
+=======
+import { Button, useModal } from '@metaswap/uikit'
+import { getBalanceNumber } from 'utils/formatBalance'
+import { Ifo, PoolIds } from 'config/constants/types'
+import { WalletIfoData, PublicIfoData } from 'views/Ifos/types'
+import { useTranslation } from 'contexts/Localization'
+import useTokenBalance from 'hooks/useTokenBalance'
+import useToast from 'hooks/useToast'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { ToastDescriptionWithTx } from 'components/Toast'
 import { Ifo, PoolIds } from 'config/constants/types'
 import useTokenBalance from 'hooks/useTokenBalance'

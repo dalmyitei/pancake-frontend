@@ -2,6 +2,10 @@ import fs from 'fs'
 import os from 'os'
 import { request, gql } from 'graphql-request'
 import BigNumber from 'bignumber.js'
+<<<<<<< HEAD
+=======
+import { ChainId } from '@metaswap/sdk'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import chunk from 'lodash/chunk'
 import { sub, getUnixTime } from 'date-fns'
 import farmsConfig from '@pancakeswap/farms/constants/56'

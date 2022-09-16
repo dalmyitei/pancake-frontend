@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { useContext } from 'react'
 import { Flex, Text, Skeleton } from '@pancakeswap/uikit'
+=======
+import { Button, Flex, Text } from '@metaswap/uikit'
+import BigNumber from 'bignumber.js'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { useTranslation } from '@pancakeswap/localization'
 import styled from 'styled-components'

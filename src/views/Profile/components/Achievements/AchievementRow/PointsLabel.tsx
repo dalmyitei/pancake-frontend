@@ -1,5 +1,10 @@
+<<<<<<< HEAD:src/views/Profile/components/Achievements/AchievementRow/PointsLabel.tsx
 import { Flex, FlexProps, PrizeIcon, Text } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Flex, FlexProps, PrizeIcon, Text } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973:src/views/Nft/market/Profile/components/Achievements/AchievementRow/PointsLabel.tsx
 
 interface PointsLabelProps extends FlexProps {
   points: number

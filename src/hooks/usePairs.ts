@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { CurrencyAmount, Pair, Currency } from '@pancakeswap/sdk'
+=======
+import { TokenAmount, Pair, Currency } from '@metaswap/sdk'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { useMemo } from 'react'
 import IPancakePairABI from 'config/abi/IPancakePair.json'
 import { Interface } from '@ethersproject/abi'

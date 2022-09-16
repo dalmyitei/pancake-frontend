@@ -3,8 +3,14 @@ import {
   TokenPairImageProps as UIKitTokenPairImageProps,
   TokenImage as UIKitTokenImage,
   ImageProps,
+<<<<<<< HEAD
 } from '@pancakeswap/uikit'
 import { Token, ChainId } from '@pancakeswap/sdk'
+=======
+} from '@metaswap/uikit'
+import tokens from 'config/constants/tokens'
+import { Token } from '@metaswap/sdk'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 interface TokenPairImageProps extends Omit<UIKitTokenPairImageProps, 'primarySrc' | 'secondarySrc'> {
   primaryToken: Token

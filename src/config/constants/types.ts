@@ -1,4 +1,5 @@
 import BigNumber from 'bignumber.js'
+<<<<<<< HEAD
 import { Token, ChainId } from '@pancakeswap/sdk'
 import { SerializedWrappedToken } from '@pancakeswap/tokens'
 import type { SerializedFarmConfig, FarmConfigBaseProps } from '@pancakeswap/farms'
@@ -9,6 +10,9 @@ export type ChainMap<T> = {
 }
 
 export type ChainTokenList = ChainMap<Token[]>
+=======
+import { Token } from '@metaswap/sdk'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 export type TranslatableText =
   | string

@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+import { ChainId } from '@metaswap/sdk'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import getLpAddress from 'utils/getLpAddress'
 import { bscTokens } from '@pancakeswap/tokens'
 import { FarmAuctionBidderConfig } from './types'

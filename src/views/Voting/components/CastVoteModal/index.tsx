@@ -1,7 +1,13 @@
 import { useState } from 'react'
+<<<<<<< HEAD
 import { Box, Modal, useToast } from '@pancakeswap/uikit'
 import { useWeb3React, useSignMessage } from '@pancakeswap/wagmi'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Box, Modal } from '@metaswap/uikit'
+import { useWeb3React } from '@web3-react/core'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { SnapshotCommand } from 'state/types'
 import useTheme from 'hooks/useTheme'
 import { CastVoteModalProps, ConfirmVoteView } from './types'

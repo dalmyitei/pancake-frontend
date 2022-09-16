@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 import { useCallback } from 'react'
 import { useRouter } from 'next/router'
 import { Button } from '@pancakeswap/uikit'
 import { useConfig } from 'views/Ifos/contexts/IfoContext'
+=======
+import BigNumber from 'bignumber.js'
+import { Button, useModal } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 import { useTranslation } from '@pancakeswap/localization'
 

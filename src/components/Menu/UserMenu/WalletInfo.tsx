@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 import { Box, Button, Flex, InjectedModalProps, LinkExternal, Message, Skeleton, Text } from '@pancakeswap/uikit'
 import { ChainId } from '@pancakeswap/sdk'
+=======
+import { Box, Button, Flex, InjectedModalProps, LinkExternal, Message, Skeleton, Text } from '@metaswap/uikit'
+import { useWeb3React } from '@web3-react/core'
+import tokens from 'config/constants/tokens'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { FetchStatus } from 'config/constants/types'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { useTranslation } from '@pancakeswap/localization'

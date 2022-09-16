@@ -1,7 +1,7 @@
 import { memo, useEffect, useRef, useState } from 'react'
 import { useWeb3React } from '@pancakeswap/wagmi'
 import styled, { css, keyframes } from 'styled-components'
-import { Button, CloseIcon, IconButton, TrophyGoldIcon } from '@pancakeswap/uikit'
+import { Button, CloseIcon, IconButton, TrophyGoldIcon } from '@metaswap/uikit'
 import { CSSTransition } from 'react-transition-group'
 import { useTranslation } from '@pancakeswap/localization'
 import { getBetHistory } from 'state/predictions/helpers'

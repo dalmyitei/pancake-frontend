@@ -62,7 +62,14 @@ import { useSigner } from 'wagmi'
 
 // Imports below migrated from Exchange useContract.ts
 import { Contract } from '@ethersproject/contracts'
+<<<<<<< HEAD
 import { WNATIVE } from '@pancakeswap/sdk'
+=======
+import { ChainId, WETH } from '@metaswap/sdk'
+import IPancakePairABI from '../config/abi/IPancakePair.json'
+import ENS_PUBLIC_RESOLVER_ABI from '../config/abi/ens-public-resolver.json'
+import ENS_ABI from '../config/abi/ens-registrar.json'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { ERC20_BYTES32_ABI } from '../config/abi/erc20'
 import ERC20_ABI from '../config/abi/erc20.json'
 import IPancakePairABI from '../config/abi/IPancakePair.json'

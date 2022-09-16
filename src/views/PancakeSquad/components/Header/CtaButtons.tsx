@@ -1,8 +1,13 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 
 import { BigNumber } from '@ethersproject/bignumber'
+<<<<<<< HEAD
 import { Flex } from '@pancakeswap/uikit'
 import { ContextApi } from '@pancakeswap/localization'
+=======
+import { Flex } from '@metaswap/uikit'
+import { ContextApi } from 'contexts/Localization/types'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { DefaultTheme } from 'styled-components'
 import { SaleStatusEnum, UserStatusEnum } from '../../types'
 import BuyTicketsButtons from '../Buttons/BuyTickets'

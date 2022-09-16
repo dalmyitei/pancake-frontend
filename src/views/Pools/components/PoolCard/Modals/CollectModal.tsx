@@ -12,9 +12,19 @@ import {
   Text,
   useToast,
   useTooltip,
+<<<<<<< HEAD
 } from '@pancakeswap/uikit'
 import { useWeb3React } from '@pancakeswap/wagmi'
 import { ToastDescriptionWithTx } from 'components/Toast'
+=======
+} from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+import useTheme from 'hooks/useTheme'
+import useToast from 'hooks/useToast'
+import { ToastDescriptionWithTx } from 'components/Toast'
+import { Token } from '@metaswap/sdk'
+import { formatNumber } from 'utils/formatBalance'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import useCatchTxError from 'hooks/useCatchTxError'
 import useTheme from 'hooks/useTheme'
 import { useState } from 'react'

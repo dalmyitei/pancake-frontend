@@ -1,8 +1,13 @@
 import { useState, useMemo } from 'react'
 import { useWeb3React } from '@pancakeswap/wagmi'
 import styled from 'styled-components'
+<<<<<<< HEAD
 import { useTranslation } from '@pancakeswap/localization'
 import { Box, Flex, Text, ChevronRightIcon, useModal } from '@pancakeswap/uikit'
+=======
+import { useTranslation } from 'contexts/Localization'
+import { Box, Flex, Text, ChevronRightIcon, useModal } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import Loading from 'components/Loading'
 import useLocalDispatch from 'contexts/LocalRedux/useLocalDispatch'
 import { bscTokens } from '@pancakeswap/tokens'

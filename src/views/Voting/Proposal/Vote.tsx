@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import styled from 'styled-components'
+<<<<<<< HEAD
 import {
   Button,
   Card,
@@ -13,6 +14,10 @@ import {
   useToast,
 } from '@pancakeswap/uikit'
 import { useWeb3React } from '@pancakeswap/wagmi'
+=======
+import { Button, Card, CardBody, CardHeader, CardProps, Heading, Radio, Text, useModal } from '@metaswap/uikit'
+import { useWeb3React } from '@web3-react/core'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { Proposal } from 'state/types'
 import { useTranslation } from '@pancakeswap/localization'
 import ConnectWalletButton from 'components/ConnectWalletButton'

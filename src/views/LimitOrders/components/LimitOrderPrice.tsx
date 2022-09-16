@@ -1,8 +1,13 @@
 import React from 'react'
-import { Currency, Percent, Price } from '@pancakeswap/sdk'
+import { Currency, Percent, Price } from '@metaswap/sdk'
 import styled from 'styled-components'
+<<<<<<< HEAD
 import { Input, Flex, Text, Button, AutoRenewIcon, SyncAltIcon, HelpIcon, useTooltip } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Input, Flex, Text, Button, AutoRenewIcon, SyncAltIcon, HelpIcon, useTooltip } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { escapeRegExp } from 'utils'
 import { Rate } from 'state/limitOrders/types'
 import { getRatePercentageMessage, PercentageDirection } from '../utils/getRatePercentageMessage'

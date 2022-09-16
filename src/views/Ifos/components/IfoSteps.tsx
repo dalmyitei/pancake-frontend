@@ -17,7 +17,7 @@ import {
   LogoRoundIcon,
   Skeleton,
   Link,
-} from '@pancakeswap/uikit'
+} from '@metaswap/uikit'
 import { NextLinkFromReactRouter as RouterLink } from 'components/NextLink'
 import { useWeb3React } from '@pancakeswap/wagmi'
 
@@ -78,9 +78,18 @@ const Step1 = ({ hasProfile }: { hasProfile: boolean }) => {
             weeks: weeksDisplay,
           },
         )}
+<<<<<<< HEAD
       </Text>
       <InlineLink external href="https://docs.pancakeswap.finance/products/ifo-initial-farm-offering/icake">
         {t('Learn more about iCAKE')}
+=======
+      </span>{' '}
+      <InlineLink
+        external
+        href="https://medium.com/metaswap/initial-farm-offering-ifo-3-0-ifo-staking-pool-622d8bd356f1"
+      >
+        {t('Please refer to our blog post for more details.')}
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
       </InlineLink>
     </Box>,
     {},
@@ -216,7 +225,7 @@ const IfoSteps: React.FC<React.PropsWithChildren<TypeProps>> = ({
               {t('Activate your Profile')}
             </Heading>
             <Text color="textSubtle" small mb="16px">
-              {t('You’ll need an active PancakeSwap Profile to take part in an IFO!')}
+              {t('You’ll need an active MetaSwap Profile to take part in an IFO!')}
             </Text>
             {renderAccountStatus()}
           </CardBody>

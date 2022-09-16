@@ -12,7 +12,7 @@ import {
   BlockIcon,
   Button,
   useModal,
-} from '@pancakeswap/uikit'
+} from '@metaswap/uikit'
 import styled from 'styled-components'
 import { useTranslation } from '@pancakeswap/localization'
 import { REGISTRATION, LIVE } from 'config/constants/trading-competition/phases'

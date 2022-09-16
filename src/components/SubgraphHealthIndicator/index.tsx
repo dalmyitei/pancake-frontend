@@ -1,7 +1,7 @@
 import { BSC_BLOCK_TIME } from 'config'
 import { useTranslation, TranslateFunction } from '@pancakeswap/localization'
 import styled from 'styled-components'
-import { Card, Flex, Box, InfoIcon, Text, useTooltip } from '@pancakeswap/uikit'
+import { Card, Flex, Box, InfoIcon, Text, useTooltip } from '@metaswap/uikit'
 import { useSubgraphHealthIndicatorManager } from 'state/user/hooks'
 import useSubgraphHealth, { SubgraphStatus } from 'hooks/useSubgraphHealth'
 
@@ -77,6 +77,7 @@ export interface BlockResponse {
   }[]
 }
 
+<<<<<<< HEAD
 const SubgraphHealthIndicator: React.FC<
   React.PropsWithChildren<{
     subgraphName: string
@@ -85,6 +86,18 @@ const SubgraphHealthIndicator: React.FC<
     obeyGlobalSetting?: boolean
   }>
 > = ({ subgraphName, inline, customDescriptions, obeyGlobalSetting = true }) => {
+=======
+const FixedSubgraphHealthIndicator = () => {
+  const { pathname } = useRouter()
+  const isOnNftPages = pathname.includes('nfts')
+  return isOnNftPages ? <SubgraphHealthIndicator subgraphName="metaswap/nft-market" /> : null
+}
+
+export const SubgraphHealthIndicator: React.FC<{ subgraphName: string; inline?: boolean }> = ({
+  subgraphName,
+  inline,
+}) => {
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
   const { t } = useTranslation()
   const { status, currentBlock, blockDifference, latestBlock } = useSubgraphHealth(subgraphName)
   const [alwaysShowIndicator] = useSubgraphHealthIndicatorManager()

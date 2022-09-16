@@ -11,6 +11,7 @@ const customJestConfig = {
   },
   testPathIgnorePatterns: ['<rootDir>/apps/test/', '<rootDir>/src/config/__tests__/', '<rootDir>/packages'],
   moduleNameMapper: {
+<<<<<<< HEAD
     '^@pancakeswap/uikit': '<rootDir>/packages/uikit/src',
     '^@pancakeswap/ui/(.*)$': '<rootDir>/packages/ui/$1',
     '^@pancakeswap/ui': '<rootDir>/packages/ui',
@@ -21,6 +22,9 @@ const customJestConfig = {
     '^@pancakeswap/wagmi/connectors/miniProgram': ['<rootDir>/packages/wagmi/connectors/miniProgram'],
     '^@pancakeswap/wagmi/connectors/binanceWallet': ['<rootDir>/packages/wagmi/connectors/binanceWallet'],
     '^@pancakeswap/wagmi': ['<rootDir>/packages/wagmi/src'],
+=======
+    '^@metaswap/uikit': '<rootDir>/packages/uikit/src',
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
   },
   moduleDirectories: ['node_modules', 'src'],
   testTimeout: 20000,

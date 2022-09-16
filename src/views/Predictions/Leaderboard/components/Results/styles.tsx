@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 import { Token } from '@pancakeswap/sdk'
 import { Flex, FlexProps, Text } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
 import useBUSDPrice from 'hooks/useBUSDPrice'
+=======
+import { Flex, FlexProps, Text } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+import { useBNBBusdPrice } from 'hooks/useBUSDPrice'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { multiplyPriceByAmount } from 'utils/prices'
 import { useConfig } from 'views/Predictions/context/ConfigProvider'
 

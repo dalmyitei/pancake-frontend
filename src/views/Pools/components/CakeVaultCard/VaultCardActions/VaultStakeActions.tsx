@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { Flex, Skeleton, useModal } from '@pancakeswap/uikit'
+=======
+import { Button, Flex, Skeleton, useModal } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import BigNumber from 'bignumber.js'
 import { DeserializedPool, VaultKey } from 'state/types'
 import NotEnoughTokensModal from '../../PoolCard/Modals/NotEnoughTokensModal'

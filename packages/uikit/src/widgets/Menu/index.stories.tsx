@@ -98,7 +98,7 @@ const defaultProps = {
     </>
   ),
   activeItem: "/swap",
-  activeSubItem: "https://exchange.pancakeswap.finance",
+  activeSubItem: "https://exchange.ecidade.org.br",
   buyCakeLabel: "Buy CAKE",
 };
 

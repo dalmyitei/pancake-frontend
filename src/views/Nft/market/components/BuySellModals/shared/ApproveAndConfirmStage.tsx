@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { Flex, Text, Button, Spinner } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Flex, Text, Button, Spinner } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { StepIndicator } from './styles'
 
 interface ApproveAndConfirmStageProps {

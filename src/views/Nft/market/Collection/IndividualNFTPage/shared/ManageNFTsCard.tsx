@@ -11,8 +11,13 @@ import {
   BinanceIcon,
   Skeleton,
   useModal,
+<<<<<<< HEAD:src/views/Nft/market/Collection/IndividualNFTPage/shared/ManageNFTsCard.tsx
 } from '@pancakeswap/uikit'
 import { useWeb3React } from '@pancakeswap/wagmi'
+=======
+} from '@metaswap/uikit'
+import { useWeb3React } from '@web3-react/core'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973:src/views/Nft/market/Collection/IndividualNFTPage/PancakeBunnyPage/ManagePancakeBunniesCard.tsx
 import { useProfile } from 'state/profile/hooks'
 import { NftLocation, NftToken, Collection } from 'state/nftMarket/types'
 import { formatNumber } from 'utils/formatBalance'

@@ -1,5 +1,10 @@
+<<<<<<< HEAD:src/views/Profile/components/EditProfileModal/ApproveCakeView.tsx
 import { AutoRenewIcon, Button, Flex, InjectedModalProps, Text } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { AutoRenewIcon, Button, Flex, InjectedModalProps, Text } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973:src/views/Nft/market/Profile/components/EditProfileModal/ApproveCakeView.tsx
 import { useCake } from 'hooks/useContract'
 import useCatchTxError from 'hooks/useCatchTxError'
 import { useProfile } from 'state/profile/hooks'

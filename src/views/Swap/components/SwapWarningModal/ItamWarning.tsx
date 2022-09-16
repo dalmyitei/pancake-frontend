@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { useTranslation } from '@pancakeswap/localization'
 import { Text, Link } from '@pancakeswap/uikit'
+=======
+import { useTranslation } from 'contexts/Localization'
+import { Text, Link } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 const ItamWarning = () => {
   const { t } = useTranslation()

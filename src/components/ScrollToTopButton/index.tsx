@@ -1,8 +1,13 @@
 import { useState, useEffect, useCallback } from 'react'
 import styled from 'styled-components'
+<<<<<<< HEAD
 import { Button, ChevronUpIcon } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
 import throttle from 'lodash/throttle'
+=======
+import { Button, ChevronUpIcon } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 const FixedContainer = styled.div`
   position: fixed;

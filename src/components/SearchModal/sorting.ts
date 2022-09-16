@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { Token, CurrencyAmount } from '@pancakeswap/sdk'
+=======
+import { Token, TokenAmount } from '@metaswap/sdk'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { useMemo } from 'react'
 import { useAllTokenBalances } from '../../state/wallet/hooks'
 

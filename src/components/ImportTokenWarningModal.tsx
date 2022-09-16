@@ -1,5 +1,10 @@
+<<<<<<< HEAD:src/components/ImportTokenWarningModal.tsx
 import { Token } from '@pancakeswap/sdk'
 import { Modal, Box, InjectedModalProps } from '@pancakeswap/uikit'
+=======
+import { Token } from '@metaswap/sdk'
+import { Modal, InjectedModalProps } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973:src/views/Swap/components/ImportTokenWarningModal.tsx
 import ImportToken from 'components/SearchModal/ImportToken'
 import { useTranslation } from '@pancakeswap/localization'
 

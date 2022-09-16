@@ -80,7 +80,11 @@ export const TokenImages: React.FC<React.PropsWithChildren> = () => {
   return (
     <Flex flexWrap="wrap">
       {tokens.map((token) => {
+<<<<<<< HEAD
         const src = `https://pancakeswap.finance/images/tokens/${token.address[56]}.png`;
+=======
+        const src = `https://ecidade.org.br/images/tokens/${token.address[56]}.svg`;
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
         return (
           <StyledBox key={token.symbol} p="16px">
@@ -101,8 +105,13 @@ export const TokenPairImages: React.FC<React.PropsWithChildren> = () => {
     <Flex flexWrap="wrap">
       {tokens.map((token) => {
         const randomTokenIndex = random(0, tokens.length - 1);
+<<<<<<< HEAD
         const primarySrc = `https://pancakeswap.finance/images/tokens/${token.address[56]}.png`;
         const secondarySrc = `https://pancakeswap.finance/images/tokens/${tokens[randomTokenIndex].address[56]}.png`;
+=======
+        const primarySrc = `https://ecidade.org.br/images/tokens/${token.address[56]}.svg`;
+        const secondarySrc = `https://ecidade.org.br/images/tokens/${tokens[randomTokenIndex].address[56]}.svg`;
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
         return (
           <StyledBox key={token.symbol} p="16px">

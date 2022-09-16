@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 import { Skeleton, Text, Flex, Button, CalculateIcon, useModal, useMatchBreakpoints } from '@pancakeswap/uikit'
 import styled from 'styled-components'
 import Balance from 'components/Balance'
 import { FlexGap } from 'components/Layout/Flex'
 import { useTranslation } from '@pancakeswap/localization'
 import { useVaultApy } from 'hooks/useVaultApy'
+=======
+import { Text, useMatchBreakpoints } from '@metaswap/uikit'
+import { DeserializedPool } from 'state/types'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { useVaultPoolByKey } from 'state/pools/hooks'
 import { DeserializedPool, DeserializedLockedVaultUser, VaultKey } from 'state/types'
 import { MAX_LOCK_DURATION } from 'config/constants/pools'

@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 import { useWeb3React } from '@pancakeswap/wagmi'
 import { ChainId, Currency, CurrencyAmount, Pair, Trade, TradeType } from '@pancakeswap/sdk'
+=======
+import { Currency, CurrencyAmount, ETHER, Token, Trade } from '@metaswap/sdk'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { ParsedUrlQuery } from 'querystring'
 import { useEffect, useMemo, useState } from 'react'
 import { SLOW_INTERVAL } from 'config/constants'

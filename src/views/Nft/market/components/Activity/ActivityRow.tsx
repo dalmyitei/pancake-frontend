@@ -8,12 +8,20 @@ import {
   OpenNewIcon,
   useModal,
   Skeleton,
+<<<<<<< HEAD
   useMatchBreakpoints,
 } from '@pancakeswap/uikit'
 import { NextLinkFromReactRouter } from 'components/NextLink'
 import { Activity, NftToken } from 'state/nftMarket/types'
 import { Price, Currency } from '@pancakeswap/sdk'
 import { getBlockExploreLink } from 'utils'
+=======
+} from '@metaswap/uikit'
+import { NextLinkFromReactRouter } from 'components/NextLink'
+import { Activity, NftToken } from 'state/nftMarket/types'
+import { Price } from '@metaswap/sdk'
+import { getBscScanLink } from 'utils'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import ProfileCell from 'views/Nft/market/components/ProfileCell'
 import MobileModal from './MobileModal'

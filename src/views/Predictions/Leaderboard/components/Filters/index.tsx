@@ -1,7 +1,13 @@
 import styled from 'styled-components'
+<<<<<<< HEAD
 import { Box, Flex, Text } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
 import useLocalDispatch from 'contexts/LocalRedux/useLocalDispatch'
+=======
+import { Box, Flex, Text } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+import { useAppDispatch } from 'state'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { setLeaderboardFilter } from 'state/predictions'
 import Select, { OptionProps } from 'components/Select/Select'
 import Container from 'components/Layout/Container'

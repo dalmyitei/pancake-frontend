@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 import { ModalProvider, light, dark, UIKitProvider } from '@pancakeswap/uikit'
+=======
+import { ModalProvider, light, dark } from '@metaswap/uikit'
+import { Web3ReactProvider } from '@web3-react/core'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { Provider } from 'react-redux'
 import { SWRConfig } from 'swr'
 import { LanguageProvider } from '@pancakeswap/localization'

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useCallback, memo } from 'react'
 import { Trade, Currency, TradeType, CurrencyAmount } from '@pancakeswap/sdk'
 import { InjectedModalProps, LinkExternal, Text } from '@pancakeswap/uikit'
@@ -9,6 +10,18 @@ import TransactionConfirmSwapContent from './TransactionConfirmSwapContent'
 import ConfirmSwapModalContainer from './ConfirmSwapModalContainer'
 import useTranslation from '../../../../packages/localization/src/useTranslation'
 import { StableTrade } from '../StableSwap/hooks/useStableTradeExactIn'
+=======
+import { useCallback, useMemo } from 'react'
+import { currencyEquals, Trade } from '@metaswap/sdk'
+import { InjectedModalProps } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+import TransactionConfirmationModal, {
+  ConfirmationModalContent,
+  TransactionErrorContent,
+} from 'components/TransactionConfirmationModal'
+import SwapModalFooter from './SwapModalFooter'
+import SwapModalHeader from './SwapModalHeader'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 const PancakeRouterSlippageErrorMsg =
   'This transaction will not succeed either due to price movement or fee on transfer. Try increasing your slippage tolerance.'

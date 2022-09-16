@@ -1,8 +1,13 @@
 import { useState } from 'react'
 import BigNumber from 'bignumber.js'
 import styled from 'styled-components'
+<<<<<<< HEAD
 import { useTranslation } from '@pancakeswap/localization'
 import { Flex, CardFooter, ExpandableLabel, HelpIcon, useTooltip } from '@pancakeswap/uikit'
+=======
+import { useTranslation } from 'contexts/Localization'
+import { Flex, CardFooter, ExpandableLabel, HelpIcon, useTooltip } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { DeserializedPool } from 'state/types'
 import { CompoundingPoolTag, ManualPoolTag } from 'components/Tags'
 import PoolStatsInfo from '../../PoolStatsInfo'

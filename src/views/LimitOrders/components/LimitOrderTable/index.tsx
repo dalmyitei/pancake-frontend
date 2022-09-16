@@ -1,6 +1,11 @@
 import { useState, useCallback, memo } from 'react'
+<<<<<<< HEAD
 import { Flex, Card } from '@pancakeswap/uikit'
 import useGelatoLimitOrdersHistory from '../../hooks/useGelatoLimitOrdersHistory'
+=======
+import { Flex, Card } from '@metaswap/uikit'
+import useGelatoLimitOrdersHistory from '../../hooks/useGelatoLitmitOrdersHistory'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 import OrderTab from './OrderTab'
 import { ORDER_CATEGORY } from '../../types'

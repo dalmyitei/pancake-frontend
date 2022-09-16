@@ -1,8 +1,13 @@
 import { useEffect, useState } from 'react'
 import sumBy from 'lodash/sumBy'
 import { useAppDispatch } from 'state'
+<<<<<<< HEAD:src/views/Profile/components/Achievements/ClaimPointsCallout.tsx
 import { useWeb3React } from '@pancakeswap/wagmi'
 import { Card, CardBody, CardHeader, Flex, Heading, PrizeIcon } from '@pancakeswap/uikit'
+=======
+import { useWeb3React } from '@web3-react/core'
+import { Card, CardBody, CardHeader, Flex, Heading, PrizeIcon } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973:src/views/Nft/market/Profile/components/Achievements/ClaimPointsCallout.tsx
 import { useProfile } from 'state/profile/hooks'
 import { Achievement } from 'state/types'
 import { useTranslation } from '@pancakeswap/localization'

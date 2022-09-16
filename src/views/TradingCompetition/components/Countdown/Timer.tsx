@@ -1,7 +1,14 @@
 import styled from 'styled-components'
+<<<<<<< HEAD
 import { Flex, Heading, Text, Link, useTooltip } from '@pancakeswap/uikit'
 import { getBlockExploreLink } from 'utils'
 import { useTranslation, ContextApi } from '@pancakeswap/localization'
+=======
+import { Flex, Heading, Text, Link, useTooltip } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+import { ContextApi } from 'contexts/Localization/types'
+import { getBscScanLink } from 'utils'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 export interface TimerProps {
   prefix?: string

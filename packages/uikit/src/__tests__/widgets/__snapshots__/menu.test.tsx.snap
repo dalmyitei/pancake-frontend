@@ -1903,7 +1903,11 @@ exports[`renders correctly 1`] = `
           >
             <a
               class="c27"
+<<<<<<< HEAD
               href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82&chainId=56"
+=======
+              href="https://ecidade.org.br/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
               target="_blank"
             >
               <svg
@@ -2265,11 +2269,17 @@ exports[`renders correctly 1`] = `
                   class="c62"
                 >
                   <a
+<<<<<<< HEAD
                     class="c63 c64"
                     color="text"
                     data-theme="dark"
                     font-size="16px"
                     href="https://docs.pancakeswap.finance/contact-us"
+=======
+                    class="c60 c61"
+                    color="#F4EEFF"
+                    href="https://docs.ecidade.org.br/contact-us"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2280,11 +2290,17 @@ exports[`renders correctly 1`] = `
                   class="c62"
                 >
                   <a
+<<<<<<< HEAD
                     class="c63 c64"
                     color="text"
                     data-theme="dark"
                     font-size="16px"
                     href="https://medium.com/pancakeswap"
+=======
+                    class="c60 c61"
+                    color="#F4EEFF"
+                    href="https://metaswap.medium.com/"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2295,11 +2311,17 @@ exports[`renders correctly 1`] = `
                   class="c62"
                 >
                   <a
+<<<<<<< HEAD
                     class="c63 c64"
                     color="text"
                     data-theme="dark"
                     font-size="16px"
                     href="https://docs.pancakeswap.finance/contact-us/telegram"
+=======
+                    class="c60 c61"
+                    color="#F4EEFF"
+                    href="https://docs.ecidade.org.br/contact-us/telegram"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2310,11 +2332,17 @@ exports[`renders correctly 1`] = `
                   class="c62"
                 >
                   <a
+<<<<<<< HEAD
                     class="c63 c64"
                     color="text"
                     data-theme="dark"
                     font-size="16px"
                     href="https://docs.pancakeswap.finance/tokenomics/cake"
+=======
+                    class="c60 c61"
+                    color="#F4EEFF"
+                    href="https://docs.ecidade.org.br/tokenomics/cake"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2334,11 +2362,17 @@ exports[`renders correctly 1`] = `
                   class="c62"
                 >
                   <a
+<<<<<<< HEAD
                     class="c66 c64"
                     color="var(--colors-warning)"
                     data-theme="dark"
                     font-size="16px"
                     href="https://pancakeswap.creator-spring.com/"
+=======
+                    class="c63 c61"
+                    color="#FFB237"
+                    href="https://metaswap.creator-spring.com/"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2358,11 +2392,17 @@ exports[`renders correctly 1`] = `
                   class="c62"
                 >
                   <a
+<<<<<<< HEAD
                     class="c63 c64"
                     color="text"
                     data-theme="dark"
                     font-size="16px"
                     href="Support https://docs.pancakeswap.finance/contact-us/customer-support"
+=======
+                    class="c60 c61"
+                    color="#F4EEFF"
+                    href="Support https://docs.ecidade.org.br/contact-us/customer-support"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2373,11 +2413,17 @@ exports[`renders correctly 1`] = `
                   class="c62"
                 >
                   <a
+<<<<<<< HEAD
                     class="c63 c64"
                     color="text"
                     data-theme="dark"
                     font-size="16px"
                     href="https://docs.pancakeswap.finance/help/troubleshooting"
+=======
+                    class="c60 c61"
+                    color="#F4EEFF"
+                    href="https://docs.ecidade.org.br/help/troubleshooting"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2388,11 +2434,17 @@ exports[`renders correctly 1`] = `
                   class="c62"
                 >
                   <a
+<<<<<<< HEAD
                     class="c63 c64"
                     color="text"
                     data-theme="dark"
                     font-size="16px"
                     href="https://docs.pancakeswap.finance/get-started"
+=======
+                    class="c60 c61"
+                    color="#F4EEFF"
+                    href="https://docs.ecidade.org.br/get-started"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2412,11 +2464,17 @@ exports[`renders correctly 1`] = `
                   class="c62"
                 >
                   <a
+<<<<<<< HEAD
                     class="c63 c64"
                     color="text"
                     data-theme="dark"
                     font-size="16px"
                     href="https://github.com/pancakeswap"
+=======
+                    class="c60 c61"
+                    color="#F4EEFF"
+                    href="https://github.com/metaswap"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2427,11 +2485,17 @@ exports[`renders correctly 1`] = `
                   class="c62"
                 >
                   <a
+<<<<<<< HEAD
                     class="c63 c64"
                     color="text"
                     data-theme="dark"
                     font-size="16px"
                     href="https://docs.pancakeswap.finance"
+=======
+                    class="c60 c61"
+                    color="#F4EEFF"
+                    href="https://docs.ecidade.org.br"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2442,11 +2506,17 @@ exports[`renders correctly 1`] = `
                   class="c62"
                 >
                   <a
+<<<<<<< HEAD
                     class="c63 c64"
                     color="text"
                     data-theme="dark"
                     font-size="16px"
                     href="https://app.gitbook.com/@pancakeswap-1/s/pancakeswap/code/bug-bounty"
+=======
+                    class="c60 c61"
+                    color="#F4EEFF"
+                    href="https://app.gitbook.com/@metaswap-1/s/metaswap/code/bug-bounty"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2457,11 +2527,17 @@ exports[`renders correctly 1`] = `
                   class="c62"
                 >
                   <a
+<<<<<<< HEAD
                     class="c63 c64"
                     color="text"
                     data-theme="dark"
                     font-size="16px"
                     href="https://docs.pancakeswap.finance/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited"
+=======
+                    class="c60 c61"
+                    color="#F4EEFF"
+                    href="https://docs.ecidade.org.br/help/faq#is-metaswap-safe-has-metaswap-been-audited"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2472,11 +2548,17 @@ exports[`renders correctly 1`] = `
                   class="c62"
                 >
                   <a
+<<<<<<< HEAD
                     class="c63 c64"
                     color="text"
                     data-theme="dark"
                     font-size="16px"
                     href="https://docs.pancakeswap.finance/hiring/become-a-chef"
+=======
+                    class="c60 c61"
+                    color="#F4EEFF"
+                    href="https://docs.ecidade.org.br/hiring/become-a-chef"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2530,8 +2612,12 @@ exports[`renders correctly 1`] = `
                 aria-label="Twitter"
                 class="c71 c64"
                 color="primary"
+<<<<<<< HEAD
                 font-size="16px"
                 href="https://twitter.com/pancakeswap"
+=======
+                href="https://twitter.com/metaswap"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                 rel="noreferrer noopener"
                 target="_blank"
               >
@@ -2571,8 +2657,12 @@ exports[`renders correctly 1`] = `
                     aria-label="English"
                     class="c29 c64"
                     color="textSubtle"
+<<<<<<< HEAD
                     font-size="16px"
                     href="https://t.me/pancakeswap"
+=======
+                    href="https://t.me/metaswap"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2582,8 +2672,12 @@ exports[`renders correctly 1`] = `
                     aria-label="Bahasa Indonesia"
                     class="c29 c64"
                     color="textSubtle"
+<<<<<<< HEAD
                     font-size="16px"
                     href="https://t.me/PancakeSwapIndonesia"
+=======
+                    href="https://t.me/MetaSwapIndonesia"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2593,8 +2687,12 @@ exports[`renders correctly 1`] = `
                     aria-label="中文"
                     class="c29 c64"
                     color="textSubtle"
+<<<<<<< HEAD
                     font-size="16px"
                     href="https://t.me/PancakeSwap_CN"
+=======
+                    href="https://t.me/MetaSwap_CN"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2604,8 +2702,12 @@ exports[`renders correctly 1`] = `
                     aria-label="Tiếng Việt"
                     class="c29 c64"
                     color="textSubtle"
+<<<<<<< HEAD
                     font-size="16px"
                     href="https://t.me/PancakeSwapVN"
+=======
+                    href="https://t.me/MetaSwapVN"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2615,8 +2717,12 @@ exports[`renders correctly 1`] = `
                     aria-label="Italiano"
                     class="c29 c64"
                     color="textSubtle"
+<<<<<<< HEAD
                     font-size="16px"
                     href="https://t.me/pancakeswap_ita"
+=======
+                    href="https://t.me/metaswap_ita"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2626,8 +2732,12 @@ exports[`renders correctly 1`] = `
                     aria-label="русский"
                     class="c29 c64"
                     color="textSubtle"
+<<<<<<< HEAD
                     font-size="16px"
                     href="https://t.me/pancakeswap_ru"
+=======
+                    href="https://t.me/metaswap_ru"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2637,8 +2747,12 @@ exports[`renders correctly 1`] = `
                     aria-label="Türkiye"
                     class="c29 c64"
                     color="textSubtle"
+<<<<<<< HEAD
                     font-size="16px"
                     href="https://t.me/pancakeswapturkiye"
+=======
+                    href="https://t.me/metaswapturkiye"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2648,8 +2762,12 @@ exports[`renders correctly 1`] = `
                     aria-label="Português"
                     class="c29 c64"
                     color="textSubtle"
+<<<<<<< HEAD
                     font-size="16px"
                     href="https://t.me/PancakeSwapPortuguese"
+=======
+                    href="https://t.me/MetaSwapPortuguese"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2659,8 +2777,12 @@ exports[`renders correctly 1`] = `
                     aria-label="Español"
                     class="c29 c64"
                     color="textSubtle"
+<<<<<<< HEAD
                     font-size="16px"
                     href="https://t.me/PancakeswapEs"
+=======
+                    href="https://t.me/MetaswapEs"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2670,8 +2792,12 @@ exports[`renders correctly 1`] = `
                     aria-label="日本語"
                     class="c29 c64"
                     color="textSubtle"
+<<<<<<< HEAD
                     font-size="16px"
                     href="https://t.me/pancakeswapjp"
+=======
+                    href="https://t.me/metaswapjp"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2681,8 +2807,12 @@ exports[`renders correctly 1`] = `
                     aria-label="Français"
                     class="c29 c64"
                     color="textSubtle"
+<<<<<<< HEAD
                     font-size="16px"
                     href="https://t.me/pancakeswapfr"
+=======
+                    href="https://t.me/metaswapfr"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2692,8 +2822,12 @@ exports[`renders correctly 1`] = `
                     aria-label="Deutsch"
                     class="c29 c64"
                     color="textSubtle"
+<<<<<<< HEAD
                     font-size="16px"
                     href="https://t.me/PancakeSwap_DE"
+=======
+                    href="https://t.me/MetaSwap_DE"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2703,8 +2837,12 @@ exports[`renders correctly 1`] = `
                     aria-label="Filipino"
                     class="c29 c64"
                     color="textSubtle"
+<<<<<<< HEAD
                     font-size="16px"
                     href="https://t.me/Pancakeswap_Ph"
+=======
+                    href="https://t.me/Metaswap_Ph"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2714,8 +2852,12 @@ exports[`renders correctly 1`] = `
                     aria-label="ქართული ენა"
                     class="c29 c64"
                     color="textSubtle"
+<<<<<<< HEAD
                     font-size="16px"
                     href="https://t.me/PancakeSwapGeorgia"
+=======
+                    href="https://t.me/MetaSwapGeorgia"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2725,6 +2867,7 @@ exports[`renders correctly 1`] = `
                     aria-label="हिन्दी"
                     class="c29 c64"
                     color="textSubtle"
+<<<<<<< HEAD
                     font-size="16px"
                     href="https://t.me/PancakeSwapINDIA"
                     rel="noreferrer noopener"
@@ -2738,6 +2881,9 @@ exports[`renders correctly 1`] = `
                     color="textSubtle"
                     font-size="16px"
                     href="https://t.me/PancakeSwapAnn"
+=======
+                    href="https://t.me/MetaSwapAnn"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2749,8 +2895,12 @@ exports[`renders correctly 1`] = `
                 aria-label="Reddit"
                 class="c71 c64"
                 color="primary"
+<<<<<<< HEAD
                 font-size="16px"
                 href="https://reddit.com/r/pancakeswap"
+=======
+                href="https://reddit.com/r/metaswap"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                 rel="noreferrer noopener"
                 target="_blank"
               >
@@ -2777,8 +2927,12 @@ exports[`renders correctly 1`] = `
                 aria-label="Instagram"
                 class="c71 c64"
                 color="primary"
+<<<<<<< HEAD
                 font-size="16px"
                 href="https://instagram.com/pancakeswap_official"
+=======
+                href="https://instagram.com/metaswap_official"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                 rel="noreferrer noopener"
                 target="_blank"
               >
@@ -2802,8 +2956,12 @@ exports[`renders correctly 1`] = `
                 aria-label="Github"
                 class="c71 c64"
                 color="primary"
+<<<<<<< HEAD
                 font-size="16px"
                 href="https://github.com/pancakeswap/"
+=======
+                href="https://github.com/metaswap/"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                 rel="noreferrer noopener"
                 target="_blank"
               >
@@ -2826,8 +2984,12 @@ exports[`renders correctly 1`] = `
                 aria-label="Discord"
                 class="c71 c64"
                 color="primary"
+<<<<<<< HEAD
                 font-size="16px"
                 href="https://discord.gg/pancakeswap"
+=======
+                href="https://discord.gg/metaswap"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                 rel="noreferrer noopener"
                 target="_blank"
               >
@@ -3170,7 +3332,11 @@ exports[`renders correctly 1`] = `
                 >
                   <a
                     class="c27"
+<<<<<<< HEAD
                     href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82&chainId=56"
+=======
+                    href="https://ecidade.org.br/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                     target="_blank"
                   >
                     <svg
@@ -3234,8 +3400,12 @@ exports[`renders correctly 1`] = `
                 </div>
                 <a
                   class="c92"
+<<<<<<< HEAD
                   data-theme="light"
                   href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82&chainId=56"
+=======
+                  href="https://ecidade.org.br/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
                   scale="sm"
                   target="_blank"
                 >

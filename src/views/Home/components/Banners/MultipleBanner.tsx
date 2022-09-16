@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 import { appearAnimation, useIsomorphicEffect, useMatchBreakpoints } from '@pancakeswap/uikit'
 import { useWeb3React } from '@pancakeswap/wagmi'
 import { useState } from 'react'
 import styled from 'styled-components'
 import SwiperCore, { Autoplay, EffectFade, Pagination } from 'swiper'
+=======
+import { useMemo } from 'react'
+import { useMatchBreakpoints } from '@metaswap/uikit'
+import { useWeb3React } from '@web3-react/core'
+import styled, { keyframes } from 'styled-components'
+import { Autoplay, EffectFade, Pagination } from 'swiper'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import 'swiper/css'
 import 'swiper/css/effect-fade'
 import 'swiper/css/pagination'

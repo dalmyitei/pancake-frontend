@@ -1,6 +1,11 @@
 import { ReactNode } from 'react'
+<<<<<<< HEAD
 import { bscTokens } from '@pancakeswap/tokens'
 import { Text, Flex, Box, Skeleton, TooltipText, useTooltip } from '@pancakeswap/uikit'
+=======
+import tokens from 'config/constants/tokens'
+import { Text, Flex, Box, Skeleton, TooltipText, useTooltip } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { PublicIfoData, WalletIfoData } from 'views/Ifos/types'
 import { useTranslation } from '@pancakeswap/localization'
 import { Ifo, PoolIds } from 'config/constants/types'

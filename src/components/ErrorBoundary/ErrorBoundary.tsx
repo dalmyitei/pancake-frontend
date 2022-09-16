@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 import { Component, PropsWithChildren, ReactNode } from 'react'
+=======
+import * as Sentry from '@sentry/react'
+import Page from 'components/Layout/Page'
+import { useTranslation } from 'contexts/Localization'
+import { Button, Text, LogoIcon, Flex, IconButton, CopyIcon } from '@metaswap/uikit'
+import { copyText } from 'utils/copyText'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 export class ErrorBoundary extends Component<PropsWithChildren<{ fallback?: ReactNode }>, { hasError: boolean }> {
   constructor(props) {

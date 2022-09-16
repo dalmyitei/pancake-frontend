@@ -1,8 +1,14 @@
 import styled from 'styled-components'
 import { useFarmUser } from 'state/farms/hooks'
+<<<<<<< HEAD
 import { useTranslation } from '@pancakeswap/localization'
 import { Text, Skeleton } from '@pancakeswap/uikit'
 import { Token } from '@pancakeswap/sdk'
+=======
+import { useTranslation } from 'contexts/Localization'
+import { Text } from '@metaswap/uikit'
+import { Token } from '@metaswap/sdk'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { getBalanceNumber } from 'utils/formatBalance'
 import { TokenPairImage } from 'components/TokenImage'
 

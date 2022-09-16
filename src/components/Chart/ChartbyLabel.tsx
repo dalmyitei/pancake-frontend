@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { Flex, FlexProps, Link, Text, LinkProps } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Flex, FlexProps, Link, Text, LinkProps } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 export const ChartByLabel = ({
   symbol,

@@ -11,8 +11,13 @@ import {
   useTooltip,
   VerifiedIcon,
   VoteIcon,
+<<<<<<< HEAD
 } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+} from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { memo } from 'react'
 
 const CoreTag: React.FC<React.PropsWithChildren<TagProps>> = (props) => {

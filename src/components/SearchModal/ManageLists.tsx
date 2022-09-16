@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 import { useTranslation } from '@pancakeswap/localization'
 import { Button, CheckmarkIcon, CogIcon, Input, LinkExternal, Text, Toggle, useTooltip } from '@pancakeswap/uikit'
+=======
+import { memo, useCallback, useMemo, useState, useEffect } from 'react'
+import { Button, Text, CheckmarkIcon, CogIcon, Input, Toggle, LinkExternal, useTooltip } from '@metaswap/uikit'
+import { useDispatch, useSelector } from 'react-redux'
+import styled from 'styled-components'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { TokenList, Version } from '@uniswap/token-lists'
 import Card from 'components/Card'
 import { UNSUPPORTED_LIST_URLS } from 'config/constants/lists'
@@ -199,8 +206,8 @@ function ManageLists({
         }
 
         if (l1 && l2) {
-          // Always make PancakeSwap list in top.
-          const keyword = 'pancakeswap'
+          // Always make MetaSwap list in top.
+          const keyword = 'metaswap'
           if (l1.name.toLowerCase().includes(keyword) || l2.name.toLowerCase().includes(keyword)) {
             return -1
           }

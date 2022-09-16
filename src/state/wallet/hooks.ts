@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { Currency, CurrencyAmount, JSBI, Native, Token } from '@pancakeswap/sdk'
+=======
+import { Currency, CurrencyAmount, ETHER, JSBI, Token, TokenAmount } from '@metaswap/sdk'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { useMemo } from 'react'
 import { useWeb3React } from '@pancakeswap/wagmi'
 import ERC20_INTERFACE from 'config/abi/erc20'

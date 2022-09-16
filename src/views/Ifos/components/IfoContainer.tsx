@@ -1,7 +1,12 @@
 import { ReactElement } from 'react'
 import styled from 'styled-components'
+<<<<<<< HEAD
 import { useTranslation } from '@pancakeswap/localization'
 import { Box, LinkExternal } from '@pancakeswap/uikit'
+=======
+import { Box } from '@metaswap/uikit'
+
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import Container from 'components/Layout/Container'
 import IfoLayout, { IfoLayoutWrapper } from './IfoLayout'
 import IfoPoolVaultCard from './IfoPoolVaultCard'

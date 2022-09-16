@@ -13,8 +13,12 @@ import {
   Spinner,
   Text,
   useTooltip,
+<<<<<<< HEAD
   useMatchBreakpoints,
 } from '@pancakeswap/uikit'
+=======
+} from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import Page from 'components/Layout/Page'
 import { NextLinkFromReactRouter } from 'components/NextLink'
 import { useTranslation } from '@pancakeswap/localization'

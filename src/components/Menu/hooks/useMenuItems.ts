@@ -1,8 +1,13 @@
 import { useMemo } from 'react'
+<<<<<<< HEAD:src/components/Menu/hooks/useMenuItems.ts
 import { menuStatus } from '@pancakeswap/uikit'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { useTheme } from 'styled-components'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { menuStatus } from '@metaswap/uikit'
+import { useTranslation } from '../contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973:src/hooks/useMenuItems.ts
 import { useMenuItemsStatus } from './useMenuItemsStatus'
 import config, { ConfigMenuItemsType } from '../config/config'
 

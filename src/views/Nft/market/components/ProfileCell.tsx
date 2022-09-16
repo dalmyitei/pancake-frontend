@@ -1,6 +1,11 @@
 import styled from 'styled-components'
+<<<<<<< HEAD
 import { Box, Flex, Skeleton, Text, ProfileAvatar } from '@pancakeswap/uikit'
 import truncateHash from '@pancakeswap/utils/truncateHash'
+=======
+import { Box, Flex, BunnyPlaceholderIcon, Skeleton, Text } from '@metaswap/uikit'
+import truncateHash from 'utils/truncateHash'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { useProfileForAddress } from 'state/profile/hooks'
 import { NextLinkFromReactRouter } from 'components/NextLink'
 

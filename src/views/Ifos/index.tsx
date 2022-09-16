@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { SubMenuItems } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { SubMenuItems } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { PageMeta } from 'components/Layout/Page'
 import { useRouter } from 'next/router'
 import { useFetchIfo } from 'state/pools/hooks'

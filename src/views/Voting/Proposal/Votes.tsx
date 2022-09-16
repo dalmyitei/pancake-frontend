@@ -8,8 +8,13 @@ import {
   Heading,
   Button,
   ChevronUpIcon,
+<<<<<<< HEAD
 } from '@pancakeswap/uikit'
 import { useWeb3React } from '@pancakeswap/wagmi'
+=======
+} from '@metaswap/uikit'
+import { useWeb3React } from '@web3-react/core'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import orderBy from 'lodash/orderBy'
 import { useTranslation } from '@pancakeswap/localization'
 import { Vote } from 'state/types'

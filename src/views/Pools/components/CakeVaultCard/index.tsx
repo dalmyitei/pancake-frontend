@@ -1,5 +1,23 @@
+<<<<<<< HEAD
 import { Box, CardBody, CardProps, Flex, Text, TokenPairImage } from '@pancakeswap/uikit'
 import { useWeb3React } from '@pancakeswap/wagmi'
+=======
+import styled from 'styled-components'
+import {
+  Box,
+  CardBody,
+  Flex,
+  Text,
+  CardProps,
+  HelpIcon,
+  useTooltip,
+  LinkExternal,
+  Link,
+  TokenPairImage,
+} from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+import { useWeb3React } from '@web3-react/core'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { FlexGap } from 'components/Layout/Flex'
 import { vaultPoolConfig } from 'config/constants/pools'
@@ -40,6 +58,7 @@ interface CakeVaultDetailProps {
   performanceFeeAsDecimal: number
 }
 
+<<<<<<< HEAD
 export const CakeVaultDetail: React.FC<React.PropsWithChildren<CakeVaultDetailProps>> = ({
   isLoading = false,
   account,
@@ -51,6 +70,34 @@ export const CakeVaultDetail: React.FC<React.PropsWithChildren<CakeVaultDetailPr
   defaultFooterExpanded,
 }) => {
   const { t } = useTranslation()
+=======
+  const { tooltip, tooltipVisible, targetRef } = useTooltip(
+    hasEndBlockOver ? (
+      <>
+        <Text>
+          {t(
+            'The latest credit calculation period has ended. After the coming IFO, credits will be reset and the calculation will resume.',
+          )}
+        </Text>
+        <LinkExternal href="https://twitter.com/metaswap">
+          {t('Follow us on Twitter to catch the latest news about the coming IFO.')}
+        </LinkExternal>
+      </>
+    ) : (
+      <>
+        <Text>
+          {t(
+            'The start block of the current calculation period. Your average IFO CAKE Pool staking balance is calculated throughout this period.',
+          )}
+        </Text>
+        <LinkExternal href="https://medium.com/metaswap/initial-farm-offering-ifo-3-0-ifo-staking-pool-622d8bd356f1">
+          {t('Check out our Medium article for more details.')}
+        </LinkExternal>
+      </>
+    ),
+    { placement: 'auto' },
+  )
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
   return (
     <>

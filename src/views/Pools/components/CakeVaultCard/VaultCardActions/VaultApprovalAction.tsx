@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 import { Button, AutoRenewIcon, Skeleton } from '@pancakeswap/uikit'
+=======
+import { Button, AutoRenewIcon, Skeleton } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { VaultKey } from 'state/types'
 import { useTranslation } from '@pancakeswap/localization'
 import { useVaultApprove } from '../../../hooks/useApprove'

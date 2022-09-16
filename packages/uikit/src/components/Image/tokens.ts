@@ -1,5 +1,5 @@
 /**
- * @see https://github.com/pancakeswap/pancake-frontend/blob/develop/src/config/constants/tokens.ts
+ * @see https://github.com/metaswap/pancake-frontend/blob/develop/src/config/constants/tokens.ts
  */
 const tokens = {
   cake: {
@@ -9,7 +9,7 @@ const tokens = {
       97: "0x37b8Db888fF902a6c5BAcf4362e7b83188Df6934",
     },
     decimals: 18,
-    projectLink: "https://pancakeswap.finance/",
+    projectLink: "https://ecidade.org.br/",
   },
   txl: {
     symbol: "TXL",
@@ -441,7 +441,7 @@ const tokens = {
       97: "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
     },
     decimals: 18,
-    projectLink: "https://pancakeswap.finance/",
+    projectLink: "https://ecidade.org.br/",
   },
   blink: {
     symbol: "BLINK",
@@ -585,7 +585,7 @@ const tokens = {
       97: "0xfE1e507CeB712BDe086f3579d2c03248b2dB77f9",
     },
     decimals: 18,
-    projectLink: "https://pancakeswap.finance/",
+    projectLink: "https://ecidade.org.br/",
   },
   bifi: {
     symbol: "BIFI",

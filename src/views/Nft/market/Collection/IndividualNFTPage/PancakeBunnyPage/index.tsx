@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 import { useState, useEffect } from 'react'
 import { Flex } from '@pancakeswap/uikit'
+=======
+import { useState, useEffect, useMemo } from 'react'
+import { useWeb3React } from '@web3-react/core'
+import { Flex } from '@metaswap/uikit'
+import orderBy from 'lodash/orderBy'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import Page from 'components/Layout/Page'
 import { useGetCollection } from 'state/nftMarket/hooks'
 import { getNftsFromCollectionApi } from 'state/nftMarket/helpers'

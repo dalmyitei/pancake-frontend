@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useTranslation } from '@pancakeswap/localization'
 import {
   ArrowForwardIcon,
@@ -10,6 +11,12 @@ import {
   Text,
   useToast,
 } from '@pancakeswap/uikit'
+=======
+import { useCallback } from 'react'
+import styled from 'styled-components'
+import { AutoRenewIcon, Button, Card, CardBody, Flex, Skeleton, Text, ArrowForwardIcon } from '@metaswap/uikit'
+import { NextLinkFromReactRouter } from 'components/NextLink'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import BigNumber from 'bignumber.js'
 import Balance from 'components/Balance'
 import { NextLinkFromReactRouter } from 'components/NextLink'

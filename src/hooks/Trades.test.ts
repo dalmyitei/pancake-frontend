@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 // import { renderHook } from '@testing-library/react-hooks'
 // import { bscTokens } from '@pancakeswap/tokens'
 // import { createReduxWrapper } from 'testUtils'
 // import { Pair, TokenAmount, CurrencyAmount, Trade } from '@pancakeswap/sdk'
 // import * as UsePairs from './usePairs'
 // import * as Trades from './Trades'
+=======
+import { renderHook } from '@testing-library/react-hooks'
+import { mainnetTokens } from 'config/constants/tokens'
+import { createWrapper } from 'testUtils'
+import { Pair, TokenAmount, CurrencyAmount, Trade } from '@metaswap/sdk'
+import * as UsePairs from './usePairs'
+import * as Trades from './Trades'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 // const { PairState } = UsePairs
 

@@ -1,11 +1,16 @@
 import React from 'react'
+<<<<<<< HEAD
 import { Flex, Link, Text, TimerIcon } from '@pancakeswap/uikit'
 import { getBlockExploreLink } from 'utils'
+=======
+import { Flex, Link, Text, TimerIcon } from '@metaswap/uikit'
+import { getBscScanLink } from 'utils'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import BigNumber from 'bignumber.js'
 import { useTranslation } from '@pancakeswap/localization'
 import Balance from 'components/Balance'
 import { getFullDisplayBalance } from 'utils/formatBalance'
-import { Token } from '@pancakeswap/sdk'
+import { Token } from '@metaswap/sdk'
 
 interface MaxStakeRowProps {
   small?: boolean

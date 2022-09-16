@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { CurrencyAmount, Price, Currency } from '@pancakeswap/sdk'
+=======
+import { CurrencyAmount, Price } from '@metaswap/sdk'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 /**
  * Given certain amount if input and output tokens

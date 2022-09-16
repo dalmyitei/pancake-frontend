@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 import { Currency, Pair } from '@pancakeswap/sdk'
 import { Button, ChevronDownIcon, Text, useModal, Flex, Box } from '@pancakeswap/uikit'
 import styled, { css } from 'styled-components'
+=======
+import { Currency, Pair, Token } from '@metaswap/sdk'
+import { Button, ChevronDownIcon, Text, useModal, Flex, Box, MetamaskIcon } from '@metaswap/uikit'
+import styled from 'styled-components'
+import { registerToken } from 'utils/wallet'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { isAddress } from 'utils'
 import { useTranslation } from '@pancakeswap/localization'
 import { WrappedTokenInfo } from '@pancakeswap/tokens'

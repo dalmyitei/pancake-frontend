@@ -1,5 +1,14 @@
+<<<<<<< HEAD
 import { useTranslation } from '@pancakeswap/localization'
 import { AutoRenewIcon, Button, useToast } from '@pancakeswap/uikit'
+=======
+import { AutoRenewIcon, Button } from '@metaswap/uikit'
+import { PoolIds } from 'config/constants/types'
+import { WalletIfoData } from 'views/Ifos/types'
+import { useTranslation } from 'contexts/Localization'
+import useToast from 'hooks/useToast'
+import useCatchTxError from 'hooks/useCatchTxError'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { ToastDescriptionWithTx } from 'components/Toast'
 import { PoolIds } from 'config/constants/types'
 import useCatchTxError from 'hooks/useCatchTxError'

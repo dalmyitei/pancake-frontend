@@ -1,5 +1,16 @@
+<<<<<<< HEAD
 import { Text } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import BigNumber from 'bignumber.js'
+import { Text } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+import { vaultPoolConfig } from 'config/constants/pools'
+import { getBalanceNumber } from 'utils/formatBalance'
+import { getInterestBreakdown } from 'utils/compoundApyHelpers'
+import { useVaultPoolByKey } from 'state/pools/hooks'
+import { DeserializedPool } from 'state/types'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { differenceInHours } from 'date-fns'
 import { useVaultPoolByKey } from 'state/pools/hooks'
 import { DeserializedPool, VaultKey, DeserializedLockedVaultUser } from 'state/types'

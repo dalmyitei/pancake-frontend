@@ -1,8 +1,14 @@
 import { useState } from 'react'
 import styled from 'styled-components'
+<<<<<<< HEAD
 import { Button, Heading, Text, Flex, Checkbox, AutoRenewIcon, useToast } from '@pancakeswap/uikit'
 import { useTradingCompetitionContractMoD } from 'hooks/useContract'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Button, Heading, Text, Flex, Checkbox, AutoRenewIcon } from '@metaswap/uikit'
+import { useTradingCompetitionContractV2 } from 'hooks/useContract'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { useCallWithGasPrice } from 'hooks/useCallWithGasPrice'
 import useCatchTxError from 'hooks/useCatchTxError'
 import { ToastDescriptionWithTx } from 'components/Toast'

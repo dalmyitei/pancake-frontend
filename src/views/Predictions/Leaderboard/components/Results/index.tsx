@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { Box, Button, Grid, Flex, AutoRenewIcon, useMatchBreakpoints } from '@pancakeswap/uikit'
 import useLocalDispatch from 'contexts/LocalRedux/useLocalDispatch'
+=======
+import { Box, Button, Grid, Flex, useMatchBreakpoints, AutoRenewIcon } from '@metaswap/uikit'
+import { useAppDispatch } from 'state'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import {
   useGetLeaderboardHasMoreResults,
   useGetLeaderboardLoadingState,

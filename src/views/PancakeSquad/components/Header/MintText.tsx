@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { Flex, lightColors, Text } from '@pancakeswap/uikit'
 import { ContextApi } from '@pancakeswap/localization'
+=======
+import { Flex, lightColors, Text } from '@metaswap/uikit'
+import { ContextApi } from 'contexts/Localization/types'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 import { SaleStatusEnum, UserStatusEnum } from '../../types'
 

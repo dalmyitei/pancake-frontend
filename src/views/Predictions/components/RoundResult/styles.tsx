@@ -1,8 +1,13 @@
 import { useMemo } from 'react'
 import styled, { DefaultTheme } from 'styled-components'
 import { BigNumber } from '@ethersproject/bignumber'
+<<<<<<< HEAD
 import { Box, Flex, FlexProps, Skeleton, Text } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Box, Flex, FlexProps, Skeleton, Text } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { BetPosition, NodeRound, Round } from 'state/types'
 import { useConfig } from 'views/Predictions/context/ConfigProvider'
 import { formatUsdv2, formatBnbv2, getRoundPosition, getPriceDifference } from '../../helpers'

@@ -1,7 +1,12 @@
 import { useRef, useEffect, useState } from 'react'
 import styled from 'styled-components'
+<<<<<<< HEAD
 import { Box, Flex, Text, Input, CheckmarkIcon, PencilIcon, IconButton } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Box, Flex, Text, Input, CheckmarkIcon, PencilIcon, IconButton } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { CalculatorMode, RoiCalculatorReducerState } from './useRoiCalculatorReducer'
 
 const MILLION = 1000000

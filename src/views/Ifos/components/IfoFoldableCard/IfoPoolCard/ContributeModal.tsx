@@ -14,11 +14,23 @@ import {
   ModalBody,
   Text,
   TooltipText,
+<<<<<<< HEAD
   useToast,
   useTooltip,
 } from '@pancakeswap/uikit'
 import { useWeb3React } from '@pancakeswap/wagmi'
 import BigNumber from 'bignumber.js'
+=======
+  Box,
+  Link,
+  Message,
+  MessageText,
+} from '@metaswap/uikit'
+import { PoolIds, Ifo } from 'config/constants/types'
+import { WalletIfoData, PublicIfoData } from 'views/Ifos/types'
+import { useTranslation } from 'contexts/Localization'
+import { formatNumber, getBalanceAmount } from 'utils/formatBalance'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import ApproveConfirmButtons from 'components/ApproveConfirmButtons'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import { DEFAULT_TOKEN_DECIMAL } from 'config'
@@ -257,7 +269,7 @@ const ContributeModal: React.FC<React.PropsWithChildren<Props>> = ({
             <Link
               fontSize="12px"
               display="inline"
-              href="https://docs.pancakeswap.finance/products/ifo-initial-farm-offering"
+              href="https://docs.ecidade.org.br/products/ifo-initial-farm-offering"
               external
             >
               {t('Read more')}

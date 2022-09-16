@@ -1,5 +1,12 @@
 import { useClient, useConnect } from 'wagmi'
 import { useEffect } from 'react'
+<<<<<<< HEAD
+=======
+import { connectorLocalStorageKey, ConnectorNames } from '@metaswap/uikit'
+import useAuth from 'hooks/useAuth'
+import { isMobile } from 'react-device-detect'
+import { injected } from 'utils/web3React'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 const SAFE_ID = 'safe'
 

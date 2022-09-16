@@ -1,7 +1,13 @@
 import { useMemo } from 'react'
 import styled from 'styled-components'
+<<<<<<< HEAD
 import { Flex, Heading, Card } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Flex, Box, Text, Heading, Card, Skeleton } from '@metaswap/uikit'
+import { fromUnixTime } from 'date-fns'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import Page from 'components/Layout/Page'
 import LineChart from 'views/Info/components/InfoCharts/LineChart'
 import TokenTable from 'views/Info/components/InfoTables/TokensTable'
@@ -70,7 +76,7 @@ const Overview: React.FC<React.PropsWithChildren> = () => {
   return (
     <Page>
       <Heading scale="lg" mb="16px" id="info-overview-title">
-        {t('PancakeSwap Info & Analytics')}
+        {t('MetaSwap Info & Analytics')}
       </Heading>
       <ChartCardsContainer>
         <Card>

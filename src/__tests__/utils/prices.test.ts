@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { ChainId, JSBI, Pair, Route, Token, Trade, TradeType, CurrencyAmount } from '@pancakeswap/sdk'
 import { computeTradePriceBreakdown } from 'utils/exchange'
+=======
+import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from '@metaswap/sdk'
+import { computeTradePriceBreakdown } from 'utils/prices'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 describe('prices', () => {
   const token1 = new Token(ChainId.BSC, '0x0000000000000000000000000000000000000001', 18)

@@ -1,4 +1,4 @@
-import { Currency } from '@pancakeswap/sdk'
+import { Currency } from '@metaswap/sdk'
 import {
   ArrowDownIcon,
   Button,
@@ -9,8 +9,12 @@ import {
   Modal,
   Spinner,
   Text,
+<<<<<<< HEAD
   useMatchBreakpoints,
 } from '@pancakeswap/uikit'
+=======
+} from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { CurrencyLogo } from 'components/Logo'
 import { TransactionErrorContent, TransactionSubmittedContent } from 'components/TransactionConfirmationModal'
 import { useTranslation } from '@pancakeswap/localization'

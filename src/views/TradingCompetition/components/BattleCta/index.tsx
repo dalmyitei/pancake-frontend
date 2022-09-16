@@ -8,6 +8,7 @@ import {
   Button,
   CheckmarkCircleIcon,
   useModal,
+<<<<<<< HEAD
   Text,
   Box,
   TwitterIcon,
@@ -15,6 +16,12 @@ import {
 import { useWallet } from 'hooks/useWallet'
 import { useTranslation } from '@pancakeswap/localization'
 import { FINISHED, OVER, REGISTRATION } from 'config/constants/trading-competition/phases'
+=======
+} from '@metaswap/uikit'
+import useAuth from 'hooks/useAuth'
+import { useTranslation } from 'contexts/Localization'
+import { FINISHED, OVER } from 'config/constants/trading-competition/phases'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { useRouter } from 'next/router'
 import { useCallback } from 'react'
 import RegisterModal from '../RegisterModal'

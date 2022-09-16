@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { BigNumber, BigNumberish } from '@ethersproject/bignumber'
 import { TransactionResponse } from '@ethersproject/providers'
+<<<<<<< HEAD
 import { JSBI, CurrencyAmount, Token, WNATIVE, MINIMUM_LIQUIDITY } from '@pancakeswap/sdk'
 import {
   Button,
@@ -13,6 +14,10 @@ import {
   useTooltip,
   MessageText,
 } from '@pancakeswap/uikit'
+=======
+import { Currency, currencyEquals, ETHER, TokenAmount, WETH } from '@metaswap/sdk'
+import { Button, Text, AddIcon, CardBody, Message, useModal } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { logError } from 'utils/sentry'
 import { useIsTransactionUnsupported, useIsTransactionWarning } from 'hooks/Trades'
 import { useTranslation } from '@pancakeswap/localization'

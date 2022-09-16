@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 import { useTranslation } from '@pancakeswap/localization'
 import { Button, Checkbox, Flex, Link, Message, Text } from '@pancakeswap/uikit'
 import { TokenList } from '@uniswap/token-lists'
+=======
+import { useState, useCallback } from 'react'
+import styled from 'styled-components'
+import { Button, Text, Link, Flex, Checkbox, Message } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import Card from 'components/Card'
 import { AutoColumn } from 'components/Layout/Column'
 import { RowBetween, RowFixed } from 'components/Layout/Row'

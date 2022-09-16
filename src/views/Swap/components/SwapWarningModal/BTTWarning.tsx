@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { useTranslation } from '@pancakeswap/localization'
 import { Text, Link, LinkExternal } from '@pancakeswap/uikit'
+=======
+import { useTranslation } from 'contexts/Localization'
+import { Text, Link, LinkExternal } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 const BTTWarning = () => {
   const { t } = useTranslation()
@@ -16,7 +21,7 @@ const BTTWarning = () => {
         {t('Trade the new BTT token')}{' '}
         <Link
           style={{ display: 'inline' }}
-          href="https://pancakeswap.finance/swap?outputCurrency=0x352Cb5E19b12FC216548a2677bD0fce83BaE434B"
+          href="https://ecidade.org.br/swap?outputCurrency=0x352Cb5E19b12FC216548a2677bD0fce83BaE434B"
         >
           {t('here')}
         </Link>

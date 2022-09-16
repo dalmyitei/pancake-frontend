@@ -55,8 +55,14 @@
     "@gelatonetwork/limit-orders-lib": "^4.1.0",
     "@gnosis.pm/safe-apps-wagmi": "^1.0.2",
     "@next/bundle-analyzer": "^12.0.7",
+<<<<<<< HEAD
     "@reduxjs/toolkit": "^1.8.2",
     "@sentry/nextjs": "^7.9.0",
+=======
+    "@metaswap/sdk": "^2.4.4",
+    "@reduxjs/toolkit": "^1.5.0",
+    "@sentry/nextjs": "^6.17.9",
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
     "@uniswap/token-lists": "^1.0.0-beta.19",
     "@vanilla-extract/next-plugin": "2.0.1",
     "ajv": "^6.12.3",

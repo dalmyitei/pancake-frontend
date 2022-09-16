@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 import { TransactionResponse } from '@ethersproject/providers'
 import { useTranslation } from '@pancakeswap/localization'
 import { AddIcon, Button, IconButton, MinusIcon, Skeleton, Text, useModal, useToast } from '@pancakeswap/uikit'
+=======
+import { AddIcon, Button, Heading, IconButton, MinusIcon, Skeleton, Text, useModal } from '@metaswap/uikit'
+import { useWeb3React } from '@web3-react/core'
+import { BigNumber } from 'bignumber.js'
+import Balance from 'components/Balance'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import { BASE_ADD_LIQUIDITY_URL } from 'config'

@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 import { ChainId, Pair, Token } from '@pancakeswap/sdk'
 import { deserializeToken } from '@pancakeswap/tokens'
+=======
+import { ChainId, Pair, Token } from '@metaswap/sdk'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { differenceInDays } from 'date-fns'
 import flatMap from 'lodash/flatMap'
 import { getFarmConfig } from '@pancakeswap/farms/constants'

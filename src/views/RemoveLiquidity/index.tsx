@@ -4,6 +4,7 @@ import { splitSignature } from '@ethersproject/bytes'
 import { Contract } from '@ethersproject/contracts'
 import { TransactionResponse } from '@ethersproject/providers'
 import { useRouter } from 'next/router'
+<<<<<<< HEAD
 import { Currency, Percent, WNATIVE, ChainId } from '@pancakeswap/sdk'
 import {
   Button,
@@ -21,6 +22,11 @@ import {
   useToast,
 } from '@pancakeswap/uikit'
 import { useWeb3LibraryContext } from '@pancakeswap/wagmi'
+=======
+import useToast from 'hooks/useToast'
+import { Currency, currencyEquals, ETHER, Percent, WETH } from '@metaswap/sdk'
+import { Button, Text, AddIcon, ArrowDownIcon, CardBody, Slider, Box, Flex, useModal } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { BigNumber } from '@ethersproject/bignumber'
 import { callWithEstimateGas } from 'utils/calls'
 import { getLPSymbol } from 'utils/getLpSymbol'

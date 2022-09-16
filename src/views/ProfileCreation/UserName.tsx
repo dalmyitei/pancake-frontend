@@ -14,8 +14,12 @@ import {
   useModal,
   Skeleton,
   Checkbox,
+<<<<<<< HEAD
   useToast,
 } from '@pancakeswap/uikit'
+=======
+} from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { parseISO, formatDistance } from 'date-fns'
 import { useWeb3React, useSignMessage } from '@pancakeswap/wagmi'
 import { formatUnits } from '@ethersproject/units'

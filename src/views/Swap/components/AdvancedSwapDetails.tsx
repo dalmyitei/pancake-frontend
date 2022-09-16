@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { Trade, TradeType, Currency } from '@pancakeswap/sdk'
 import { Text } from '@pancakeswap/uikit'
+=======
+import { Trade, TradeType } from '@metaswap/sdk'
+import { Text } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { Field } from 'state/swap/actions'
 import { useTranslation } from '@pancakeswap/localization'
 import { useUserSlippageTolerance } from 'state/user/hooks'

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { Percent, Price, Currency } from '@pancakeswap/sdk'
+=======
+import { Percent, Price } from '@metaswap/sdk'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 const getRatePercentageDifference = (
   currentMarketRate: Price<Currency, Currency>,

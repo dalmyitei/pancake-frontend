@@ -1,8 +1,13 @@
 import { BigNumber } from '@ethersproject/bignumber'
 import { Contract } from '@ethersproject/contracts'
+<<<<<<< HEAD
 import { SwapParameters, Trade, Currency, TradeType } from '@pancakeswap/sdk'
 import { useTranslation } from '@pancakeswap/localization'
 import isZero from '@pancakeswap/utils/isZero'
+=======
+import { SwapParameters, Trade } from '@metaswap/sdk'
+import { TranslateFunction, useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { useMemo } from 'react'
 import { useGasPrice } from 'state/user/hooks'

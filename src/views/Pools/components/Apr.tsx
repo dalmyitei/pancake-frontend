@@ -1,5 +1,9 @@
 import styled from 'styled-components'
+<<<<<<< HEAD:src/views/Pools/components/Apr.tsx
 import { Text, Flex, useModal, CalculateIcon, Skeleton, FlexProps, Button } from '@pancakeswap/uikit'
+=======
+import { Flex, useModal, CalculateIcon, Skeleton, FlexProps, Button } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973:src/views/Pools/components/PoolsTable/Apr.tsx
 import RoiCalculatorModal from 'components/RoiCalculatorModal'
 import { BalanceWithLoading } from 'components/Balance'
 import { DeserializedPool } from 'state/types'

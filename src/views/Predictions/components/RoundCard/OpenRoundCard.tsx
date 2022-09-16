@@ -8,12 +8,21 @@ import {
   PlayCircleOutlineIcon,
   useToast,
   useTooltip,
+<<<<<<< HEAD
 } from '@pancakeswap/uikit'
 import { useWeb3React } from '@pancakeswap/wagmi'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import useLocalDispatch from 'contexts/LocalRedux/useLocalDispatch'
 import useTheme from 'hooks/useTheme'
 import { useEffect, useMemo, useState } from 'react'
+=======
+  ArrowUpIcon,
+  ArrowDownIcon,
+} from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+import { useAppDispatch } from 'state'
+import { BetPosition, NodeLedger, NodeRound } from 'state/types'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { fetchLedgerData } from 'state/predictions'
 import { ROUND_BUFFER } from 'state/predictions/config'
 import { BetPosition, NodeLedger, NodeRound } from 'state/types'

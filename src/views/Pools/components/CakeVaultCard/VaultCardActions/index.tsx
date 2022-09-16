@@ -1,9 +1,15 @@
 import BigNumber from 'bignumber.js'
 
 import styled from 'styled-components'
+<<<<<<< HEAD
 import { Flex, Text, Box } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
 import { DeserializedPool } from 'state/types'
+=======
+import { Flex, Text, Box, Skeleton } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+import { DeserializedPool, VaultKey } from 'state/types'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { BIG_ZERO } from 'utils/bigNumber'
 import VaultApprovalAction from './VaultApprovalAction'
 import VaultStakeActions from './VaultStakeActions'

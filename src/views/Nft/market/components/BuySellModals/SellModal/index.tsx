@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+import { useState } from 'react'
+import { InjectedModalProps } from '@metaswap/uikit'
+import { useWeb3React } from '@web3-react/core'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { parseUnits } from '@ethersproject/units'
 import { ContextApi, useTranslation } from '@pancakeswap/localization'
 import { InjectedModalProps, useToast } from '@pancakeswap/uikit'

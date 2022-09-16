@@ -1,8 +1,14 @@
 import styled from 'styled-components'
+<<<<<<< HEAD:src/views/TradingCompetition/fantoken/components/PrizesInfo/FanTokenPrizesCard.tsx
 import { Card, CardHeader, Box, Heading, Text } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
 import PrizesGrid from '../../../components/PrizesInfo/PrizesGrid/PrizesGrid'
 import { fanTokenPrizes } from '../../../../../config/constants/trading-competition/prizes'
+=======
+import { Card, CardHeader, Box, Heading, Text } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+import PrizesGrid from './PrizesGrid'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973:src/views/TradingCompetition/components/PrizesInfo/PrizesCard.tsx
 
 const StyledCard = styled(Card)`
   ${({ theme }) => theme.mediaQueries.md} {

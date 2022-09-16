@@ -1,5 +1,14 @@
 import { Text, TokenPairImage as UITokenPairImage, useMatchBreakpoints } from '@pancakeswap/uikit'
 import BigNumber from 'bignumber.js'
+<<<<<<< HEAD
+=======
+import { Text, useMatchBreakpoints, TokenPairImage as UITokenPairImage } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+import { useVaultPoolByKey } from 'state/pools/hooks'
+import { DeserializedPool } from 'state/types'
+import { BIG_ZERO } from 'utils/bigNumber'
+import { vaultPoolConfig } from 'config/constants/pools'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { TokenPairImage } from 'components/TokenImage'
 import { vaultPoolConfig } from 'config/constants/pools'
 import { useTranslation } from '@pancakeswap/localization'

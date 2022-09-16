@@ -1,7 +1,12 @@
 /* eslint-disable react/no-array-index-key */
 import styled from 'styled-components'
+<<<<<<< HEAD
 import { Text, Heading, Card, CardHeader, CardBody, Flex, Image } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Text, Heading, Card, CardHeader, CardBody, Flex, Image } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import FoldableText from 'components/FoldableSection/FoldableText'
 import config from './config'
 

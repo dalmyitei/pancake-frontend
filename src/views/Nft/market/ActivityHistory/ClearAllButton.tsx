@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 import { Button, ButtonProps } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
 import { useNftStorage } from 'state/nftMarket/storage'
+=======
+import { Button, ButtonProps } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+import { useAppDispatch } from 'state'
+import { removeAllActivityFilters } from 'state/nftMarket/reducer'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 
 interface ClearAllButtonProps extends ButtonProps {
   collectionAddress: string

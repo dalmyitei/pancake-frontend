@@ -1,7 +1,11 @@
 import { memo, useEffect, useRef } from 'react'
 import styled from 'styled-components'
 import Split, { SplitInstance } from 'split-grid'
+<<<<<<< HEAD
 import { Button, ChartIcon, Flex, Box } from '@pancakeswap/uikit'
+=======
+import { Button, ChartIcon, Flex } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import debounce from 'lodash/debounce'
 import delay from 'lodash/delay'
 import useLocalDispatch from 'contexts/LocalRedux/useLocalDispatch'

@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 import { Flex, Heading, Text, SkeletonV2, ProfileAvatar } from '@pancakeswap/uikit'
 import { useProfileForAddress } from 'state/profile/hooks'
+=======
+import { Heading, Text, Flex } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import styled from 'styled-components'
 import truncateHash from '@pancakeswap/utils/truncateHash'
 import { localiseTradingVolume } from '../../../helpers'

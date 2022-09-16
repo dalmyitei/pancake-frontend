@@ -1,6 +1,27 @@
+<<<<<<< HEAD
 import { useEffect, useMemo, useState } from 'react'
 import { ChainId, Currency } from '@pancakeswap/sdk'
 import { Box, Flex, BottomDrawer, useMatchBreakpoints } from '@pancakeswap/uikit'
+=======
+import { useCallback, useEffect, useMemo, useState } from 'react'
+import styled from 'styled-components'
+import { CurrencyAmount, JSBI, Token, Trade } from '@metaswap/sdk'
+import {
+  Button,
+  Text,
+  ArrowDownIcon,
+  Box,
+  useModal,
+  Flex,
+  IconButton,
+  BottomDrawer,
+  useMatchBreakpoints,
+  ArrowUpDownIcon,
+  Skeleton,
+} from '@metaswap/uikit'
+import { useIsTransactionUnsupported } from 'hooks/Trades'
+import UnsupportedCurrencyFooter from 'components/UnsupportedCurrencyFooter'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import Footer from 'components/Menu/Footer'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { EXCHANGE_DOCS_URLS } from 'config/constants'

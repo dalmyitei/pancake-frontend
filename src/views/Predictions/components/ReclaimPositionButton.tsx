@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 import { useTranslation } from '@pancakeswap/localization'
 import { AutoRenewIcon, Button, ButtonProps, useToast } from '@pancakeswap/uikit'
 import { ToastDescriptionWithTx } from 'components/Toast'
+=======
+import { ReactNode } from 'react'
+import { AutoRenewIcon, Button, ButtonProps } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+import { usePredictionsContract } from 'hooks/useContract'
+import useToast from 'hooks/useToast'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { useCallWithGasPrice } from 'hooks/useCallWithGasPrice'
 import useCatchTxError from 'hooks/useCatchTxError'
 import { usePredictionsContract } from 'hooks/useContract'

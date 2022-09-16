@@ -12,9 +12,13 @@ import {
   Table,
   Th,
   Card,
+<<<<<<< HEAD
   Skeleton,
   useMatchBreakpoints,
 } from '@pancakeswap/uikit'
+=======
+} from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import useSWRImmutable from 'swr/immutable'
 import orderBy from 'lodash/orderBy'
 import { getLeastMostPriceInCollection } from 'state/nftMarket/helpers'

@@ -1,7 +1,12 @@
 import { useState } from 'react'
+<<<<<<< HEAD
 import { Token } from '@pancakeswap/sdk'
 import { Flex, Text, ChevronUpIcon, ChevronDownIcon } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Flex, Text, ChevronUpIcon, ChevronDownIcon } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import PreviousBetsTable from './PreviousBetsTable'
 
 interface MobileBetsTableProps {

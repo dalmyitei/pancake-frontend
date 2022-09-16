@@ -10,8 +10,12 @@ import {
   useModal,
   CardRibbon,
   BunnyPlaceholderIcon,
+<<<<<<< HEAD
   useMatchBreakpoints,
 } from '@pancakeswap/uikit'
+=======
+} from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { LotteryRound } from 'state/types'
 import { useGetUserLotteriesGraphData, useLottery } from 'state/lottery/hooks'
 import { LotteryStatus } from 'config/constants/types'

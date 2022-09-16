@@ -2,8 +2,13 @@ import BigNumber from 'bignumber.js'
 
 import styled from 'styled-components'
 import { BIG_ZERO } from 'utils/bigNumber'
+<<<<<<< HEAD
 import { Flex, Text, Box } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+=======
+import { Flex, Text, Box } from '@metaswap/uikit'
+import { useTranslation } from 'contexts/Localization'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import { PoolCategory } from 'config/constants/types'
 import { useProfileRequirement } from 'views/Pools/hooks/useProfileRequirement'
 import { DeserializedPool } from 'state/types'

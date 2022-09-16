@@ -1,6 +1,11 @@
 import { useMemo } from 'react'
 import styled from 'styled-components'
+<<<<<<< HEAD
 import { Text, Flex, CardBody, CardFooter, Button, AddIcon } from '@pancakeswap/uikit'
+=======
+import { Pair } from '@metaswap/sdk'
+import { Text, Flex, CardBody, CardFooter, Button, AddIcon } from '@metaswap/uikit'
+>>>>>>> 062525b1cf6e4c9801d9a96a091f669125692973
 import Link from 'next/link'
 import { useWeb3React } from '@pancakeswap/wagmi'
 import { useTranslation } from '@pancakeswap/localization'
